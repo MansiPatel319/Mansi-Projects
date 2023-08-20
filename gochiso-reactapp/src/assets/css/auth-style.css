@@ -1,0 +1,372 @@
+.auth-section {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  background: #fafafa;
+}
+
+.auth-section .auth-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.auth-section .auth-div .auth-root-div {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.auth-section .auth-div .auth-root-div .auth-left-side {
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 510px;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.auth-section .auth-div .auth-root-div .auth-left-side .auth-banner-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.auth-section .auth-div .auth-root-div .auth-left-side .auth-banner-div .img-banner {
+  height: 100vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.auth-section .auth-div .auth-root-div .auth-right-side {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  padding-left: 510px;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.auth-section .auth-div .auth-root-div .auth-right-side .auth-top-area-div {
+  padding: 20px 0;
+  min-height: calc(100vh - 16px - 94px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.auth-section .auth-div .auth-root-div .auth-right-side .auth-content-div {
+  padding: 8px 16px;
+  max-width: 425px;
+  margin: 0 auto;
+}
+
+.auth-section .auth-div .auth-root-div .auth-right-side .auth-content-div .auth-logo-div {
+  padding: 74px 0 0 0;
+  margin: 0 auto 35px auto;
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.auth-section .auth-div .auth-root-div .auth-right-side .auth-content-div .auth-logo-div .img-logo-link {
+  display: inline-block;
+}
+
+.auth-section .auth-div .auth-root-div .auth-right-side .auth-content-div .auth-logo-div .img-responsive {
+  width: 138px;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.auth-section .auth-div .auth-root-div .auth-right-side .auth-content-div .heading-div {
+  padding: 0;
+  margin: 0 0 35px 0;
+  position: relative;
+  width: 100%;
+}
+
+.auth-section .auth-div .auth-root-div .auth-right-side .auth-content-div .heading-div h2 {
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 1.3;
+  color: #262626;
+  letter-spacing: 0;
+  margin: 0;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.auth-section .auth-div .auth-root-div .auth-right-side .auth-content-div .or-separator-div {
+  padding: 0;
+  margin: 25px 0 20px 0;
+  text-align: center;
+  position: relative;
+}
+
+.auth-section .auth-div .auth-root-div .auth-right-side .auth-content-div .or-separator-div p {
+  padding: 0;
+  margin: 0;
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  color: #262626;
+  letter-spacing: 0;
+  text-align: center;
+  position: relative;
+}
+
+.auth-section .auth-div .auth-root-div .auth-right-side .auth-content-div .or-separator-div p .txt {
+  position: relative;
+  z-index: 9;
+  top: -10px;
+  background: #fafafa;
+  padding: 0 18px;
+}
+
+.auth-section .auth-div .auth-root-div .auth-right-side .auth-content-div .or-separator-div p::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #e0e0e0;
+  display: block;
+}
+
+.auth-section .auth-div .auth-root-div .auth-right-side .auth-content-div .social-login-div {
+  margin: 0 0 20px 0;
+}
+
+.auth-section .auth-div .auth-root-div .auth-right-side .auth-content-div .social-login-div .social-login-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.auth-section .auth-div .auth-root-div .auth-right-side .auth-content-div .social-login-div .social-login-list li {
+  margin: 0 20px 10px 0;
+}
+
+.auth-section .auth-div .auth-root-div .auth-right-side .auth-content-div .social-login-div .social-login-list li:last-child {
+  margin-right: 0;
+}
+
+.auth-section .auth-div .auth-root-div .auth-right-side .auth-content-div .social-login-div .social-login-list li .social-link {
+  padding: 8px;
+  height: 60px;
+  width: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: transparent;
+  border: 1px solid #c7c7c7;
+  border-radius: 99px;
+  font-size: 21px;
+  color: #3b5998;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.auth-section .auth-div .auth-root-div .auth-right-side .auth-content-div .social-login-div .social-login-list li .social-link:hover {
+  border-color: #f5771f;
+}
+
+.auth-section .auth-div .auth-root-div .auth-right-side .auth-content-div .form-auth-forgot-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.auth-section .auth-div .auth-root-div .auth-right-side .auth-content-div .form-auth-forgot-div .forgot-link-div {
+  margin: 0 0 20px 0;
+}
+
+.auth-section .auth-div .auth-root-div .auth-right-side .auth-content-div .form-auth-forgot-div .forgot-link-div .link {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #ff771e;
+}
+
+.auth-section .auth-div .auth-root-div .auth-right-side .auth-content-div .bottom-row {
+  margin: 0 0 20px 0;
+}
+
+.auth-section .auth-div .auth-root-div .auth-right-side .auth-content-div .bottom-row .text-center-reg-side {
+  text-align: center;
+}
+
+.auth-section .auth-div .auth-root-div .auth-right-side .auth-content-div .bottom-row .text-center-reg-side p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #424242;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 0 10px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.auth-section .auth-div .auth-root-div .auth-right-side .auth-content-div .bottom-row .text-center-reg-side p .btn-link {
+  padding: 0;
+  margin: 0 0 0 5px;
+  line-height: inherit;
+  color: #f04e23;
+  font-size: inherit;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.auth-section .auth-div .auth-root-div .auth-right-side .auth-content-div .bottom-row .text-center-reg-side p .btn-link:hover {
+  text-decoration: none;
+}
+
+.auth-section .auth-div .auth-root-div .auth-right-side .auth-content-div .bottom-row .text-center-reg-side .bottom-row-prag p {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+@media (max-width: 767px) {
+  .auth-section .auth-div .auth-root-div .auth-left-side {
+    width: 100%;
+    min-height: 385px;
+    position: relative;
+  }
+  .auth-section .auth-div .auth-root-div .auth-left-side .auth-banner-div .img-fluid {
+    width: 100%;
+    height: 385px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .auth-section .auth-div .auth-root-div .auth-right-side {
+    padding: 0;
+    width: 100%;
+    min-height: 350px;
+  }
+  .auth-section .auth-div .auth-root-div .auth-right-side .auth-top-area-div {
+    padding: 32px 0 12px 0;
+    min-height: 350px;
+  }
+  .auth-section .auth-div .auth-root-div .auth-right-side .auth-content-div .auth-logo-div {
+    padding: 10px 0 0 0;
+    margin: 0 0 25px 0;
+  }
+  .auth-section .auth-div .auth-root-div .auth-right-side .auth-content-div .heading-div {
+    margin: 0 0 25px 0;
+  }
+  .auth-section .auth-div .auth-root-div .auth-right-side .auth-content-div .heading-div h2 {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .auth-section .auth-div .auth-root-div .auth-left-side {
+    width: 310px;
+    min-height: 385px;
+  }
+  .auth-section .auth-div .auth-root-div .auth-left-side .auth-banner-div .img-fluid {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .auth-section .auth-div .auth-root-div .auth-right-side {
+    padding-left: 310px;
+  }
+  .auth-section .auth-div .auth-root-div .auth-right-side .auth-top-area-div {
+    padding: 32px 0 12px 0;
+  }
+  .auth-section .auth-div .auth-root-div .auth-right-side .auth-content-div .auth-logo-div {
+    padding: 74px 0 0 0;
+    margin: 0 0 25px 0;
+  }
+  .auth-section .auth-div .auth-root-div .auth-right-side .auth-content-div .heading-div {
+    margin: 0 0 25px 0;
+  }
+  .auth-section .auth-div .auth-root-div .auth-right-side .auth-content-div .heading-div h2 {
+    font-size: 24px;
+  }
+}
+/*# sourceMappingURL=auth-style.css.map */
