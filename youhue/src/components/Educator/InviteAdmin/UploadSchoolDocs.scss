@@ -1,0 +1,134 @@
+.prag-div {
+    margin: 0 0 25px 0;
+}
+
+.prag-div p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #3f3f44;
+    text-align: center;
+    display: block;
+    margin: 10px 0 0 0;
+}
+
+.upload-file-div p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #3f3f44;
+    text-align: center;
+    display: block;
+}
+
+.ev-join-school-bottom-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-top: 60px;
+}
+
+.ev-join-school-bottom-div .text-end-div {
+    margin: 0 -20px -10px -20px;
+}
+
+.ev-join-school-bottom-div p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #3f3f44;
+    letter-spacing: 0;
+    text-align: right;
+}
+
+.ev-join-school-bottom-div p a {
+    color: inherit;
+}
+
+.ev-join-school-bottom-div02 {
+    bottom: -20px;
+    position: relative;
+}
+
+.link-div {
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+
+.ev-join-school-div .btn.btn-link {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #652d90;
+    letter-spacing: 0;
+    text-align: center;
+    padding: 5px;
+}
+
+.ev-join-school-flex.ev-join-school-flex-height {
+    min-height: calc(100vh - 395px);
+}
+
+.ev-join-school-div .btn.btn-link:hover {
+    color: #3f3f44;
+}
+
+.admin-verification-div .full-account-div .color-general-title01 {
+    margin: 0 0 35px 0;
+}
+
+.admin-verification-div .full-account-div .color-general-title01 .center-text-block {
+    padding-top: 0;
+}
+
+.admin-verification-div .full-account-div .color-general-title01 h3 {
+    font-weight: 600;
+}
+
+.admin-verification-div .full-account-div .tc-content-general-box h3 {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.2;
+    color: #3f3f44;
+    margin: 0 0 10px 0;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.admin-verification-div .full-account-div .upload-file-div.mt-25 {
+    margin-top: 25px;
+}
+
+@media (max-width: 767px) {
+    .admin-verification-div .full-account-div .color-general-title01 {
+        margin: 0;
+    }
+
+    .admin-verification-div .full-account-div .tc-content-general-box h3 {
+        font-size: 16px;
+    }
+
+    .admin-verification-div .full-account-div .ev-join-school-bottom-div .text-end-div {
+        margin: 0;
+    }
+
+    .admin-verification-div .full-account-div .ev-join-school-bottom-div .text-end-div p {
+        font-size: 14px;
+    }
+
+    .admin-verification-div .full-account-div .ev-join-school-bottom-div02 {
+        bottom: -20px;
+        position: relative;
+        margin-top: 0;
+    }
+
+    .ev-join-school-flex.ev-join-school-flex-height {
+        min-height: calc(100vh - 270px);
+    }
+}
+
+/*# sourceMappingURL=admin-verification-style.css.map */

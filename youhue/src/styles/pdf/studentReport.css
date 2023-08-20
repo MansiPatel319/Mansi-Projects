@@ -1,0 +1,186 @@
+body{
+  background: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+table{
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+  font-family: 'Omnes';
+}
+td, th{
+  padding: 10px 15px;
+  text-align: center;
+}
+td:first-child, th:first-child{
+  text-align: left;
+}
+.center_table{
+  width: 990px;
+  margin: 0 auto;
+  background: #ffffff;
+}
+.moodAnxious_allBrdr{
+  border: 1px solid #DD89E0;
+}
+.moodHappy_allBrdr{
+  border: 1px solid #FFAC00;
+}
+.moodSad_allBrdr{
+  border: 1px solid #6599FE;
+}
+.moodAngry_allBrdr{
+  border: 1px solid #E25674;
+}
+.moodCalm_allBrdr{
+  border: 1px solid #7DCDF8;
+}
+.moodConfused_allBrdr{
+  border: 1px solid #6BCD83;
+}
+.moodExcited_allBrdr{
+  border: 1px solid #F77D2C;
+}
+.moodLoved_allBrdr{
+  border: 1px solid #EF659F;
+}
+.moodOkay_allBrdr{
+  border: 1px solid #C2A5EF;
+}
+.moodAngry_brdr{
+  border-bottom: 1px solid #E25674;
+}
+.moodCalm_brdr{
+  border-bottom: 1px solid #7DCDF8;
+}
+.moodConfused_brdr{
+  border-bottom: 1px solid #6BCD83;
+}
+.moodExcited_brdr{
+  border-bottom: 1px solid #F77D2C;
+}
+.moodLoved_brdr{
+  border-bottom: 1px solid #EF659F;
+}
+.moodOkay_brdr{
+  border-bottom: 1px solid #C2A5EF;
+}
+.moodAnxious_brdr{
+  border-bottom: 1px solid #DD89E0;
+}
+.moodHappy_brdr{
+  border-bottom: 1px solid #FFAC00;
+}
+.moodSad_brdr{
+  border-bottom: 1px solid #6599FE;
+}
+.normal_border{
+  border: 1px solid #E2D0D0;
+}
+.normal_bottom_border{
+  border-bottom: 1px solid #E2D0D0;
+}
+.yh_tmp_heading{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.yh_tmp_heading h3{
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.yh_tmp_heading h5{
+  color: #652D90;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+.yh_tmp_detail{
+  margin-bottom: 30px;
+}
+.yh_tmp_detail h3{
+  color: #3F3F44;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.yh_tmp_detail h3 span{
+  color: #652D90;
+}
+.yh_tmp_topMood_heading{
+  text-align: center;
+}
+.yh_tmp_topMood_heading h3{
+  color: #3F3F44;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.yh_tmp_moodHead h3{
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0;
+  color: #3F3F44;
+}
+.yh_tmp_moodName h3{
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0;
+  color: #3F3F44;
+}
+.yh_tmp_moodNum h3{
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0;
+  color: #3F3F44;
+}
+.yh_tmp_moodLog h3{
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0;
+  color: #3F3F44;
+}
+.yh_tmp_weekMoodBlock h3{
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 10px;
+  color: #3F3F44;
+}
+.yh_flag_heading{
+  text-align: center;
+}
+.yh_flag_heading h3{
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 10px;
+  color: #3F3F44;
+}
+.yh_bottom_heading h3{
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 10px;
+  color: #3F3F44;
+}
+.flagged_table th{
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0;
+  color: #3F3F44;
+}
+.flagged_table h3{
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0;
+  color: #3F3F44;
+}
+.flagged_table h3.yh_red{
+  color: #E25674;
+}

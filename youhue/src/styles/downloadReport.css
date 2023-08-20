@@ -1,0 +1,25 @@
+/* Show the nav menu above the model pop-up*/
+.nav-menu-div.active .nav-menu-box {
+    z-index: 10000;
+}
+
+/* Download Report Model Popup */
+.download-report.modal.modal-custom-new {
+    z-index: 9998;
+}
+
+.download-report-body .modal-backdrop.show {
+    margin-top: 100px;
+    background-color: #b0b0ad;
+    opacity: 1;
+}
+
+.daterangepicker.show-calendar {
+    z-index: 9999;
+}
+#download-report .dropdown_group_block .date-dropdown-group-box .input-inline-group ul li {
+    margin-left: auto;
+}
+.multiClass_select.multiCheckbox #dropdownMenuButton label.checked::before {
+    background-color: #652d90
+}

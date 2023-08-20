@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>user-icon</title>
+    <g id="Educator---Admin-Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.09c-Add-an-educator---drop-down" transform="translate(-534.000000, -639.000000)" fill="#652D90" fill-rule="nonzero">
+            <g id="Group-5-Copy" transform="translate(520.500000, 580.000000)">
+                <g id="user-icon" transform="translate(14.500000, 59.000000)">
+                    <circle id="Oval" cx="8.58928571" cy="3.90178571" r="3.86785714"></circle>
+                    <path d="M8.58928571,18.9660714 C4.34821429,18.9660714 0.616071429,18.2196429 0.921428571,16.3535714 C1.73571429,11.4678571 4.28035714,8.61785714 8.58928571,8.61785714 C12.8982143,8.61785714 15.4428571,11.5017857 16.2571429,16.3535714 C16.5625,18.2196429 12.8303571,18.9660714 8.58928571,18.9660714 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="345px" viewBox="0 0 500 345" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>character-04</title>
+    <g id="Educator-Admin-Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="character-04" transform="translate(1.000000, 4.000000)">
+            <g id="Shadow_1_" transform="translate(327.000052, 329.257070)" opacity="0.3" stroke="#C1A5EF" stroke-linecap="round" stroke-width="21.4983659">
+                <line x1="125.48627" y1="0.283278689" x2="0.251538501" y2="0.283278689" id="Shape"></line>
+            </g>
+            <g id="Right_leg_1_" transform="translate(405.291410, 218.349425)" stroke="#000000" stroke-linecap="round" stroke-width="3.58306623">
+                <line x1="0.786885246" y1="0.126031414" x2="0.188852459" y2="99.5648173" id="Shape"></line>
+            </g>
+            <g id="Left_leg_1_" transform="translate(369.132751, 217.719268)" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.58306623">
+                <line x1="0" y1="0.0630157071" x2="0" y2="101.392273" id="Shape"></line>
+            </g>
+            <g id="Right_arm_1_" transform="translate(434.847184, 229.377174)" stroke="#000000" stroke-linecap="round" stroke-width="3.58306623">
+                <line x1="2.60971195" y1="54.3825553" x2="0.157211563" y2="0.0945235607" id="Shape"></line>
+            </g>
+            <g id="Left_arm_1_" transform="translate(336.432746, 227.486703)" stroke="#000000" stroke-linecap="round" stroke-width="3.58306623">
+                <line x1="0.818360656" y1="49.1207437" x2="0.125901639" y2="0.220554975" id="Shape"></line>
+            </g>
+            <g id="Left_hand_1_" transform="translate(335.489476, 275.063562)" fill="#000000" fill-rule="nonzero" stroke="#000000" stroke-linecap="round" stroke-width="3.58325541">
+                <ellipse id="Oval" transform="translate(6.621323, 7.756629) rotate(-34.999530) translate(-6.621323, -7.756629) " cx="6.62132343" cy="7.7566286" rx="2.57840577" ry="7.59379363"></ellipse>
+            </g>
+            <g id="Right_hand_1_" transform="translate(435.790454, 281.050054)" fill="#000000" fill-rule="nonzero" stroke="#000000" stroke-linecap="round" stroke-width="3.58325541">
+                <ellipse id="Oval" transform="translate(6.526550, 7.890808) rotate(-34.999530) translate(-6.526550, -7.890808) " cx="6.52655001" cy="7.89080794" rx="2.57840577" ry="7.59379363"></ellipse>
+            </g>
+            <g id="Right_foot_1_" transform="translate(384.539484, 313.503143)" stroke="#000000" stroke-linecap="round" stroke-width="3.58306623">
+                <path d="M20.9405802,4.4110995 C-17.7649067,22.6541467 7.7033666,4.78919374 15.5639448,0.157539268" id="Shape"></path>
+            </g>
+            <g id="Left_foot_1_" transform="translate(348.380824, 313.818222)" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.58306623">
+                <path d="M20.7519264,5.2933194 C-22.3554843,23.7254137 15.1551947,0.220554975 15.1551947,0.220554975" id="Shape"></path>
+            </g>
+            <g id="Body_1_" transform="translate(286.753892, 36.864189)" fill="#0092E9" fill-rule="nonzero">
+                <ellipse id="Oval" cx="105.77194" cy="106.055435" rx="105.583286" ry="105.803372"></ellipse>
+            </g>
+            <g id="Smile_1_" transform="translate(355.612556, 185.581258)" stroke="#000000" stroke-linecap="round" stroke-width="4.28739148">
+                <path d="M20.8776956,0.220554975 C20.8776956,0.220554975 19.1483684,11.5318744 0.157211563,14.4621048" id="Shape"></path>
+            </g>
+            <g id="Cheeks_1_" transform="translate(314.423127, 169.197174)" fill="#007EE6" fill-rule="nonzero">
+                <g id="Group">
+                    <path d="M78.4171278,13.6113927 C75.2414542,13.6113927 72.505973,11.185288 72.1915499,7.9399791 C71.8456844,4.50562306 74.3610695,1.41785341 77.8197238,1.07126702 L85.2715519,0.346586389 C88.7302063,-2.06223927e-13 91.7801107,2.52062829 92.1259761,5.98649218 C92.4718415,9.42084822 89.9564565,12.5086179 86.4978021,12.8552043 L79.045974,13.5798849 C78.8573202,13.6113927 78.637224,13.6113927 78.4171278,13.6113927 Z" id="Shape"></path>
+                    <path d="M6.50855872,25.9309635 C3.74163521,25.9309635 1.22625019,24.103508 0.47163469,21.299309 C-0.440192377,17.9594765 1.54067332,14.4936126 4.87355846,13.5798849 L12.0109634,11.626398 C15.3438486,10.7126702 18.802503,12.697665 19.71433,16.0374975 C20.6261571,19.3773299 18.6452914,22.8431938 15.3124063,23.7569216 L8.17500129,25.7104085 C7.60903966,25.8364399 7.04307804,25.9309635 6.50855872,25.9309635 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="Eyes_1_" transform="translate(324.170244, 145.251205)" fill="#000000" fill-rule="nonzero">
+                <g id="Group">
+                    <ellipse id="Oval" transform="translate(55.944577, 10.997356) rotate(-9.997359) translate(-55.944577, -10.997356) " cx="55.9445775" cy="10.9973563" rx="6.69710544" ry="9.86180037"></ellipse>
+                    <ellipse id="Oval" transform="translate(8.595247, 19.377198) rotate(-9.997359) translate(-8.595247, -19.377198) " cx="8.59524667" cy="19.3771976" rx="6.69710544" ry="9.86180037"></ellipse>
+                </g>
+            </g>
+            <g id="Eyebrows" transform="translate(321.340435, 144.936126)" stroke="#000000" stroke-linecap="round" stroke-width="4.28739148">
+                <g id="Group">
+                    <line x1="66.469049" y1="1.38384989" x2="52.8859699" y2="0.126031414" id="Shape"></line>
+                    <line x1="0.220096189" y1="13.3908378" x2="12.5454828" y2="7.59339271" id="Shape"></line>
+                </g>
+            </g>
+            <g id="Right_hand" transform="translate(294.928893, 74.673613)" fill="#000000" fill-rule="nonzero" stroke="#000000" stroke-linecap="round" stroke-width="3.58313072">
+                <ellipse id="Oval" transform="translate(6.539775, 10.081644) rotate(-63.998664) translate(-6.539775, -10.081644) " cx="6.53977465" cy="10.0816435" rx="9.84162101" ry="2.17408103"></ellipse>
+            </g>
+            <g id="Right_arm" transform="translate(208.776956, 93.578325)" stroke="#000000" stroke-linecap="round" stroke-width="3.58306623">
+                <path d="M0.0314423127,51.2948329 C0.0314423127,51.2948329 55.4327972,51.5468484 88.3214563,0.0315078536" id="Shape"></path>
+            </g>
+            <g id="Shadow" transform="translate(54.080778, 329.257070)" opacity="0.3" stroke="#C1A5EF" stroke-linecap="round" stroke-width="21.4983659">
+                <line x1="0.157211563" y1="0.283278689" x2="128.536174" y2="0.283278689" id="Shape"></line>
+            </g>
+            <g id="Left_hand" transform="translate(0.000000, 268.131834)" fill="#000000" fill-rule="nonzero" stroke="#000000" stroke-linecap="round" stroke-width="3.58287349">
+                <ellipse id="Oval" transform="translate(8.956899, 8.226149) rotate(-42.000415) translate(-8.956899, -8.226149) " cx="8.95689929" cy="8.22614918" rx="9.84091448" ry="2.17392495"></ellipse>
+            </g>
+            <g id="Left_arm" transform="translate(14.777887, 217.404190)" stroke="#000000" stroke-linecap="round" stroke-width="3.58306623">
+                <path d="M37.6364483,0 C37.6364483,0 18.6138491,35.3203038 0.188653876,53.2482725" id="Shape"></path>
+            </g>
+            <g id="Left_foot" transform="translate(109.419248, 318.544400)" stroke="#000000" stroke-linecap="round" stroke-width="3.58306623">
+                <path d="M0,4.44260735 C38.7054869,22.6856546 13.2372136,4.8207016 5.37663547,0.189047121" id="Shape"></path>
+            </g>
+            <g id="Left_leg" transform="translate(109.419248, 221.815289)" stroke="#000000" stroke-linecap="round" stroke-width="3.58306623">
+                <line x1="0" y1="0" x2="0" y2="101.171718" id="Shape"></line>
+            </g>
+            <g id="Right_foot" transform="translate(138.346176, 315.393614)" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.58306623">
+                <path d="M0.251538501,5.19879584 C39.8374101,25.6473928 5.84827016,0.126031414 5.84827016,0.126031414" id="Shape"></path>
+            </g>
+            <g id="Right_leg" transform="translate(138.346176, 216.458954)" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.58306623">
+                <line x1="0.251803279" y1="0.126031414" x2="0.251803279" y2="104.133456" id="Shape"></line>
+            </g>
+            <g id="Body" transform="translate(8.803848, 36.864189)" fill="#FF589C" fill-rule="nonzero">
+                <ellipse id="Oval" cx="105.866267" cy="106.055435" rx="105.583286" ry="105.803372"></ellipse>
+            </g>
+            <g id="Smile" transform="translate(138.031753, 156.909111)" stroke="#000000" stroke-linecap="round" stroke-width="4.28739148">
+                <path d="M0,4.91522516 C2.4839427,14.4936126 9.9357708,19.9759792 15.9098102,18.4005865 C21.8838496,16.793686 24.9966386,8.88521471 24.2734654,0.126031414" id="Shape"></path>
+            </g>
+            <g id="Closed_eyes" transform="translate(115.078864, 129.497278)" stroke="#000000" stroke-linecap="round" stroke-width="4.28739148">
+                <g id="Group">
+                    <path d="M0.377307752,15.3443247 C-0.282980814,9.92497387 2.13807726,5.19879584 5.81682784,4.72617803 C9.49557842,4.28506809 12.9856751,8.28656549 13.6459637,13.7059163" id="Shape"></path>
+                    <path d="M52.697316,10.9017173 C52.0370275,5.48236652 54.4580855,0.756188486 58.1368361,0.283570682 C61.8155867,-0.157539268 65.3056834,3.84395814 65.965972,9.26330895" id="Shape"></path>
+                </g>
+            </g>
+            <g id="Cheeks" transform="translate(105.646171, 148.717069)" fill="#F54B9E" fill-rule="nonzero">
+                <g id="Group">
+                    <path d="M6.4456741,20.2910577 C3.39576977,20.2910577 0.723173191,18.0540001 0.251538501,14.9347226 C-0.251538501,11.5003666 2.10663495,8.31807334 5.53384703,7.81394768 L12.9227905,6.71117281 C16.3500026,6.20704715 19.5256762,8.57013617 20.0287532,12.0044922 C20.5318302,15.4388482 18.1736567,18.6211415 14.7464446,19.1252671 L7.35750116,20.228042 C7.04307804,20.2595498 6.72865491,20.2910577 6.4456741,20.2910577 Z" id="Shape"></path>
+                    <path d="M83.8566479,13.548377 C83.6365517,13.548377 83.3850132,13.548377 83.164917,13.5168692 L75.7445312,12.697665 C72.3173191,12.3195707 69.8333764,9.20029324 70.2106842,5.7659372 C70.5879919,2.33158116 73.7007809,-0.157539268 77.127993,0.220554975 L84.5483788,1.03975917 C87.9755908,1.41785341 90.4595335,4.53713091 90.0822258,7.97148695 C89.704918,11.185288 87.0008791,13.548377 83.8566479,13.548377 Z" id="Shape"></path>
+                </g>
+            </g>
+            <g id="Heart" transform="translate(225.755805, 0.000000)" stroke="#FF589C" stroke-linecap="round" stroke-linejoin="round" stroke-width="7.16613246">
+                <path d="M18.205099,48.9001887 C-23.1729844,-1.00825131 19.30558,-18.5266179 24.9337539,24.5761258 C26.4115426,-0.598649218 68.2612608,-1.82745551 24.9337539,56.3045343" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

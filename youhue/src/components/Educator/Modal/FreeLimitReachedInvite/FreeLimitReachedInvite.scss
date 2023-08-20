@@ -1,0 +1,243 @@
+.yh_limitModal_title {
+    margin-bottom: 15px;
+    text-align: center;
+
+    h3 {
+        margin: 0;
+        font-size: 18px;
+        color: #3f3f44;
+        font-weight: 500;
+    }
+}
+
+.yh_pricingPlan_body {
+    background-color: rgba(194, 165, 239, 0.3);
+    border: 1px solid #e2d0d0;
+    border-radius: 7px;
+    max-width: 550px;
+    padding: 30px 30px 10px 30px;
+    margin: 0 auto;
+}
+
+.yh_pricingPlan_roles {
+    position: relative;
+    margin-bottom: 10px;
+
+    h3 {
+        font-weight: 500;
+        font-size: 18px;
+        color: #3f3f44;
+        margin-bottom: 10px;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+            position: relative;
+            font-weight: 400;
+            font-size: 18px;
+            color: #3f3f44;
+            padding-left: 12px;
+            margin-bottom: 5px;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 7px;
+                left: 0;
+                border-radius: 100%;
+                width: 5px;
+                height: 5px;
+                background-color: #3f3f44;
+            }
+        }
+    }
+}
+
+.yh_modal_btnWrapper {
+    width: 100%;
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &.yh_center_btnWrapper {
+        justify-content: center;
+    }
+}
+
+.yh_textBlock {
+    text-align: left;
+
+    p {
+        font-size: 16px;
+        color: #3f3f44;
+        font-weight: 500;
+    }
+}
+
+.yh_pricingPlan_detailWrapper {
+    text-align: center;
+    margin-bottom: 50px;
+
+    h3 {
+        margin-bottom: 20px;
+        font-size: 21px;
+        font-weight: 500;
+        color: #3f3f44;
+    }
+
+    p {
+        font-size: 16px;
+        color: #3f3f44;
+        font-weight: 500;
+    }
+
+    .yh_pricingPlan_section {
+        background: #fcfaf6;
+        max-width: 650px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        border: 3px solid #652d90;
+        border-radius: 20px;
+        padding: 20px 20px;
+    }
+
+    .yh_pricingPlan_block {
+        text-align: center;
+
+        h3 {
+            margin-bottom: 5px;
+            color: #3f3f44;
+        }
+
+        h5 {
+            font-size: 18px;
+            font-weight: 400;
+            margin-bottom: 40px;
+            color: #3f3f44;
+        }
+
+        h2 {
+            font-size: 28px;
+            font-weight: 500;
+            color: #3f3f44;
+        }
+    }
+}
+
+.edit-school-card-root01 {
+    margin: 0 0 50px 0;
+}
+
+.add-an-educator-modal-root {
+    padding: 20px;
+
+    .form-custom-div {
+        .form-group {
+            .small-text-label {
+                font-size: 15px;
+                line-height: 1.2;
+                color: #3f3f44;
+                font-weight: 500;
+                margin: 0 0 3px 0;
+            }
+        }
+
+        .mb-30 {
+            margin: 0 0 30px 0;
+        }
+    }
+
+    .notes-blm-div {
+        position: relative;
+        margin: 30px 0 -25px -25px;
+
+        p {
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 1.2;
+            color: #3f3f44;
+            display: block;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .yh_pricingPlan_body {
+        padding: 30px 20px 10px 20px;
+    }
+
+    .yh_pricingPlan_roles ul li {
+        font-size: 16px;
+    }
+
+    .yh_pricingPlan_roles {
+        margin-bottom: 25px;
+    }
+
+    .yh_pricingPlan_detailWrapper h3 {
+        font-size: 18px;
+    }
+
+    .yh_pricingPlan_detailWrapper .yh_pricingPlan_block h5 {
+        margin-bottom: 0px;
+    }
+
+    .yh_pricingPlan_detailWrapper .yh_pricingPlan_block h3 {
+        margin-bottom: 2px;
+    }
+
+    .yh_pricingPlan_detailWrapper .yh_pricingPlan_section {
+        padding: 20px 15px;
+    }
+
+    .yh_pricingPlan_detailWrapper .yh_pricingPlan_block h2 {
+        font-size: 24px;
+    }
+
+    .yh_pricingPlan_detailWrapper .yh_pricingPlan_block {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        border-bottom: 1px solid #ddd;
+        padding: 0 0 15px 0;
+        margin: 0 0 15px 0;
+    }
+
+    .yh_pricingPlan_top {
+        text-align: left;
+    }
+
+    .yh_pricingPlan_section .col-lg-3:last-child .yh_pricingPlan_block {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border-bottom: 0;
+    }
+
+    .yh_pricingPlan_detailWrapper p {
+        font-size: 14px;
+    }
+
+    .yh_modal_btnWrapper .yh_btBlock {
+        margin: 5px 0;
+    }
+
+    .add-an-educator-modal-root {
+        padding: 10px 5px;
+
+        .notes-blm-div {
+            margin: 30px 0 -10px -10px;
+
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+}

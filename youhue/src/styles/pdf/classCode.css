@@ -1,0 +1,142 @@
+body{
+  background: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+table{
+  width: 100%;
+  vertical-align: top;
+  font-family: 'Omnes';
+}
+td, th{
+  padding: 10px 15px;
+  text-align: center;
+}
+td:first-child, th:first-child{
+  text-align: left;
+}
+.center_table{
+  width: 800px;
+  margin: 0 auto;
+  background: #ffffff;
+}
+.yh_tmp_details h3{
+  color: #3F3F44;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.yh_tmp_details h4{
+  color: #652D90;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+.yh_header_code{
+  text-align: right;
+}
+.yh_header_code h3{
+  color: #3F3F44;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.yh_header_code h4{
+  color: #3F3F44;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}
+.yh_barcode_section{
+  background: #FCFAF6;
+  margin-bottom: 10px;
+}
+.yh_barcode_section td{
+  color: #3F3F44;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+}
+    .yh_tmp_appDownload_section{
+        margin-bottom: 10px;
+    }
+    .yh_tmp_appDownload_section h3{
+        color: #652D90;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+        margin-bottom: 10px;
+    }
+    .yh_tmp_appDownload_section .yh_tmp_app_btn{
+        margin-bottom: 10px;
+    }
+    .yh_tmp_appDownload_section h4{
+        display: inline-block;
+        color: #652D90;
+        background: rgba(194, 165, 239, 0.30);
+        padding: 10px 10px;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+    }
+    .step_block{
+        margin-bottom: 30px;
+    }
+    .step_block h5{
+        color: #652D90;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+        margin-bottom: 5px;
+    }
+    .step_block h3{
+        color: #3F3F44;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+    }
+    .yh_code_group{
+        margin-bottom: 10px;
+    }
+    .yh_code_group h2{
+        text-align: center;
+        display: inline-block;
+        width: 210px;
+        margin: 0 auto 30px;
+        padding: 40px 30px;
+        color: #652D90;
+        background: rgba(194, 165, 239, 0.30);
+        font-size: 21px;
+  font-weight: 600;
+    }
+    .yh_code_content{
+        display: flex;
+        align-items: flex-start;
+    }
+    .yh_code_content .yh_code_text{
+        margin-left: 15px;
+    }
+    .yh_code_content .yh_code_text h3{
+        color: #3F3F44;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+        margin-bottom: 8px;
+    }
+    .yh_code_content .yh_code_text h5{
+        color: #3F3F44;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+        margin-bottom: 4px;
+        text-align: justify;
+    }
+    .tmp_block_bottom h3{
+        color: #3F3F44;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0;
+        margin-bottom: 10px;
+    }

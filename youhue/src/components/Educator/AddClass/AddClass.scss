@@ -1,0 +1,218 @@
+.yh-class-list-bx-root {
+  padding: 20px 20px;
+
+  .mlr-30 {
+    margin-left: -30px;
+    margin-right: -30px;
+  }
+
+  .plr-30 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .yh-class-list-bx-card {
+    position: relative;
+    margin: 0 0 40px 0;
+
+    .tooltip-div {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 9;
+    }
+
+    .yh-class-list-bx-card-inner {
+      padding: 10px;
+      margin: 0;
+      position: relative;
+      background: #fff;
+      border: 2px solid #e2d0d0;
+      border-radius: 5px;
+      min-height: 150px;
+      display: block;
+
+      &.disabled {
+        pointer-events: none;
+
+        .yh-class-list-bx-card-thumb {
+          opacity: 20%;
+        }
+
+        .bx-desc-div {
+          opacity: 20%;
+        }
+      }
+    }
+
+    .yh-class-list-bx-card-thumb {
+      padding: 6px 0 7px 0;
+      margin: 0 auto;
+
+      .img-class {
+        width: 100%;
+        height: 60px;
+        margin: 0 auto;
+        object-fit: contain;
+      }
+    }
+
+    .bx-desc-div {
+      h4 {
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 1.4;
+        color: #3f3f44;
+        letter-spacing: 0;
+        text-align: center;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 1.4;
+        color: #3f3f44;
+        letter-spacing: 0;
+        text-align: center;
+      }
+    }
+
+    .cancel-btn-div {
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 9;
+
+      .cancel-btn {
+        background: transparent;
+        border: none;
+        outline: none;
+        padding: 10px;
+        display: flex;
+        cursor: pointer;
+
+        .cancel-new-icon-01 {
+          height: 10px;
+          width: 10px;
+        }
+      }
+    }
+
+    &.add-class-bx-card {
+      .yh-class-list-bx-card-thumb {
+        text-align: center;
+        margin: 0 0 6px 0;
+
+        .img-plus {
+          margin: 0 auto;
+          height: 75px;
+          object-fit: contain;
+          width: 75px;
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
+
+.message-text-dark-div {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  position: relative;
+
+  .message-text-dark-row {
+    display: flex;
+    padding: 0 15px 0 22px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 50px;
+    background-color: #652d90;
+
+    .text-div {
+      padding: 7px 0 5px 0;
+      width: calc(100% - 80px);
+
+      p {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.5;
+        color: #fff;
+        letter-spacing: 0;
+        text-align: left;
+      }
+    }
+
+    .cancel-div {
+      width: 80px;
+      display: flex;
+      justify-content: flex-end;
+
+      .btn-cancel-icon {
+        background: transparent;
+        border: none;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 5px 0;
+        cursor: pointer;
+        outline: none;
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .yh-class-list-bx-root {
+    padding: 0;
+
+    .mlr-30 {
+      margin-left: -20px;
+      margin-right: -20px;
+    }
+
+    .plr-30 {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .yh-class-list-bx-card {
+      margin: 0 0 20px 0;
+    }
+  }
+
+  .message-text-dark-div {
+    .message-text-dark-row {
+      padding: 10px 15px 10px 15px;
+
+      .text-div {
+        width: calc(100% - 35px);
+
+        p {
+          font-size: 14px;
+        }
+      }
+
+      .cancel-div {
+        width: 35px;
+      }
+    }
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .message-text-dark-div {
+    .message-text-dark-row {
+      padding: 10px 15px 10px 15px;
+
+      .text-div {
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

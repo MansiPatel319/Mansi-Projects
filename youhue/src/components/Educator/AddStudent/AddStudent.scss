@@ -1,0 +1,166 @@
+.add-an-educator-root {
+  padding: 40px;
+  min-height: 400px;
+
+  .form-custom-div {
+    .form-group {
+      .small-text-label {
+        font-size: 15px;
+        line-height: 1.2;
+        color: #3f3f44;
+        font-weight: 500;
+        margin: 0 0 3px 0;
+      }
+    }
+
+    .mb-30 {
+      margin: 0 0 30px 0;
+    }
+  }
+}
+.add-an-student-row .form-custom-div .form-group .form-control{
+    margin-bottom: 20px;
+}
+ .custom-file-upload1 .custom-file-input {
+  display: none;
+}
+.custom-file-upload1 label {
+  font-size: 15px;
+  font-weight: 500;
+  color: #652D90;
+}
+.modal-label.small-text-label {
+  font-size: 15px;
+  line-height: 1.2;
+  color: #3f3f44;
+  font-weight: 500;
+  margin: 0 0 10px 0;
+}
+.addStudent_textarea{
+  position: relative;
+  margin-bottom: 40px;
+  textarea{
+      min-height: 450px;
+      width: 100%;
+      resize: none;
+      padding: 10px 10px;
+      border-radius: 17px;
+      border: 2px solid #E2D0D0;
+  }
+}
+.yh_confirmImport_formGroup{
+  width: 100%;
+}
+.yh_confirmImport_formField{
+  margin-bottom: 10px;
+  label{
+      font-size: 15px;
+      font-weight: 500;
+      display: block;
+      color: #3F3F44;
+      margin-bottom: 10px;
+  }
+  input{
+      width: 100%;
+      height: 50px;
+      line-height: 45px;
+      padding: 0px 15px;
+      border-radius: 10px;
+      border: 2px solid #E2D0D0;
+  }
+}
+.yh_formDialogue_box{
+  position: relative;
+  background-color: #FCFAF6;
+  border: 1px solid #E2D0D0;
+  border-radius: 10px;
+  padding: 20px 15px;
+  h3{
+      color: #3F3F44;
+      font-size: 15px;
+      font-weight: 500;
+      margin-bottom: 10px;
+  }
+  .flipBtn_block{
+      position: relative;
+      a{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          min-width: 200px;
+          height: 40px;
+          line-height: 35px;
+          border-radius: 30px;
+          border: 2px solid #652D90;
+          color: #652D90;
+          font-size: 15px;
+          font-weight: 500;
+          text-align: center;
+          padding: 0px 10px;
+          svg{
+              display: inline-block;
+              vertical-align: middle;
+              margin-right: 9.2px;
+          }
+      }
+  }
+}
+.yh_formPopup_footer{
+  width: 100%;
+}
+.yh_popup_backBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  a{
+      display: inline-block;
+      font-size: 18px;
+      font-weight: 500;
+      color: #652D90;
+  }
+}
+.yh_popup_continueBtn{
+  text-align: center;
+  a.btn-common-primary{
+      min-width: 240px;
+      line-height: 45px;
+      padding: 0px 15px;
+  }
+}
+.studentLimitReached_modal.modal.modal-custom-new .modal-lg{ 
+  max-width: 989px;
+  .modal-body{
+      padding: 20px 20px 50px;
+  }
+}
+.studentLimitReached_modal.modal.modal-custom-new .modal-header{ 
+  border: none;
+  .modal-title{
+      font-size: 32px;
+      font-weight: 600;
+      margin: 0;
+      color: #652D90;
+  }
+}
+.yh_studentLimitReached_modalBody {
+  text-align: center;
+  h3{
+      font-size: 24px;
+      font-weight: 500;
+      color: #3F3F44;
+  }
+}
+.yh_modalBtn_wrapper{
+  button{
+      margin-bottom: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .add-an-educator-root {
+    padding: 30px 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}

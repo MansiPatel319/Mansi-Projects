@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="13px" viewBox="0 0 14 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>user-icon</title>
+    <g id="Educator-Insight-Dashboard---Updates" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="i1.01-Insight-Dashboard" transform="translate(-89.000000, -95.000000)" fill="#652D90" fill-rule="nonzero" stroke="#652D90" stroke-width="0.631830874">
+            <g id="Header" transform="translate(81.000000, 43.000000)">
+                <g id="user-icon" transform="translate(9.000000, 53.000000)">
+                    <path d="M9.06678691,3.01900946 C9.06678691,4.65621633 7.65855604,5.9856283 5.92428158,5.9856283 C4.19000711,5.9856283 2.77483915,4.65621633 2.77483915,3.01900946 C2.77483915,1.38180259 4.18307001,0.0523906197 5.91734448,0.0523906197 C7.65161895,0.0523906197 9.06678691,1.38180259 9.06678691,3.01900946 Z" id="Path"></path>
+                    <path d="M11.7514438,10.8579559 L0.0901822722,10.8579559 C0.0901822722,10.8579559 -0.492533948,8.65100108 1.38741957,7.72761641 C1.78977125,7.53115158 2.24068261,7.45256565 2.69159397,7.45256565 L9.15003208,7.45256565 C9.60094345,7.45256565 10.0518548,7.53115158 10.4542065,7.72761641 C12.33416,8.65100108 11.7514438,10.8579559 11.7514438,10.8579559 Z" id="Path" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

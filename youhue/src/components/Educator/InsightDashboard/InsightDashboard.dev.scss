@@ -1,0 +1,65 @@
+.yh_insight_myStudent_wrapper {
+  .my-student-box {
+    border: 0px;
+
+    .action-mood-box {
+      width: 80px;
+    }
+
+    &.active {
+      border: 2px solid #e25674;
+    }
+    .mood-icon {
+      height: 40px;
+      width: 40px;
+    }
+
+    .flag-icon {
+      height: 40px;
+    }
+  }
+}
+
+.dropdown_group_block
+  .date-dropdown-group-box
+  .input-inline-group
+  ul
+  li
+  a.add-border {
+  border-right: 1px solid rgba(226, 208, 208, 0.75);
+}
+
+.noLogs_topic {
+  min-height: 120px;
+}
+
+.modal.insightAdmin_modal .studentcheckbox .my-student-box {
+  border: 0px;
+}
+.my-student-box.active {
+  border: 0px;
+  &.hover {
+    border: 0px;
+  }
+  /* border: 2px solid #e25674; */
+}
+.my-student-box.newActive {
+  border: 2px solid #e25674 !important;
+}
+.log-box .log-custom-box .active .newActive{
+  border: 2px solid #e25674 !important;
+}
+.response_content_block {
+  &.educator-response::before {
+    height: calc(100% - 60px);
+  }
+  &.educator-response-reply::before {
+    height: calc(100% - 50px);
+    top: 60px;
+    content: "";
+    position: absolute;
+    left: 40px;
+    width: 1px;
+    background-color: #e2d0d0;
+  }
+}

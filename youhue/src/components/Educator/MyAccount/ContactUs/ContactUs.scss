@@ -1,0 +1,38 @@
+.contact-us-card-root {
+  .form-custom-div {
+    &.form-custom-770-div {
+      max-width: 770px;
+      margin: 0;
+    }
+
+    .form-group {
+      label {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.5;
+        color: #3f3f44;
+        letter-spacing: 0;
+        text-align: left;
+        margin: 0 0 8px 0;
+      }
+
+      textarea.form-control {
+        resize: none;
+        min-height: 300px;
+        padding-top: 16px;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-us-card-root {
+    .form-custom-div {
+      .form-group {
+        label {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,124 @@
+.notific_wrapper{
+    padding: 24px 45px 50px 65px;
+}
+.notify_grade{
+    max-width: 233px;
+    width: 100%;
+    padding-left: 1px;
+}
+.notific_checkbox{
+    display: flex;
+    align-items: center;
+    margin-bottom: 21px;
+}
+.notific_checkbox label{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #3f3f44;
+    margin: 0;
+    flex: 1;
+}
+.notific_checkbox input{
+    appearance: none;
+    -webkit-appearance: none;
+    width: 40px;
+    height: 19px;
+    border-radius: 30px;
+    background-color: #E25674;
+    position: relative;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+}
+.notific_checkbox input::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 4px;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: all 0.25s ease-in-out;
+}
+.notific_checkbox input:checked:after{
+    right: 4px;
+    left: auto;
+}
+.notific_checkbox input:checked {
+    background-color: #6BCD83;
+}
+.yh_notification_setting .prag-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #3f3f44;
+    margin: 0 0 39px 0;
+    letter-spacing: 0;
+}
+.notify_alert{
+    max-width: 213px;
+}
+.account_updates{
+    max-width: 391px;
+    padding-left: 0;
+}
+.notific_mark{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 16px;
+}
+.notific_mark h3{
+    font-size: 21px;
+    font-weight: 500;
+    color: #652D90;
+    margin: 0;
+}
+.notific_mark li{
+    position: relative;
+    display: block;
+}
+.notific_box{
+    position: absolute;
+    top: 28px;
+    right: 0;
+    padding: 20px 20px 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+    border-radius: 8px;
+    min-width: 275px;
+    z-index: 9999;
+    background-color: #fff;
+    display: none;
+}
+.active.notific_box{
+    display: block;
+}
+.notific_box ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.notific_box ul>li{
+    margin-bottom: 14px;
+}
+.notific_box ul>li>a{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #652D90;
+}
+.notific_box ul>li>a img{
+    margin-right: 20px;
+}
+.notific_box{
+    min-width: 252px;
+}
+@media screen and (max-width: 767px){
+    .notific_wrapper{
+        padding: 24px 40px 50px 40px;
+    }
+    .notific_box{
+        min-width: 236px;
+    }
+}
