@@ -1,0 +1,196 @@
+services:
+  proxy:
+    image: "traefik:v2.7"
+    command:
+      # - "--log.level=DEBUG"
+      - "--accesslog=true"
+      - "--api.insecure=true"
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      - "--entrypoints.web.address=:80"
+    ports:
+      - "80:80"
+      - "8080:8080"
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+
+  traffic:
+    build: ./voyage-construction-frontend
+    volumes:
+      - ./voyage-construction-frontend:/app
+    ports:
+      - 3000:3000
+    environment:
+      - NODE_ENV=development
+      - ENV=local
+      - REACT_APP_DEVELOPMENT_BASE_URL=http://local-app.voyagecontrol.com
+      - REACT_APP_SIGNATURE_KEY=duv6ngxgva1xc0nw
+      - CYPRESS_CACHE_FOLDER=/app/.cache
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.services.web.loadbalancer.server.port=3000"
+      - "traefik.http.routers.web.rule=Host(`local-app.voyagecontrol.com`)"
+    depends_on:
+      - proxy
+    command: bash -c "npm install && bash ./docker/run.sh"
+
+  admin:
+    build: ./voyage-construction-admin
+    volumes:
+      - ./voyage-construction-admin:/app
+    ports:
+      - 3010:3000
+    environment:
+      - NODE_ENV=development
+      - ENV=local
+      - REACT_APP_AUTH_API_URL=http://local-app.voyagecontrol.com:8010/api/auth/
+      - REACT_APP_REST_API_URL=http://local-app.voyagecontrol.com:8000/api/v1/
+      - CYPRESS_CACHE_FOLDER=/app/.cache
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.services.admin.loadbalancer.server.port=3000"
+      - "traefik.http.routers.admin.rule=Host(`local-admin.voyagecontrol.com`)"
+    depends_on:
+      - proxy
+    command: bash -c "npm install && bash ./docker/run.sh"
+
+  rest-api:
+    build: ./voyage-construction-api
+    volumes:
+      - ./voyage-construction-api:/app
+    ports:
+      - 8000:8000
+    environment:
+      - DJANGO_SETTINGS_MODULE=settings.docker
+      - ENV=local
+      - DB_URL_US_WEST_2=postgres://root:root@rest-api-db:5432/voyagecontrol
+      - NONCE_KEY=KEY-2481a9bb-5d0a-47da-b779-b78b9b261e9f
+      - SIGNATURE_KEY=duv6ngxgva1xc0nw
+      - SENDGRID_API_KEY=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
+      - USER_INVITE_TEMPLATE=d-d54a17dc65a74fd0ad6403a871f9a4c7
+      - EMAIL_USER=noreply@voyagecontrol.com
+      - ROLE_ASSIGNED_TEMPLATE=d-0846cec5162c4071a230decdae1a660b
+      - PASSWORD_RESET_TEMPLATE=d-562a241deee840bfaca40358104f2a0f
+      - AUTH_API_URL=http://auth-api:8000/api/auth/      
+      - AWS_ACCESS_KEY_ID=access-key
+      - AWS_SECRET_ACCESS_KEY=secret-key
+      - AWS_STORAGE_BUCKET_NAME=my-local-bucket
+      - AWS_S3_ENDPOINT_URL=http://minio:9000
+      - RMQ_URI=amqp://admin:voyagecontrol@rmq
+      - AUTH_API_USER=admin@gmail.com
+      - AUTH_API_PASS=123456
+    depends_on:
+      - rest-api-db
+      - proxy
+      - auth-api
+      - createbuckets
+      - minio
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.services.api.loadbalancer.server.port=8000"
+      - "traefik.http.routers.api.rule=Host(`local-app.voyagecontrol.com`) && PathPrefix(`/api/v1/`)"
+    command: bash -c "pipenv install --verbose --system && python manage.py collectstatic --noinput && bash ./docker/run.sh"
+
+  rest-api-db:
+    image: postgres:14.4-bullseye
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=voyagecontrol
+      - POSTGRES_HOST_AUTH_METHOD=md5
+    ports:
+      - "5434:5432"
+    volumes:
+      - ./tmp-data/rest-api-db:/var/lib/postgresql/data
+    depends_on:
+      - pgadmin
+
+  rmq:
+    image: rabbitmq:3.10-management-alpine
+    hostname: "voyagecontrol"
+    # volumes:
+    #   - ./tmp-docker-vol/rabbitmq:/var/lib/rabbitmq
+    environment:
+      - RABBITMQ_DEFAULT_USER=admin
+      - RABBITMQ_DEFAULT_PASS=voyagecontrol
+      - RABBITMQ_ENABLE_MANAGEMENT_PLUGIN=true
+      - RABBITMQ_NODENAME=node1@voyagecontrol
+    ports:
+      - 15672:15672
+      - 5672:5672
+
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@admin.com
+      - PGADMIN_DEFAULT_PASSWORD=root
+    ports:
+      - "5050:80"
+    volumes:
+      - ./tmp-data/pgadmin:/var/lib/pgadmin
+
+  auth-api:
+    build: ./voyage-authentication-api
+    ports:
+      - 8010:8000
+    volumes:
+      - ./voyage-authentication-api:/app
+    environment:
+      - ENV=local
+      - PORT=8000
+      - DJANGO_SETTINGS_MODULE=api.settings.docker
+      - DATABASE_URL=psql://root:root@auth-api-db:5432/auth
+    depends_on:
+      - auth-api-db
+      - proxy
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.services.auth.loadbalancer.server.port=8000"
+      - "traefik.http.routers.auth.rule=Host(`local-app.voyagecontrol.com`) && PathPrefix(`/api/auth/`)"
+    command: bash -c "pip install --upgrade pip && pip install uvicorn gunicorn &&  pip install -r requirements.txt && python manage.py check && python manage.py collectstatic --noinput && bash  ./docker/run.sh"
+
+  auth-api-db:
+    image: postgres:14.4-bullseye
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=auth
+      - POSTGRES_HOST_AUTH_METHOD=md5
+    ports:
+      - "5433:5432"
+    volumes:
+      - ./tmp-data/auth-api-db:/var/lib/postgresql/data
+    depends_on:
+      - pgadmin
+
+  minio:
+    image: minio/minio
+    ports:
+      - 9000:9000
+      - 9001:9001
+    volumes:
+      - ./tmp-data/minio:/data
+    environment:
+      - MINIO_ROOT_USER=access-key
+      - MINIO_ROOT_PASSWORD=secret-key
+      - MINIO_REGION=us-west-2
+    command: server /data --console-address ":9001"
+
+  createbuckets:
+    image: minio/mc
+    depends_on:
+      - minio
+    entrypoint: >
+      /bin/sh -c "
+      apk add nc &&
+      while ! nc -z minio 9000; do echo 'Wait minio to startup...' && sleep 0.1; done; sleep 5 &&
+      /usr/bin/mc config host add myminio http://minio:9000 access-key secret-key;
+      /usr/bin/mc mb myminio/my-local-bucket;
+      /usr/bin/mc policy download myminio/my-local-bucket;
+      exit 0;
+      "
+
+volumes:
+  rest-api-db:
+  auth-api-db:
+  pgadmin:

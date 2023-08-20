@@ -1,0 +1,51 @@
+#!/bin/bash
+
+# set -xe
+
+projects=(voyage-construction-api voyage-construction-frontend voyage-authentication-api voyage-construction-admin)
+
+git_url=git@github.com:voyagecontrol/
+
+txtbld=$(tput bold)
+txtrst=$(tput sgr0)
+txtlue=$(tput setaf 4)
+txtund=$(tput sgr 0 1)
+printGitProjectName() {
+      echo -e "${txtbld}${txtlue}****** $1 ******${txtrst}"
+}
+
+clone() {
+	for project in "${projects[@]}"; do
+		printGitProjectName "$project"
+		git clone "$git_url$project"
+	done
+}
+
+pull() {
+	for project in "${projects[@]}"; do
+		printGitProjectName "$project"
+		git -C "$project" pull
+	done
+}
+
+checkout() {
+	local branch="$1"
+	for project in "${projects[@]}"; do
+		printGitProjectName "$project"
+		git -C "$project" checkout "$branch"
+	done
+}
+
+runcmd() {
+	for project in "${projects[@]}"; do
+		echo
+		printGitProjectName "$project"
+		echo
+		cd "$project" || return
+		# shellcheck disable=SC2068
+		$@
+		cd ..
+	done
+}
+
+"$1" "$2"
