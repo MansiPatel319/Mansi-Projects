@@ -1,0 +1,301 @@
+.flexible-plans-section {
+  padding: 60px 0 10px 0;
+  margin: 0;
+  position: relative;
+
+  .flexible-plans-div {
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+
+  .heading-div {
+    padding: 0;
+    margin: 0 0 50px 0;
+    position: relative;
+
+    .heading-inner-div {
+      padding: 0;
+
+      h2 {
+        font-weight: 800;
+        font-size: 62px;
+        color: #fff;
+        letter-spacing: 0;
+        text-align: center;
+        margin: 0 0 10px 0;
+        font-family: "Moderat Extended", sans-serif;
+      }
+
+      h3 {
+        font-weight: 400;
+        font-size: 24px;
+        color: rgba(255, 255, 255, 0.66);
+        letter-spacing: 0;
+        text-align: center;
+        margin: 0 0 10px 0;
+      }
+    }
+  }
+
+  .custom-control-input {
+    display: none;
+  }
+
+  .flex-plan-card {
+    padding: 0;
+    margin: 0 0 16px 0;
+    position: relative;
+
+    .flex-plan-card-inner {
+      padding: 40px;
+      margin: 0;
+      position: relative;
+      background: #212121;
+      border-radius: 6px;
+
+      .check-icon-group {
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        transform: scale(0);
+        transition: all 0.4s;
+
+        .check-span-rounded {
+          background: #ff5f00;
+          height: 30px;
+          width: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+          border-radius: 100px;
+          border: 1px solid #fff;
+
+          .custom-check-icon {
+            width: 14px;
+            height: 12px;
+          }
+        }
+      }
+
+      .min-details-div {
+        min-height: 295px;
+
+        .fp-title-top {
+          h4 {
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 1.2;
+            color: rgba(255, 255, 255, 0.6);
+            letter-spacing: 0;
+            margin: 0 0 10px 0;
+          }
+        }
+
+        .fp-number-top {
+          h2 {
+            font-weight: 700;
+            font-size: 62px;
+            line-height: 1.3;
+            color: #fff;
+            letter-spacing: 0;
+            margin: 0 0 20px 0;
+            font-family: "Moderat Extended", sans-serif;
+          }
+        }
+
+        .desc-inner-box {
+          margin: 0 0 20px 0;
+
+          ul.check-list-ul {
+            display: flex;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            width: 100%;
+            position: relative;
+
+            li {
+              font-weight: 500;
+              font-size: 14px;
+              line-height: 1.4;
+              color: rgba(255, 255, 255, 0.6);
+              letter-spacing: 0;
+              display: flex;
+              align-items: flex-start;
+              flex-wrap: wrap;
+              padding: 0 0 0 18px;
+              margin: 0 0 6px 0;
+              position: relative;
+              width: 100%;
+
+              &::before {
+                content: "";
+                width: 8px;
+                height: 6px;
+                background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='8px' height='7px' viewBox='0 0 8 7' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3Echeck%3C/title%3E%3Cg id='Page-2' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' stroke-linecap='round' stroke-opacity='0.6'%3E%3Cpolyline id='check' stroke='%23FFFFFF' stroke-width='2' points='1 3 3 5 7 1'%3E%3C/polyline%3E%3C/g%3E%3C/svg%3E");
+                background-repeat: no-repeat;
+                background-size: contain;
+                display: inline-block;
+                position: absolute;
+                top: 7px;
+                color: rgba(255, 255, 255, 0.6);
+                font-size: 14px;
+                left: 0;
+              }
+            }
+          }
+        }
+      }
+
+      .plan-btn {
+        width: 100%;
+
+        .btn-common-primary {
+          width: 100%;
+          font-size: 18px;
+        }
+      }
+    }
+
+    &.active {
+      .flex-plan-card-inner {
+        background: url(../../images/mask/plan-background.svg) no-repeat;
+        background-size: cover;
+
+        .check-icon-group {
+          transform: scale(1);
+        }
+
+        .plan-btn {
+          .btn-common-primary {
+            background: #191919;
+          }
+        }
+      }
+    }
+  }
+
+  .flexible-plans-top {
+    min-height: calc(100vh - 400px);
+  }
+
+  .flexible-plans-bottom {
+    padding: 0;
+    margin: 0;
+    position: relative;
+
+    .flexible-plans-btn-div {
+      padding: 10px 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      width: 100%;
+
+      .mr-20 {
+        margin-right: 20px;
+      }
+
+      .btn.btn-common-black {
+        min-width: 180px;
+      }
+
+      .btn.btn-common-white {
+        min-width: 180px;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .flexible-plans-section {
+    .heading-div {
+      .heading-inner-div {
+        h2 {
+          font-size: 30px;
+        }
+
+        h3 {
+          font-size: 18px;
+        }
+      }
+    }
+
+    .flex-plan-card {
+      .flex-plan-card-inner {
+        padding: 30px 25px;
+
+        .min-details-div {
+          min-height: 240px;
+          margin: 0 0 10px 0;
+
+          .fp-title-top {
+            h4 {
+              font-size: 20px;
+            }
+          }
+
+          .fp-number-top {
+            h2 {
+              font-size: 44px;
+            }
+          }
+        }
+      }
+    }
+
+    .flexible-plans-bottom {
+      .flexible-plans-btn-div {
+        .btn.btn-common-black {
+          min-width: 120px;
+        }
+
+        .btn.btn-common-white {
+          min-width: 120px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .flexible-plans-section {
+    .heading-div {
+      .heading-inner-div {
+        h2 {
+          font-size: 42px;
+        }
+
+        h3 {
+          font-size: 18px;
+        }
+      }
+    }
+
+    .flex-plan-card {
+      .flex-plan-card-inner {
+        padding: 30px 25px;
+
+        .min-details-div {
+          min-height: 270px;
+          margin: 0 0 10px 0;
+
+          .fp-title-top {
+            h4 {
+              font-size: 20px;
+            }
+          }
+
+          .fp-number-top {
+            h2 {
+              font-size: 52px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

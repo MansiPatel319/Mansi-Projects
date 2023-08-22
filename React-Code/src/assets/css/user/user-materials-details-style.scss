@@ -1,0 +1,383 @@
+.materials-details-section {
+  padding: 70px 0 130px 0;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+
+  .materials-details-div {
+    .heading-div {
+      padding: 0;
+      margin: 0 auto 50px auto;
+      position: relative;
+
+      h2 {
+        padding: 0;
+        margin: 0;
+        display: block;
+        width: 100%;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 65px;
+        color: #fff;
+        letter-spacing: 0;
+        font-family: "Moderat Extended", sans-serif;
+      }
+    }
+  }
+}
+
+.materials-details-list-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+
+  .materials-list-root-div {
+    .mtd-common-row-box {
+      padding: 24px;
+      margin: 0 0 40px 0;
+      position: relative;
+      background: #1e1e27;
+      border-radius: 10px;
+
+      .mtd-common-row {
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+        width: 100%;
+      }
+
+      .mtd-video-img-thumb {
+        padding: 0;
+        margin: 0 0 0 0;
+        position: relative;
+        width: 200px;
+
+        .img-thumb {
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+          flex-wrap: wrap;
+        }
+
+        .img-responsive {
+          width: 100%;
+          height: 180px;
+          object-fit: cover;
+          object-position: top;
+          transition: 0.8s;
+          border-radius: 10px;
+        }
+      }
+
+      .mtd-content-div {
+        width: calc(100% - 200px);
+        padding: 20px 45px 20px 30px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .mtd-content-row {
+          display: flex;
+          align-items: flex-start;
+          flex-wrap: wrap;
+          width: 100%;
+          position: relative;
+
+          .mtd-content-top-row {
+            width: 100%;
+
+            .link {
+              color: inherit;
+            }
+
+            h3 {
+              display: block;
+              margin: 0 0 16px 0;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 27px;
+              color: #fff;
+              letter-spacing: 0;
+            }
+
+            h4 {
+              font-weight: 400;
+              font-size: 12px;
+              display: block;
+              color: #ff5f00;
+              letter-spacing: 0;
+              line-height: 16px;
+            }
+
+            .mtd-content-dw-row {
+              padding: 0;
+              margin: 0;
+              position: relative;
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: flex-start;
+              align-items: center;
+              flex-wrap: wrap;
+              width: 100%;
+
+              .thumb-img {
+                width: 32px;
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+
+                .link {
+                  display: inline-block;
+                }
+
+                .img-fluid.user {
+                  width: 32px;
+                  height: 32px;
+                  object-fit: cover;
+                  border-radius: 100px;
+                }
+              }
+
+              .our-content-right {
+                width: calc(100% - 32px);
+                padding: 0 0 0 8px;
+
+                h3 {
+                  font-weight: 500;
+                  line-height: 1.3;
+                  display: block;
+                  margin: 0;
+                  font-size: 14px;
+                  color: rgba(255, 255, 255, 0.75);
+                  letter-spacing: 0;
+                }
+              }
+            }
+          }
+        }
+
+        .mtd-content-dw-right-bottom {
+          position: absolute;
+          right: 24px;
+          bottom: 24px;
+
+          .btn.btn-download-icon {
+            background: linear-gradient(114.74deg, #ef4443 8.09%, #ef6b18 93.47%);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 49px;
+            height: 45px;
+            width: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 1px 1px 1px 2px;
+            cursor: pointer;
+            transition: all 0.8s;
+
+            &:hover {
+              outline: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.materials-banner-section {
+  padding: 80px 0 40px 0;
+  margin: 0;
+  position: relative;
+
+  .materials-banner-div {
+    .materials-banner-root {
+      min-height: 260px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #000;
+      background-size: cover;
+      background-position: center;
+      border-radius: 6px;
+      height: 100%;
+
+      .banner-heading-div {
+        background: rgba(0, 0, 0, 0.41);
+        border-radius: 6px;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 15px;
+
+        h1 {
+          font-weight: 800;
+          font-size: 24px;
+          color: #fff;
+          letter-spacing: 0;
+          text-align: center;
+          font-family: "Moderat Extended", sans-serif;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .materials-details-section {
+    padding: 40px 0 40px 0;
+
+    .materials-details-div {
+      .heading-div {
+        margin: 0 auto 30px auto;
+
+        h2 {
+          font-size: 20px;
+          line-height: 1.5;
+        }
+      }
+    }
+  }
+
+  .materials-banner-section {
+    padding: 40px 0 20px 0;
+
+    .materials-banner-div {
+      .materials-banner-root {
+        min-height: 160px;
+
+        .banner-heading-div {
+          h1 {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .materials-details-list-div {
+    .materials-list-root-div {
+      .mtd-common-row-box {
+        padding: 15px;
+        margin: 0 0 20px 0;
+
+        .mtd-video-img-thumb {
+          width: 100px;
+
+          .img-responsive {
+            height: 100px;
+          }
+        }
+
+        .mtd-content-div {
+          width: calc(100% - 100px);
+          padding: 0 15px 0 15px;
+
+          .mtd-content-row {
+            .mtd-content-top-row {
+              h3 {
+                font-size: 14px;
+                line-height: 21px;
+                margin: 0 0 10px 0;
+              }
+            }
+          }
+
+          .mtd-content-dw-right-bottom {
+            right: 15px;
+            bottom: 15px;
+
+            .btn.btn-download-icon {
+              height: 34px;
+              width: 34px;
+              padding: 1px 1px 1px 1px;
+
+              .downloading-file-icon {
+                width: 20px;
+                height: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .materials-details-section {
+    padding: 40px 0 40px 0;
+
+    .materials-details-div {
+      .heading-div {
+        margin: 0 auto 30px auto;
+
+        h2 {
+          font-size: 24px;
+          line-height: 1.5;
+        }
+      }
+    }
+  }
+
+  .materials-banner-section {
+    padding: 50px 0 20px 0;
+
+    .materials-banner-div {
+      .materials-banner-root {
+        min-height: 220px;
+      }
+    }
+  }
+
+  .materials-details-list-div {
+    .materials-list-root-div {
+      .mtd-common-row-box {
+        padding: 15px;
+        margin: 0 0 20px 0;
+
+        .mtd-video-img-thumb {
+          width: 100px;
+
+          .img-responsive {
+            height: 100px;
+          }
+        }
+
+        .mtd-content-div {
+          width: calc(100% - 100px);
+          padding: 0 15px 0 15px;
+
+          .mtd-content-row {
+            .mtd-content-top-row {
+              h3 {
+                font-size: 14px;
+                line-height: 21px;
+                margin: 0 0 10px 0;
+              }
+            }
+          }
+
+          .mtd-content-dw-right-bottom {
+            right: 15px;
+            bottom: 15px;
+
+            .btn.btn-download-icon {
+              height: 34px;
+              width: 34px;
+              padding: 1px 1px 1px 1px;
+
+              .downloading-file-icon {
+                width: 20px;
+                height: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

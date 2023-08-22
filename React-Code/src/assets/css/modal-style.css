@@ -1,0 +1,326 @@
+.modal {
+  z-index: 99999;
+}
+
+.modal-backdrop {
+  z-index: 9999;
+  background-color: #000;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+.modal-backdrop.show {
+  opacity: 0.5;
+}
+
+.video-player-modal .modal-dialog {
+  max-width: 950px;
+}
+
+.video-player-modal .modal-content {
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0;
+}
+
+.video-player-modal .close {
+  margin: 0 0 0 auto;
+  opacity: 1;
+  outline: none;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  border-radius: 100px;
+}
+
+.video-player-modal .close .fe {
+  font-size: 24px;
+  color: #fff;
+}
+
+.video-player-modal .video-event-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.video-player-modal .video-event-div .video-event-inner {
+  padding: 0;
+  margin: 0;
+}
+
+.video-player-modal .video-event-div .video-event-inner .video-fluid {
+  width: 100%;
+  max-height: 650px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+}
+
+.video-player-modal .video-event-div .video-event-inner .iframe-video-cover {
+  width: 100%;
+  height: 550px;
+}
+
+.modal.right .modal-dialog {
+  position: fixed;
+  margin: auto;
+  width: 100%;
+  max-width: 715px;
+  height: 100%;
+  -webkit-transform: translate3d(0%, 0, 0);
+  transform: translate3d(0%, 0, 0);
+}
+
+.modal.right.fade .modal-dialog {
+  right: -720px;
+  -webkit-transition: opacity 0.5s linear, right 0.5s ease-out;
+  transition: opacity 0.5s linear, right 0.5s ease-out;
+}
+
+.modal.right.fade.show .modal-dialog {
+  right: 0;
+}
+
+.modal.right .modal-content {
+  height: 100%;
+  border-radius: 0;
+  border: none;
+  overflow-y: auto;
+  background: #212121;
+  -webkit-box-shadow: -10px 0 20px 0 rgba(0, 0, 0, 0.28);
+          box-shadow: -10px 0 20px 0 rgba(0, 0, 0, 0.28);
+}
+
+.modal.right .modal-header {
+  padding: 30px 30px 15px 30px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.modal.right .modal-header .close {
+  padding: 0;
+  margin: 0 0 0 auto;
+  opacity: 1;
+  color: #fff;
+  font-size: 24px;
+  outline: none;
+}
+
+.modal.right .modal-body {
+  padding: 15px 15px 15px 15px;
+}
+
+.modal.right .common-modal-body {
+  padding: 0;
+  margin: 0 auto;
+  max-width: 500px;
+  width: 100%;
+  position: relative;
+}
+
+.modal.right .common-modal-body .common-header-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 100%;
+}
+
+.modal.right .common-modal-body .common-header-div .title-heading-div {
+  padding: 0;
+  margin: 0 0 50px 0;
+  position: relative;
+}
+
+.modal.right .common-modal-body .common-header-div .title-heading-div h2 {
+  font-weight: 700;
+  font-size: 42px;
+  color: #fff;
+  letter-spacing: 0;
+  margin: 0;
+  display: block;
+  width: 100%;
+}
+
+.modal.right .common-modal-body .common-header-div .title-heading-div .hide-h2 {
+  display: none;
+}
+
+.modal.right .common-modal-body .common-header-div .title-heading-div .show-h2 {
+  display: block;
+}
+
+.modal.right .common-modal-body .common-header-div .title-heading-div.nt-heading-div {
+  margin-bottom: 30px;
+}
+
+.change-cc-details-common-div .change-cc-details-common-inner {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  min-height: calc(100vh - 335px);
+}
+
+.change-cc-details-common-div .change-cc-details-form-root .form-general-root .form-group .form-control {
+  min-height: 45px;
+  font-size: 14px;
+  padding: 8px 20px 7px 20px;
+  line-height: 24px;
+}
+
+.change-cc-details-common-div .change-cc-details-form-root .form-general-root .form-group.credit-card-form-group .form-control {
+  padding-right: 65px;
+}
+
+.change-cc-details-common-div .change-cc-details-form-root .form-general-root .form-group.credit-card-form-group .icon-div {
+  top: 11px;
+  right: 20px;
+}
+
+.change-cc-details-common-div .change-cc-details-bottom {
+  padding: 0;
+  margin: 20px 0 10px 0;
+  position: relative;
+}
+
+.change-cc-details-common-div .change-cc-details-bottom .change-cc-details-bottom-row {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+}
+
+.change-cc-details-common-div .change-cc-details-bottom .change-cc-details-bottom-row .btn.btn-common-black {
+  width: calc(50% - 6px);
+  margin: 0 6px 0 0;
+}
+
+.change-cc-details-common-div .change-cc-details-bottom .change-cc-details-bottom-row .btn.btn-common-primary {
+  width: calc(50% - 6px);
+  margin: 0 0 0 6px;
+  font-size: 18px;
+}
+
+.center-common-modal .modal-dialog {
+  max-width: 970px;
+}
+
+.center-common-modal .modal-dialog .modal-content {
+  background: #1e1e27;
+  border: 2px solid #282a33;
+  border-radius: 15px;
+}
+
+.center-common-modal .modal-header {
+  padding: 40px 40px 0 40px;
+  border: none;
+  border-radius: 0;
+}
+
+.center-common-modal .modal-header .close {
+  color: #fff;
+  opacity: 1;
+  padding: 0;
+  margin: 0 0 0 auto;
+  outline: none;
+  border: none;
+  font-size: 30px;
+}
+
+.center-common-modal .modal-header .close span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.center-common-modal .modal-body {
+  padding: 24px;
+}
+
+.general-pop-root .general-details-pop-section {
+  padding: 0;
+}
+
+.general-pop-root .general-details-pop-section .general-details-div {
+  border: 0;
+  border-radius: 0;
+  padding: 9px 0 76px 0;
+}
+
+.general-pop-root .general-details-pop-section .general-details-div .general-payment-root .general-top {
+  margin: 0 0 26px 0;
+}
+
+@media (max-width: 767px) {
+  .modal.right .modal-header {
+    padding: 20px 20px 10px 20px;
+  }
+  .modal.right .common-modal-body .common-header-div .title-heading-div {
+    margin: 0 0 30px 0;
+  }
+  .modal.right .common-modal-body .common-header-div .title-heading-div h2 {
+    font-size: 24px;
+  }
+  .change-cc-details-common-div .change-cc-details-common-inner {
+    min-height: calc(100vh - 230px);
+  }
+  .change-cc-details-common-div .change-cc-details-form-root .form-general-root .form-group.credit-card-form-group .icon-div {
+    top: 14px;
+  }
+  .change-cc-details-common-div .change-cc-details-bottom .change-cc-details-bottom-row .btn.btn-common-black,
+  .change-cc-details-common-div .change-cc-details-bottom .change-cc-details-bottom-row .btn.btn-common-primary {
+    font-size: 14px;
+    min-height: 46px;
+  }
+  .center-common-modal .modal-header {
+    padding: 20px 20px 0 20px;
+  }
+  .center-common-modal .modal-body {
+    padding: 16px 5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .modal.right .modal-header {
+    padding: 20px 20px 10px 20px;
+  }
+  .modal.right .modal-dialog {
+    max-width: 615px;
+  }
+  .modal.right .common-modal-body {
+    max-width: 470px;
+  }
+  .modal.right .common-modal-body .common-header-div .title-heading-div {
+    margin: 0 0 30px 0;
+  }
+  .modal.right .common-modal-body .common-header-div .title-heading-div h2 {
+    font-size: 24px;
+  }
+  .change-cc-details-common-div .change-cc-details-common-inner {
+    min-height: calc(100vh - 230px);
+  }
+  .change-cc-details-common-div .change-cc-details-form-root .form-general-root .form-group.credit-card-form-group .icon-div {
+    top: 14px;
+  }
+  .change-cc-details-common-div .change-cc-details-bottom .change-cc-details-bottom-row .btn.btn-common-black,
+  .change-cc-details-common-div .change-cc-details-bottom .change-cc-details-bottom-row .btn.btn-common-primary {
+    font-size: 14px;
+    min-height: 46px;
+  }
+}
+/*# sourceMappingURL=modal-style.css.map */

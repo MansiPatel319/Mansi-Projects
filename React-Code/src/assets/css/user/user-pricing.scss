@@ -1,0 +1,31 @@
+.user-pricing-plan-root {
+  .our-pricing-plan-section {
+    &::after {
+      display: none;
+    }
+
+    .heading-div {
+      .heading-inner-div {
+        h2 {
+          font-size: 36px;
+          line-height: 49px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .user-pricing-plan-root {
+    .our-pricing-plan-section {
+      .heading-div {
+        .heading-inner-div {
+          h2 {
+            font-size: 26px;
+            line-height: 1.3;
+          }
+        }
+      }
+    }
+  }
+}

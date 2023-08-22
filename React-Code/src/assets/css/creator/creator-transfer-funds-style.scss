@@ -1,0 +1,186 @@
+.ct-funds-section {
+  padding: 0;
+  margin: 0;
+  position: relative;
+
+  .ct-funds-div {
+    padding: 70px 0;
+    margin: 0;
+    position: relative;
+  }
+
+  .heading-div {
+    padding: 0;
+    margin: 0 auto 36px auto;
+    position: relative;
+
+    h2 {
+      padding: 0;
+      margin: 0;
+      display: block;
+      width: 100%;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 65px;
+      color: #fff;
+      letter-spacing: 0;
+      font-family: "Moderat Extended", sans-serif;
+    }
+  }
+}
+
+.ct-funds-inner-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+
+  .ct-funds-content-box {
+    padding: 30px 20px;
+    margin: 0 0 30px 0;
+    position: relative;
+    background: #1e1e27;
+    border: 2px solid #282a33;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 220px;
+
+    &.border-left-tf {
+      border-left: 1px solid rgba(255, 255, 255, 0.07);
+    }
+
+    &.border-right-tf {
+      border-right: 1px solid rgba(255, 255, 255, 0.07);
+    }
+
+    .ct-funds-box-row {
+      padding: 0;
+      margin: 0;
+      position: relative;
+
+      p {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.8);
+        letter-spacing: 0;
+        display: block;
+      }
+
+      h2 {
+        padding: 0;
+        margin: 0 0 15px 0;
+        display: block;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        color: #ef6b18;
+        letter-spacing: 0;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.ct-payment-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+
+  .ct-payment-row {
+    padding: 0;
+    margin: 0;
+    position: relative;
+
+    .ct-payment-card-box {
+      padding: 60px 20px 50px 20px;
+      margin: 0;
+      position: relative;
+      width: 100%;
+      background-color: transparent;
+
+      p {
+        color: rgba(255, 255, 255, 0.72);
+        text-align: center;
+        display: block;
+        max-width: 775px;
+        margin: 0 auto 40px auto;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 35px;
+      }
+
+      .center-img-div {
+        padding: 0;
+        margin: 0 0 24px 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .img-stripe {
+          width: 160px;
+          object-fit: contain;
+        }
+      }
+
+      .center-btn-div {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px 0 10px 0;
+
+        .btn.btn-primary-outline {
+          min-width: 177px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .ct-funds-section {
+    .heading-div {
+      h2 {
+        font-size: 30px;
+        line-height: 36px;
+      }
+    }
+  }
+
+  .ct-funds-inner-div {
+    .ct-funds-content-box {
+      margin: 0 0 15px 0;
+      min-height: 180px;
+    }
+  }
+
+  .ct-payment-div {
+    .ct-payment-row {
+      .ct-payment-card-box {
+        p {
+          font-size: 16px;
+          line-height: 26px;
+        }
+
+        .center-img-div {
+          .img-stripe {
+            width: 130px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .ct-funds-section {
+    .heading-div {
+      h2 {
+        font-size: 36px;
+        line-height: 48px;
+      }
+    }
+  }
+}

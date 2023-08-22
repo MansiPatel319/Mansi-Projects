@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Moderat Extended";
+  src: url("Moderat-Extended-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Moderat Extended";
+  src: url("Moderat-Extended-Bold-Italic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Moderat Extended";
+  src: url("Moderat-Extended-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Moderat Extended";
+  src: url("Moderat-Extended-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Moderat Extended";
+  src: url("Moderat-Extended-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Moderat Extended";
+  src: url("Moderat-Extended-Light-Italic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}

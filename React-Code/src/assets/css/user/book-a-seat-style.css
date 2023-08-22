@@ -1,0 +1,341 @@
+.general-book-new-section {
+  padding: 60px 0;
+  margin: 0;
+  position: relative;
+}
+
+.general-book-new-section .general-book-new-div {
+  background: #1e1e27;
+  border: 2px solid #282a33;
+  border-radius: 15px;
+  padding: 70px 50px;
+  position: relative;
+  z-index: 2;
+}
+
+.general-book-new-section .general-book-new-div .container-general-new-center {
+  max-width: 644px;
+  margin: 0 auto;
+}
+
+.general-book-new-section .general-book-new-div .heading-div {
+  padding: 0;
+  margin: 0 0 60px 0;
+  position: relative;
+}
+
+.general-book-new-section .general-book-new-div .heading-div h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #fff;
+  font-family: "Moderat Extended", sans-serif;
+  display: block;
+}
+
+.general-book-new-section .general-book-new-div .general-bk-seat-new-body {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.general-book-new-section .general-book-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.general-book-new-section .general-book-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .container-general-new-center {
+  max-width: 644px;
+  margin: 0 auto;
+}
+
+.general-book-new-section .general-book-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .general-bk-seat-new-body-left {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 254px;
+}
+
+.general-book-new-section .general-book-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .general-bk-seat-new-body-right {
+  width: calc(100% - 254px);
+  padding: 10px 0 10px 34px;
+  min-height: calc(100% - 20px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.general-book-new-section .general-book-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .book-seat-user-card-div {
+  position: relative;
+}
+
+.general-book-new-section .general-book-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .book-seat-user-card-div .book-seat-user-card-row {
+  background: #1e1e27;
+  border: 2px solid #282a33;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 12px;
+}
+
+.general-book-new-section .general-book-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .book-seat-user-card-div .book-seat-user-card-row .user-thumb-img-div .img-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.general-book-new-section .general-book-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .book-seat-user-card-div .book-seat-user-card-row .user-thumb-img-div .img-div .img-responsive {
+  height: 200px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+.general-book-new-section .general-book-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .book-seat-user-card-div .book-seat-user-card-row .text-content-div {
+  padding: 16px 24px;
+  margin: 0;
+  position: relative;
+}
+
+.general-book-new-section .general-book-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .book-seat-user-card-div .book-seat-user-card-row .text-content-div h3 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  margin: 0 0 4px 0;
+  display: block;
+}
+
+.general-book-new-section .general-book-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .book-seat-user-card-div .book-seat-user-card-row .text-content-div h3 .link {
+  color: inherit;
+}
+
+.general-book-new-section .general-book-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .book-seat-user-card-div .book-seat-user-card-row .text-content-div p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #808191;
+}
+
+.general-book-new-section .general-book-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .text-desc-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.general-book-new-section .general-book-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .text-desc-div h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ef6b18;
+  margin: 0 0 17px 0;
+  display: block;
+}
+
+.general-book-new-section .general-book-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .text-desc-div p {
+  font-size: 16px;
+  line-height: 27px;
+  color: #ffffffb3;
+  display: block;
+  margin: 0 0 24px 0;
+}
+
+.general-book-new-section .general-book-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .text-desc-div .time-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 0 36px 0;
+}
+
+.general-book-new-section .general-book-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .text-desc-div .time-box .time-box-rounded {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #1e1e27;
+  border: 2px solid #282a33;
+  border-radius: 60px;
+  padding: 8px 18px;
+}
+
+.general-book-new-section .general-book-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .text-desc-div .time-box .time-box-rounded .icon-span {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.general-book-new-section .general-book-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .text-desc-div .time-box .time-box-rounded .icon-span .calendar-time-icon-new {
+  width: 22px;
+  height: 22px;
+}
+
+.general-book-new-section .general-book-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .text-desc-div .time-box .time-box-rounded .text {
+  width: calc(100% - 22px);
+  font-weight: 700;
+  color: #fff;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 0 0 0 10px;
+}
+
+.general-book-new-section .general-book-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .text-desc-div .button-oto-session-div .link-btn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: underline;
+  color: #ef6b18;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  word-wrap: break-word;
+}
+
+.general-book-new-section .general-book-new-div .general-bottom {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.general-book-new-section .general-book-new-div .general-bottom .general-btn-div {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  max-width: calc(100% - 288px);
+}
+
+.general-book-new-section .general-book-new-div .general-bottom .general-btn-div .mr-24 {
+  margin-right: 24px;
+}
+
+.general-book-new-section .general-book-new-div .general-bottom .general-btn-div .btn.btn-primary-outline {
+  min-width: 165px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 600;
+}
+
+.general-book-new-section .general-book-new-div .general-bottom .general-btn-div .btn-common-primary {
+  min-width: 165px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .general-book-new-section .general-book-new-div {
+    padding: 40px 15px;
+  }
+  .general-book-new-section .general-book-new-div .heading-div {
+    margin: 0 0 40px 0;
+  }
+  .general-book-new-section .general-book-new-div .heading-div h1 {
+    font-size: 26px;
+    line-height: 1.4;
+  }
+  .general-book-new-section .general-book-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row {
+    margin-bottom: 40px;
+  }
+  .general-book-new-section .general-book-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .general-bk-seat-new-body-left {
+    margin: 0 0 30px 0;
+    width: 100%;
+  }
+  .general-book-new-section .general-book-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .general-bk-seat-new-body-right {
+    margin: 0 0 30px 0;
+    width: 100%;
+    min-height: auto;
+    padding: 0;
+  }
+  .general-book-new-section .general-book-new-div .general-bottom .general-btn-div {
+    max-width: 100%;
+  }
+  .general-book-new-section .general-book-new-div .general-bottom .general-btn-div .mr-24 {
+    margin-right: 10px;
+  }
+  .general-book-new-section .general-book-new-div .general-bottom .general-btn-div .btn.btn-primary-outline {
+    min-width: 110px;
+    min-height: 48px;
+  }
+  .general-book-new-section .general-book-new-div .general-bottom .general-btn-div .btn-common-primary {
+    min-width: 110px;
+    min-height: 48px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .general-book-new-section .general-book-new-div {
+    padding: 40px 15px;
+  }
+  .general-book-new-section .general-book-new-div .heading-div {
+    margin: 0 0 40px 0;
+  }
+  .general-book-new-section .general-book-new-div .heading-div h1 {
+    font-size: 26px;
+    line-height: 1.4;
+  }
+  .general-book-new-section .general-book-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row {
+    margin-bottom: 40px;
+  }
+  .general-book-new-section .general-book-new-div .general-bottom .general-btn-div .mr-24 {
+    margin-right: 10px;
+  }
+  .general-book-new-section .general-book-new-div .general-bottom .general-btn-div .btn.btn-primary-outline {
+    min-width: 110px;
+    min-height: 48px;
+  }
+  .general-book-new-section .general-book-new-div .general-bottom .general-btn-div .btn-common-primary {
+    min-width: 110px;
+    min-height: 48px;
+  }
+}
+/*# sourceMappingURL=book-a-seat-style.css.map */

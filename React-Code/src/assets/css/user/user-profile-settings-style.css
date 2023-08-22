@@ -1,0 +1,750 @@
+.profile-settings-section {
+  padding: 70px 0 30px 0;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.profile-settings-section .profile-settings-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.profile-settings-root-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.profile-settings-root-div .edit-profile-div {
+  padding: 30px 0 40px 0;
+  margin: 0;
+  position: relative;
+}
+
+.edit-common-form-div .text-content-tb-profile-div .heading-bx h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #fff;
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+.edit-common-form-div .text-content-tb-profile-div .desc-div p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  color: #fff;
+  display: block;
+  margin: 0 0 30px 0;
+}
+
+.edit-common-form-div .profile-pic-upload {
+  padding: 0;
+  margin: 0 auto 30px auto;
+  position: relative;
+  display: block;
+}
+
+.edit-common-form-div .profile-pic-upload .circle {
+  height: 230px;
+  width: 230px;
+  overflow: hidden;
+  border-radius: 100%;
+  position: relative;
+  border: 3px solid #ef6b18;
+  margin: 0 auto;
+  padding: 9px;
+}
+
+.edit-common-form-div .profile-pic-upload .circle .profile-pic {
+  height: 206px;
+  width: 206px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 100%;
+  display: block;
+  border: none;
+  background-color: #fff;
+}
+
+.edit-common-form-div .profile-pic-upload .circle .filelabel-icon {
+  height: 206px;
+  width: 206px;
+  color: #fff;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.85)), to(rgba(0, 0, 0, 0.85)));
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85));
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 100%;
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  opacity: 0;
+  -webkit-transition: opacity 0.8s;
+  transition: opacity 0.8s;
+}
+
+.edit-common-form-div .profile-pic-upload .circle .filelabel-icon span.text {
+  margin: 12px 0 0 0;
+  display: block;
+  width: 100%;
+}
+
+.edit-common-form-div .profile-pic-upload .circle .image-picture-icon {
+  font-size: 15px;
+  margin: 0 8px 0 0;
+}
+
+.edit-common-form-div .profile-pic-upload .circle:hover .filelabel-icon, .edit-common-form-div .profile-pic-upload .circle:focus .filelabel-icon {
+  opacity: 1;
+}
+
+.edit-common-form-div .edit-btn-icon {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  cursor: pointer;
+}
+
+.edit-common-form-div .form-group {
+  margin: 0 0 20px 0;
+  position: relative;
+}
+
+.edit-common-form-div .form-group label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff;
+  letter-spacing: 0;
+  margin: 0 0 12px 0;
+}
+
+.edit-common-form-div .form-group label.oto-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.edit-common-form-div .form-group label.oto-label span.text {
+  width: calc(100% - 150px);
+}
+
+.edit-common-form-div .form-group label.oto-label span.oto-span-text {
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.edit-common-form-div .form-group label.oto-label span.oto-span-text span.bg-custom-icon {
+  margin: 0 2px 0 0;
+}
+
+.edit-common-form-div .form-group .form-control {
+  border: 2px solid #282a33;
+  background: transparent;
+}
+
+.edit-common-form-div .form-group .form-control.focus {
+  background: #2d2d39;
+  border-color: rgba(128, 129, 145, 0);
+}
+
+.edit-common-form-div .form-group textarea.form-control {
+  border: 2px solid #282a33;
+  background: #18171c;
+}
+
+.edit-common-form-div .form-group .category-control-row .category-inner {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.edit-common-form-div .form-group .category-control-row .category-inner .category-list-ul {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  list-style: none;
+}
+
+.edit-common-form-div .form-group .category-control-row .category-inner .category-list-ul li {
+  padding: 0;
+  margin: 0 10px 10px 0;
+  position: relative;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.edit-common-form-div .form-group .category-control-row .category-inner .category-list-ul li .filter-link {
+  margin: 0;
+  position: relative;
+  background: transparent;
+  border-radius: 20px;
+  background-image: none;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.37);
+  letter-spacing: 0;
+  min-height: 34px;
+  padding: 6px 40px 5px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.edit-common-form-div .form-group .category-control-row .category-inner .category-list-ul li .filter-link .calendar-time-icon {
+  width: 17px;
+  height: 17px;
+  margin: 0 10px 0 0;
+}
+
+.edit-common-form-div .form-group .category-control-row .category-inner .category-list-ul li .filter-link .cancel-icon-span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: rgba(255, 255, 255, 0.14);
+  color: #fff;
+  border-radius: 100px;
+  font-size: 14px;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 6px;
+  right: 5px;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.edit-common-form-div .form-group .category-control-row .category-inner .category-list-ul li.active .filter-link {
+  color: rgba(255, 255, 255, 0.6);
+  background: #191919;
+  border: 1px solid #191919;
+}
+
+.edit-common-form-div .form-group .category-control-row .category-inner .category-list-ul li.active .filter-link .cancel-icon-span {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.edit-common-form-div .form-group .category-control-row .category-inner .category-list-ul li:hover .filter-link {
+  color: rgba(255, 255, 255, 0.6);
+  background: #191919;
+}
+
+.edit-common-form-div .form-group .category-control-row .category-inner .slot-category-list-ul li .filter-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.edit-common-form-div .form-group .abs-top-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 13px;
+  right: 10px;
+}
+
+.edit-common-form-div .form-group .abs-top-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.edit-common-form-div .form-group.mb-15 {
+  margin-bottom: 15px;
+}
+
+.edit-common-form-div .form-group.mb-30 {
+  margin-bottom: 30px;
+}
+
+.edit-common-form-div .form-group.form-group-edit .form-control {
+  padding-right: 44px;
+}
+
+.edit-common-form-div .form-group.form-group-edit textarea.form-control {
+  padding-left: 54px;
+  padding-right: 20px;
+  padding-top: 18px;
+}
+
+.edit-common-form-div .mb-36 {
+  margin-bottom: 36px;
+}
+
+.edit-common-form-div .user-name-div {
+  padding: 0;
+  margin: 0 auto 40px auto;
+  position: relative;
+  max-width: 260px;
+}
+
+.edit-common-form-div .user-name-div .form-group-line {
+  position: relative;
+}
+
+.edit-common-form-div .user-name-div .form-control.form-control-line {
+  padding: 10px 30px 10px 30px;
+  margin: 0;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-bottom-color: rgba(255, 255, 255, 0.06);
+  border-radius: 0;
+  font-size: 34px;
+  line-height: 34px;
+  color: #fff;
+  text-align: center;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-weight: 800;
+  font-family: "Moderat Extended", sans-serif;
+}
+
+.edit-common-form-div .user-name-div .form-control.form-control-line:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.edit-common-form-div .user-name-div .abs-top-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 22px;
+  right: 0;
+}
+
+.edit-common-form-div .submit-bottom-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.edit-common-form-div .submit-bottom-div .submit-bottom-div-row {
+  padding: 20px 0 0 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+}
+
+.edit-common-form-div .submit-bottom-div .submit-bottom-div-row .btn.btn-common-black,
+.edit-common-form-div .submit-bottom-div .submit-bottom-div-row .btn.btn-common-white {
+  min-width: 180px;
+}
+
+.edit-common-form-div .submit-bottom-div .submit-bottom-div-row .mr-20 {
+  margin-right: 20px;
+}
+
+.edit-common-form-div .submit-bottom-div .submit-bottom-div-row .btn.btn-primary-outline {
+  min-width: 165px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 600;
+}
+
+.edit-common-form-div .submit-bottom-div .submit-bottom-div-row .btn.btn-primary-outline::after {
+  background-color: #111117;
+}
+
+.edit-common-form-div .submit-bottom-div .submit-bottom-div-row .mr-24 {
+  margin-right: 24px;
+}
+
+.edit-common-form-div .submit-bottom-div .pt-30 {
+  padding-top: 30px;
+}
+
+.edit-common-form-div .form-general-root.pt-20 {
+  padding-top: 20px;
+}
+
+.pro-credit-card-div {
+  padding: 30px 0;
+  margin: 0;
+  position: relative;
+}
+
+.pro-credit-card-div .pro-credit-card-center {
+  padding: 0;
+  margin: 0 auto 10px auto;
+  position: relative;
+}
+
+.pro-credit-card-div .pro-credit-card-box {
+  padding: 40px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 660px;
+  background: rgba(128, 129, 145, 0.08);
+  border: 3px solid #808191;
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  border-radius: 40px;
+  background-size: cover;
+  position: relative;
+}
+
+.pro-credit-card-div .pro-credit-card-box .pro-credit-card-box-inner {
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+.pro-credit-card-div .pro-credit-card-box .pro-credit-card-box-inner .pro-cc-top {
+  padding: 0;
+  margin: 0 0 170px 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.pro-credit-card-div .pro-credit-card-box .pro-credit-card-box-inner .pro-cc-top .pro-cc-top-left {
+  width: 100px;
+}
+
+.pro-credit-card-div .pro-credit-card-box .pro-credit-card-box-inner .pro-cc-top .pro-cc-top-left .icon-div .img-icon {
+  height: 36px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.pro-credit-card-div .pro-credit-card-box .pro-credit-card-box-inner .pro-cc-top .pro-cc-top-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+}
+
+.pro-credit-card-div .pro-credit-card-box .pro-credit-card-box-inner .pro-cc-top .pro-cc-top-right .icon-div .img-fluid.img-icon {
+  height: 70px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.pro-credit-card-div .pro-credit-card-box .pro-credit-card-box-inner .pro-cc-top .btn.btn-white-small-round {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #555;
+  background-color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+  border-radius: 17px;
+  padding: 5px 20px;
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.pro-credit-card-div .pro-credit-card-box .pro-credit-card-box-inner .pro-cc-top .btn.btn-white-small-round:hover {
+  -webkit-box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.08);
+}
+
+.pro-credit-card-div .pro-credit-card-box .pro-credit-card-box-inner .pro-cc-bottom {
+  padding: 0 0 0 20px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.pro-credit-card-div .pro-credit-card-box .pro-credit-card-box-inner .pro-cc-bottom .pro-cc-details-div {
+  padding: 0;
+  margin: 0 0 0 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.pro-credit-card-div .pro-credit-card-box .pro-credit-card-box-inner .pro-cc-bottom .pro-cc-details-div .pro-cc-details-left {
+  width: 100%;
+  max-width: 414px;
+}
+
+.pro-credit-card-div .pro-credit-card-box .pro-credit-card-box-inner .pro-cc-bottom .pro-cc-details-div .div-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.pro-credit-card-div .pro-credit-card-box .pro-credit-card-box-inner .pro-cc-bottom .pro-cc-details-div .div-box p {
+  color: #fff;
+  letter-spacing: 0;
+  margin: 0 0 16px 0;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  display: inline-block;
+}
+
+.pro-credit-card-div .pro-credit-card-box .pro-credit-card-box-inner .pro-cc-bottom .pro-cc-details-div .div-box h4 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #fff;
+  letter-spacing: 0;
+  display: block;
+}
+
+.pro-credit-card-div .pro-credit-card-box .pro-credit-card-box-inner .pro-cc-bottom .pro-cc-details-div .pro-cc-number-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.pro-credit-card-div .pro-credit-card-box .pro-credit-card-box-inner .pro-cc-bottom .pro-cc-details-div .pro-cc-number-div .text {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.pro-credit-card-div .pro-credit-card-box .pro-credit-card-box-inner .pro-cc-bottom .pro-cc-details-div .pro-cc-number-div p {
+  color: #fff;
+  letter-spacing: 0;
+  text-align: left;
+  width: 100%;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 0.15em;
+}
+
+.pro-credit-card-div .pro-credit-card-box .pro-credit-card-box-inner .pro-cc-bottom .pro-cc-details-div .pro-cc-number-div p span.hidden-text-star {
+  font-size: 30px;
+  line-height: 30px;
+  display: inline-block;
+  height: 18px;
+  margin: 0 15px 0 0;
+}
+
+.pro-credit-card-div .pro-credit-card-box .pro-credit-card-box-inner .pro-cc-bottom .pro-cc-details-div .pro-cc-details-right .div-box p,
+.pro-credit-card-div .pro-credit-card-box .pro-credit-card-box-inner .pro-cc-bottom .pro-cc-details-div .pro-cc-details-right .div-box h4 {
+  text-align: right;
+}
+
+.pro-credit-card-div .pro-credit-bottom-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.pro-credit-card-div .pro-credit-bottom-div .pro-credit-bottom-div-row {
+  padding: 60px 0 20px 0;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  max-width: 760px;
+}
+
+.pro-credit-card-div .pro-credit-bottom-div .pro-credit-bottom-div-row .btn.btn-primary-outline {
+  min-width: 165px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .profile-settings-root-div .edit-profile-div {
+    padding: 25px 0 10px 0;
+  }
+  .edit-common-form-div .user-name-div .form-control.form-control-line {
+    padding: 10px 30px 10px 30px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .edit-common-form-div .user-name-div .abs-top-right {
+    top: 17px;
+  }
+  .edit-common-form-div .edit-btn-icon .edit-pencil-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .edit-common-form-div .form-group .form-control {
+    padding: 10px 15px;
+    font-size: 16px;
+    min-height: 46px;
+  }
+  .edit-common-form-div .form-group .abs-top-right {
+    right: 12px;
+  }
+  .edit-common-form-div .form-group .abs-top-left {
+    top: 15px;
+    left: 12px;
+  }
+  .edit-common-form-div .form-group.form-group-edit .form-control {
+    padding-right: 40px;
+  }
+  .edit-common-form-div .form-group.form-group-edit textarea.form-control {
+    padding-left: 40px;
+    padding-right: 15px;
+    padding-top: 12px;
+  }
+  .edit-common-form-div .submit-bottom-div .submit-bottom-div-row {
+    padding: 10px 0 0 0;
+  }
+  .edit-common-form-div .submit-bottom-div .submit-bottom-div-row .btn.btn-primary-outline {
+    min-width: 120px;
+    padding: 6px 25px 5px 25px;
+  }
+  .edit-common-form-div .submit-bottom-div .submit-bottom-div-row .mr-20 {
+    margin-right: 10px;
+  }
+  .pro-credit-card-div .pro-credit-card-box {
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .pro-credit-card-div .pro-credit-card-box .pro-credit-card-box-inner .pro-cc-top {
+    margin: 0 0 85px 0;
+  }
+  .pro-credit-card-div .pro-credit-card-box .pro-credit-card-box-inner .pro-cc-top .pro-cc-top-right .icon-div .img-fluid.img-icon {
+    height: 40px;
+  }
+  .pro-credit-card-div .pro-credit-card-box .pro-credit-card-box-inner .pro-cc-bottom {
+    padding: 0;
+  }
+  .pro-credit-card-div .pro-credit-card-box .pro-credit-card-box-inner .pro-cc-bottom .pro-cc-number-div {
+    margin: 0 0 20px 0;
+  }
+  .pro-credit-card-div .pro-credit-card-box .pro-credit-card-box-inner .pro-cc-bottom .pro-cc-number-div p {
+    font-size: 20px;
+  }
+  .pro-credit-card-div .pro-credit-card-box .pro-credit-card-box-inner .pro-cc-bottom .pro-cc-number-div p span.hidden-text-star {
+    font-size: 26px;
+    height: 16px;
+    margin: 0 12px 0 0;
+  }
+  .pro-credit-card-div .pro-credit-card-box .pro-credit-card-box-inner .pro-cc-bottom .pro-cc-details-div .div-box p {
+    font-size: 12px;
+  }
+  .pro-credit-card-div .pro-credit-card-box .pro-credit-card-box-inner .pro-cc-bottom .pro-cc-details-div .div-box h4 {
+    font-size: 12px;
+  }
+  .pro-credit-card-div .pro-credit-card-box .pro-credit-card-box-inner .pro-cc-bottom .pro-cc-details-div .pro-cc-number-div p {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 3px;
+  }
+  .pro-credit-card-div .pro-credit-bottom-div .pro-credit-bottom-div-row {
+    padding: 40px 0 20px 0;
+  }
+}
+/*# sourceMappingURL=user-profile-settings-style.css.map */

@@ -1,0 +1,117 @@
+.common-content-pages-section {
+  padding: 70px 0;
+  margin: 0;
+  position: relative;
+}
+
+.common-content-pages-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.common-content-pages-div .heading-top-div {
+  padding: 0;
+  margin: 0 0 60px 0;
+  position: relative;
+}
+
+.common-content-pages-div .heading-top-div h1 {
+  padding: 0;
+  margin: 0 0 10px 0;
+  display: block;
+  width: 100%;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.4;
+  color: #fff;
+  letter-spacing: 0;
+  font-family: "Moderat Extended", sans-serif;
+}
+
+.common-content-pages-div .common-content-pages-body-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+  word-break: break-word;
+}
+
+.common-content-pages-div .common-content-pages-body-div .blockquote {
+  border-left: 4px solid #ef4443;
+  padding: 8px 0 8px 16px;
+  margin: 0 0 16px 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.common-content-pages-div .common-content-pages-body-div a {
+  color: inherit;
+}
+
+.common-content-pages-div .common-content-pages-body-div b {
+  font-weight: 700;
+}
+
+.common-content-pages-div .common-content-pages-body-div h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+}
+
+.common-content-pages-div .common-content-pages-body-div h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+}
+
+.common-content-pages-div .common-content-pages-body-div p {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0 0 16px 0;
+}
+
+.common-content-pages-div .common-content-pages-body-div p b {
+  font-weight: 700;
+}
+
+.common-content-pages-div .common-content-pages-body-div ul {
+  margin: 0 0 16px 0;
+}
+
+.common-content-pages-div .common-content-pages-body-div ul li {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0 0 10px 0;
+  list-style: disc;
+  list-style-position: inside;
+}
+
+.common-content-pages-div .common-content-pages-body-div ol {
+  margin: 0 0 16px 0;
+}
+
+.common-content-pages-div .common-content-pages-body-div ol li {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0 0 10px 0;
+  list-style: decimal;
+  list-style-position: inside;
+}
+
+@media (max-width: 767px) {
+  .common-content-pages-div .heading-top-div {
+    margin: 0 0 40px 0;
+  }
+  .common-content-pages-div .heading-top-div h1 {
+    font-size: 30px;
+  }
+}
+/*# sourceMappingURL=general-content-style.css.map */

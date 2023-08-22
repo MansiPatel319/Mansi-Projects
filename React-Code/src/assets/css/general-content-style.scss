@@ -1,0 +1,123 @@
+.common-content-pages-section {
+  padding: 70px 0;
+  margin: 0;
+  position: relative;
+}
+
+.common-content-pages-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+
+  .heading-top-div {
+    padding: 0;
+    margin: 0 0 60px 0;
+    position: relative;
+
+    h1 {
+      padding: 0;
+      margin: 0 0 10px 0;
+      display: block;
+      width: 100%;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 1.4;
+      color: #fff;
+      letter-spacing: 0;
+      font-family: "Moderat Extended", sans-serif;
+      // text-align: center;
+    }
+  }
+
+  .common-content-pages-body-div {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    line-height: 1.5;
+    word-break: break-word;
+
+    .blockquote {
+      border-left: 4px solid #ef4443;
+      padding: 8px 0 8px 16px;
+      margin: 0 0 16px 0;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    b {
+      font-weight: 700;
+    }
+
+    h2 {
+      font-size: 24px;
+      line-height: 1.5;
+      font-weight: 700;
+      margin: 0 0 12px 0;
+    }
+
+    h3 {
+      font-size: 24px;
+      line-height: 1.5;
+      font-weight: 700;
+      margin: 0 0 12px 0;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+      font-weight: 400;
+      margin: 0 0 16px 0;
+
+      b {
+        font-weight: 700;
+      }
+    }
+
+    ul {
+      margin: 0 0 16px 0;
+
+      li {
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: 400;
+        margin: 0 0 10px 0;
+        list-style: disc;
+        list-style-position: inside;
+      }
+    }
+
+    ol {
+      margin: 0 0 16px 0;
+
+      li {
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: 400;
+        margin: 0 0 10px 0;
+        list-style: decimal;
+        list-style-position: inside;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .common-content-pages-div {
+    .heading-top-div {
+      margin: 0 0 40px 0;
+
+      h1 {
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}

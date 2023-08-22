@@ -1,0 +1,25 @@
+.main-video-one-to-one-relative .agora_video_player {
+    object-fit: contain !important;
+}
+
+.main-video-one-to-one-relative-audience .agora_video_player {
+    object-fit: contain !important;
+    width: 100% !important;
+    /* display: 'inline-block' !important; */
+}
+
+.general-chat-section .container-general-video-div .general-video-root .general-video-content .general-video-top.general-video-top-fixed {
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+.row-video-part{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+}
+
+.general-chat-section .container-general-video-div .general-video-root .general-video-content .general-video-bottom-fixed{
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}

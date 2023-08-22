@@ -1,0 +1,278 @@
+.creators-list-section {
+  padding: 70px 0 40px 0;
+  margin: 0;
+  position: relative;
+
+  .creators-list-div {
+    .heading-div {
+      padding: 0;
+      margin: 0 auto 20px auto;
+      position: relative;
+
+      h2 {
+        padding: 0;
+        margin: 0;
+        display: block;
+        width: 100%;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 1.4;
+        color: #fff;
+        letter-spacing: 0;
+      }
+    }
+
+    .creators-list-common-div {
+      padding: 0;
+      margin: 0;
+      position: relative;
+    }
+  }
+}
+
+.creators-list-root-div {
+  .creators-slider-box {
+    padding: 5px;
+    margin: 0 0 15px 0;
+    position: relative;
+    width: 100%;
+    max-width: 390px;
+
+    .creators-img-mask-thumb {
+      padding: 0;
+      margin: 0 0 20px 0;
+      position: relative;
+
+      .img-responsive {
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 6px;
+      }
+    }
+
+    .creators-img-link {
+      display: flex;
+
+      .view-details-text {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        background: url(../images/mask/mask02.svg) no-repeat;
+        transition: all 0.8s;
+        transform: scale(0);
+
+        p {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 1.4;
+          color: #fff;
+          letter-spacing: 0;
+          text-align: center;
+
+          span.block {
+            display: block;
+          }
+        }
+      }
+    }
+
+    .creators-content-div {
+      .link {
+        color: inherit;
+      }
+
+      h3 {
+        font-weight: 800;
+        line-height: 1.3;
+        display: block;
+        margin: 0 0 5px 0;
+        color: #fff;
+        font-size: 24px;
+        letter-spacing: 0;
+        text-align: center;
+        font-family: "Moderat Extended", sans-serif;
+        word-break: break-word;
+      }
+
+      h4 {
+        font-weight: 400;
+        font-size: 18px;
+        margin: 0 0 15px 0;
+        line-height: 1.3;
+        display: block;
+        color: rgba(255, 255, 255, 0.65);
+        text-align: center;
+        letter-spacing: 0;
+      }
+
+      .star-row-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0 0 20px 0;
+
+        .star-left-div {
+          padding: 0 5px 0 0;
+          margin: 0;
+        }
+
+        .star-right-div {
+          padding: 0;
+          margin: 0;
+        }
+
+        ul.star-rating-ul {
+          display: flex;
+          flex-wrap: wrap;
+          list-style: none;
+
+          li {
+            display: flex;
+          }
+
+          .star-custom-icon {
+            color: #9b9b9b;
+            font-size: 16px;
+            margin: 0 0 0 0;
+
+            &.active {
+              color: #ff5f00;
+            }
+          }
+        }
+
+        span.text {
+          font-weight: 400;
+          font-size: 14px;
+          color: rgba(255, 255, 255, 0.8);
+          letter-spacing: 0;
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
+
+.user-all-instructors-section {
+  .heading-div {
+    margin: 0 0 50px 0;
+
+    h2 {
+      padding: 0;
+      margin: 0 0 20px 0;
+      display: block;
+      width: 100%;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 1.3;
+      color: #fff;
+      letter-spacing: 0;
+      font-family: "Moderat Extended", sans-serif;
+    }
+  }
+
+  .our-card-classes-div {
+    padding: 70px 0 150px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .creators-list-root-div {
+    .creators-slider-box {
+      .creators-content-div {
+        h3 {
+          font-size: 20px;
+        }
+
+        h4 {
+          font-size: 14px;
+          margin: 0 0 10px 0;
+        }
+      }
+    }
+  }
+
+  .creators-list-section {
+    padding: 40px 0 40px 0;
+
+    .creators-list-div {
+      .heading-div {
+        h2 {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  .user-all-instructors-section {
+    .heading-div {
+      margin: 0 0 40px 0;
+
+      h2 {
+        font-size: 24px;
+      }
+    }
+
+    .our-card-classes-div {
+      padding: 60px 0 20px 0;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .creators-list-section {
+    padding: 40px 0 40px 0;
+
+    .creators-list-div {
+      .heading-div {
+        h2 {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  .creators-list-root-div {
+    .creators-slider-box {
+      padding: 0;
+      margin: 0 0 30px 0;
+
+      .creators-img-mask-thumb {
+        .img-responsive {
+          height: 230px;
+        }
+      }
+
+      .creators-content-div {
+        h3 {
+          font-size: 20px;
+        }
+
+        h4 {
+          font-size: 14px;
+          margin: 0 0 10px 0;
+        }
+      }
+    }
+  }
+
+  .user-all-instructors-section {
+    .heading-div {
+      margin: 0 0 40px 0;
+    }
+
+    .our-card-classes-div {
+      padding: 60px 0 20px 0;
+    }
+  }
+}

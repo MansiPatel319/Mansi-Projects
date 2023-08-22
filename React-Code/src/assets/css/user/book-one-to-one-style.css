@@ -1,0 +1,589 @@
+.general-one-to-one-section {
+  padding: 50px 0;
+  margin: 0;
+  position: relative;
+}
+
+.general-one-to-one-section .general-one-to-one-div {
+  padding: 50px 50px 30px 50px;
+  margin: 0;
+  position: relative;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 6px;
+}
+
+.general-one-to-one-section .general-one-to-one-div .container-general-center {
+  width: 100%;
+  max-width: 830px;
+  margin: 0 auto;
+}
+
+.general-one-to-one-section .general-one-to-one-div .heading-div {
+  padding: 40px 0 10px 0;
+}
+
+.general-one-to-one-section .general-one-to-one-div .heading-div .heading-inner-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.general-one-to-one-section .general-one-to-one-div .heading-div .heading-inner-div h1 {
+  font-weight: 800;
+  font-size: 62px;
+  color: #fff;
+  letter-spacing: 0;
+  margin: 0 0 10px 0;
+  font-family: "Moderat Extended", sans-serif;
+}
+
+.general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .general-top {
+  padding: 0 0;
+  margin: 0 0 60px 0;
+  position: relative;
+  min-height: calc(100vh - 600px);
+}
+
+.general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .general-bottom {
+  padding: 0 0;
+  margin: 0;
+  position: relative;
+}
+
+.general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .general-bottom .general-btn-div {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .general-bottom .general-btn-div .mr-20 {
+  margin-right: 20px;
+}
+
+.general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .general-bottom .general-btn-div .btn.btn-common-black {
+  min-width: 180px;
+}
+
+.general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .general-bottom .general-btn-div .btn-common-primary {
+  min-width: 180px;
+  font-size: 18px;
+}
+
+.general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .one-to-one-common-inner .h3-row {
+  margin: 0 0 25px 0;
+}
+
+.general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .one-to-one-common-inner .h3-row h3 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+  letter-spacing: 0;
+  display: block;
+}
+
+.general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .one-to-one-common-inner .h3-row h3 span.amount-span {
+  font-weight: 700;
+  color: #ff5f00;
+  margin: 0 0 0 5px;
+}
+
+.general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .one-to-one-common-inner .user-content-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  position: relative;
+  margin: 0 0 20px 0;
+}
+
+.general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .one-to-one-common-inner .user-content-row .user-content-left {
+  width: 35px;
+}
+
+.general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .one-to-one-common-inner .user-content-row .user-content-left .img-responsive {
+  width: 35px;
+  height: 35px;
+  border-radius: 100px;
+}
+
+.general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .one-to-one-common-inner .user-content-row .user-content-right {
+  width: calc(100% - 35px);
+  padding: 0 0 0 10px;
+  min-height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .one-to-one-common-inner .user-content-row .user-content-right h4 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 0;
+}
+
+.general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .one-to-one-common-inner .common-form-div .form-group.mb-30 {
+  margin-bottom: 30px;
+}
+
+.general-one-to-one-new-section {
+  padding: 60px 0;
+  margin: 0;
+  position: relative;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div {
+  background: #1e1e27;
+  border: 2px solid #282a33;
+  border-radius: 15px;
+  padding: 70px 50px;
+  position: relative;
+  z-index: 2;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .container-general-new-center {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .heading-div {
+  padding: 0;
+  margin: 0 0 42px 0;
+  position: relative;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .heading-div h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #fff;
+  font-family: "Moderat Extended", sans-serif;
+  display: block;
+  margin: 0 0 14px 0;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .heading-div .user-content-row .prag-div {
+  display: block;
+  margin: 0 0 10px 0;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .heading-div .user-content-row .prag-div p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #808191;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .heading-div .user-content-row .user-content-img-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+  margin: 0 0 10px 0;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .heading-div .user-content-row .user-content-img-div .img-div {
+  border: 2px solid #ef6b18;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .heading-div .user-content-row .user-content-img-div .img-div .img-responsive {
+  width: 60px;
+  height: 60px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 100px;
+  border: 2px solid #1e1e28;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .heading-div .user-content-row .user-content-img-div .img-div .dot-span {
+  position: absolute;
+  top: 3px;
+  right: 0;
+  width: 14px;
+  height: 14px;
+  background: #7fba7a;
+  border: 2px solid #ffffff;
+  border-radius: 100px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .heading-div .user-content-row .user-content-txt-div h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .general-bk-seat-new-body {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .container-general-new-center {
+  max-width: 644px;
+  margin: 0 auto;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .general-bk-seat-new-body-left {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 254px;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .general-bk-seat-new-body-right {
+  width: calc(100% - 254px);
+  padding: 10px 0 10px 34px;
+  min-height: calc(100% - 20px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .book-seat-user-card-div {
+  position: relative;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .book-seat-user-card-div .book-seat-user-card-row {
+  background: #1e1e27;
+  border: 2px solid #282a33;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 12px;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .book-seat-user-card-div .book-seat-user-card-row .user-thumb-img-div .img-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .book-seat-user-card-div .book-seat-user-card-row .user-thumb-img-div .img-div .img-responsive {
+  height: 200px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .book-seat-user-card-div .book-seat-user-card-row .text-content-div {
+  padding: 16px 24px;
+  margin: 0;
+  position: relative;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .book-seat-user-card-div .book-seat-user-card-row .text-content-div h3 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  margin: 0 0 4px 0;
+  display: block;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .book-seat-user-card-div .book-seat-user-card-row .text-content-div h3 .link {
+  color: inherit;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .book-seat-user-card-div .book-seat-user-card-row .text-content-div p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #808191;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .text-desc-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .text-desc-div h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ef6b18;
+  margin: 0 0 17px 0;
+  display: block;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .text-desc-div p {
+  font-size: 16px;
+  line-height: 27px;
+  color: #ffffffb3;
+  display: block;
+  margin: 0 0 24px 0;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .text-desc-div .time-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 0 36px 0;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .text-desc-div .time-box .time-box-rounded {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #1e1e27;
+  border: 2px solid #282a33;
+  border-radius: 60px;
+  padding: 8px 18px;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .text-desc-div .time-box .time-box-rounded .icon-span {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .text-desc-div .time-box .time-box-rounded .icon-span .calendar-time-icon-new {
+  width: 22px;
+  height: 22px;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .text-desc-div .time-box .time-box-rounded .text {
+  width: calc(100% - 22px);
+  font-weight: 700;
+  color: #fff;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 0 0 0 10px;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .general-bk-seat-new-body .general-bk-seat-new-body-row .text-desc-div .button-oto-session-div .link-btn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: underline;
+  color: #ef6b18;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  word-wrap: break-word;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .general-bottom {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .general-bottom .general-btn-div {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  max-width: 100%;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .general-bottom .general-btn-div .mr-24 {
+  margin-right: 24px;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .general-bottom .general-btn-div .btn.btn-primary-outline {
+  min-width: 165px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 600;
+}
+
+.general-one-to-one-new-section .general-one-to-one-new-div .general-bottom .general-btn-div .btn-common-primary {
+  min-width: 165px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .general-one-to-one-section .general-one-to-one-div {
+    padding: 20px 20px 20px 20px;
+  }
+  .general-one-to-one-section .general-one-to-one-div .heading-div {
+    padding: 20px 0 15px 0;
+  }
+  .general-one-to-one-section .general-one-to-one-div .heading-div .heading-inner-div h1 {
+    font-size: 30px;
+    margin: 0 0 5px 0;
+  }
+  .general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .one-to-one-common-inner .h3-row h3 {
+    font-size: 20px;
+  }
+  .general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .one-to-one-common-inner .user-content-row .user-content-right h4 {
+    font-size: 16px;
+  }
+  .general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .general-bottom .general-btn-div .btn.btn-common-black {
+    min-width: 120px;
+    font-size: 16px;
+    height: 40px;
+    min-height: 40px;
+  }
+  .general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .general-bottom .general-btn-div .btn-common-primary {
+    min-width: 120px;
+    font-size: 16px;
+    height: 40px;
+    min-height: 40px;
+  }
+  .general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .general-bottom .general-btn-div .mr-20 {
+    margin-right: 10px;
+  }
+  .general-one-to-one-new-section .general-one-to-one-new-div {
+    padding: 40px 15px;
+  }
+  .general-one-to-one-new-section .general-one-to-one-new-div .heading-div h1 {
+    font-size: 26px;
+    line-height: 1.4;
+  }
+  .general-one-to-one-new-section .general-one-to-one-new-div .general-bottom .general-btn-div .mr-24 {
+    margin-right: 10px;
+  }
+  .general-one-to-one-new-section .general-one-to-one-new-div .general-bottom .general-btn-div .btn.btn-primary-outline {
+    min-width: 110px;
+    min-height: 48px;
+  }
+  .general-one-to-one-new-section .general-one-to-one-new-div .general-bottom .general-btn-div .btn-common-primary {
+    min-width: 110px;
+    min-height: 48px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .general-one-to-one-section .general-one-to-one-div {
+    padding: 30px 30px 30px 30px;
+  }
+  .general-one-to-one-section .general-one-to-one-div .heading-div {
+    padding: 20px 0 20px 0;
+  }
+  .general-one-to-one-section .general-one-to-one-div .heading-div .heading-inner-div h1 {
+    font-size: 42px;
+  }
+  .general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .general-top {
+    min-height: auto;
+  }
+  .general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .general-bottom .general-btn-div .btn.btn-common-black {
+    min-width: 120px;
+    font-size: 16px;
+    height: 40px;
+    min-height: 40px;
+  }
+  .general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .general-bottom .general-btn-div .btn-common-primary {
+    min-width: 120px;
+    font-size: 16px;
+    height: 40px;
+    min-height: 40px;
+  }
+  .general-one-to-one-section .general-one-to-one-div .general-one-to-one-root .general-bottom .general-btn-div .mr-20 {
+    margin-right: 10px;
+  }
+  .general-one-to-one-new-section .general-one-to-one-new-div .general-bottom .general-btn-div .mr-24 {
+    margin-right: 10px;
+  }
+  .general-one-to-one-new-section .general-one-to-one-new-div .general-bottom .general-btn-div .btn.btn-primary-outline {
+    min-width: 110px;
+    min-height: 48px;
+  }
+  .general-one-to-one-new-section .general-one-to-one-new-div .general-bottom .general-btn-div .btn-common-primary {
+    min-width: 110px;
+    min-height: 48px;
+  }
+}
+/*# sourceMappingURL=book-one-to-one-style.css.map */

@@ -1,0 +1,229 @@
+.upcoming-live-str-section {
+  padding: 0;
+  margin: 0;
+  position: relative;
+
+  .upcoming-live-str-div {
+    padding: 70px 0 50px 0;
+    margin: 0;
+    position: relative;
+
+    .heading-div {
+      padding: 0;
+      margin: 0 auto 20px auto;
+      position: relative;
+
+      .heading-title-row {
+        padding: 0;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        .heading-title-left {
+          padding: 0;
+          margin: 0 0 10px 0;
+          width: calc(100% - 80px);
+
+          h2 {
+            padding: 0;
+            margin: 0 0 0 0;
+            display: block;
+            width: 100%;
+            font-weight: 700;
+            font-size: 34px;
+            line-height: 1.4;
+            color: #fff;
+            letter-spacing: 0;
+            font-family: "Moderat Extended", sans-serif;
+          }
+        }
+
+        .heading-title-right {
+          display: flex;
+          align-items: center;
+          width: 80px;
+          padding: 10px 0 0 0;
+          margin: 0 0 10px 0;
+          justify-content: flex-end;
+
+          .link.view-all-link {
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 1.4;
+            color: rgba(255, 255, 255, 0.41);
+            letter-spacing: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.featured-creators-section {
+  padding: 0;
+  margin: 0;
+  position: relative;
+
+  .featured-creators-div {
+    padding: 50px 0 50px 0;
+    margin: 0;
+    position: relative;
+
+    .heading-div {
+      padding: 0;
+      margin: 0 auto 20px auto;
+      position: relative;
+
+      h4 {
+        padding: 0;
+        margin: 0 0 10px 0;
+        display: block;
+        width: 100%;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 1.3;
+        color: #fff;
+        letter-spacing: 0;
+      }
+    }
+  }
+}
+
+.upcoming-live-str-sec-new2 {
+  .upcoming-live-str-div-new {
+    padding: 55px 0 35px 0;
+  }
+}
+
+.oto-sessions-section {
+  .heading-div {
+    margin: 0 0 60px 0;
+
+    h2 {
+      padding: 0;
+      margin: 0;
+      display: block;
+      width: 100%;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 1.2;
+      color: #fff;
+      text-align: center;
+      letter-spacing: 0;
+      font-family: "Moderat Extended", sans-serif;
+    }
+  }
+
+  .our-card-classes-div {
+    padding: 100px 0 50px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .upcoming-live-str-section {
+    .upcoming-live-str-div {
+      padding: 45px 0 30px 0;
+
+      .heading-div {
+        .heading-title-row {
+          .heading-title-left {
+            width: calc(100% - 60px);
+
+            h2 {
+              font-size: 20px;
+            }
+          }
+
+          .heading-title-right {
+            width: 60px;
+            padding: 5px 0 0 0;
+
+            .link.view-all-link {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .featured-creators-section {
+    .featured-creators-div {
+      padding: 20px 0 30px 0;
+
+      .heading-div {
+        h4 {
+          margin: 0;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .oto-sessions-section {
+    .heading-div {
+      margin: 0 0 40px 0;
+
+      h2 {
+        font-size: 24px;
+      }
+    }
+
+    .our-card-classes-div {
+      padding: 60px 0 20px 0;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .upcoming-live-str-section {
+    .upcoming-live-str-div {
+      padding: 45px 0 30px 0;
+
+      .heading-div {
+        .heading-title-row {
+          .heading-title-left {
+            width: calc(100% - 70px);
+
+            h2 {
+              font-size: 22px;
+            }
+          }
+
+          .heading-title-right {
+            width: 70px;
+            padding: 5px 0 0 0;
+
+            .link.view-all-link {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .featured-creators-section {
+    .featured-creators-div {
+      padding: 20px 0 30px 0;
+
+      .heading-div {
+        h4 {
+          margin: 0;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .oto-sessions-section {
+    .heading-div {
+      margin: 0 0 40px 0;
+    }
+
+    .our-card-classes-div {
+      padding: 60px 0 20px 0;
+    }
+  }
+}

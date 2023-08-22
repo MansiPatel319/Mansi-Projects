@@ -1,0 +1,393 @@
+.modal {
+  z-index: 99999;
+}
+
+.modal-backdrop {
+  z-index: 9999;
+  background-color: #000;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+
+  &.show {
+    opacity: 0.5;
+  }
+}
+
+.video-player-modal {
+  .modal-dialog {
+    max-width: 950px;
+  }
+
+  .modal-content {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0;
+  }
+
+  .close {
+    margin: 0 0 0 auto;
+    opacity: 1;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    border-radius: 100px;
+
+    .fe {
+      font-size: 24px;
+      color: #fff;
+    }
+  }
+
+  .video-event-div {
+    padding: 0;
+    margin: 0;
+    position: relative;
+
+    .video-event-inner {
+      padding: 0;
+      margin: 0;
+
+      .video-fluid {
+        width: 100%;
+        max-height: 650px;
+        object-fit: cover;
+        outline: none;
+        box-shadow: none;
+        border: none;
+      }
+
+      .iframe-video-cover {
+        width: 100%;
+        height: 550px;
+      }
+    }
+  }
+}
+
+.modal.right {
+  .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    max-width: 715px;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    -o-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+  }
+
+  &.fade {
+    .modal-dialog {
+      right: -720px;
+      transition: opacity 0.5s linear, right 0.5s ease-out;
+    }
+
+    &.show {
+      .modal-dialog {
+        right: 0;
+      }
+    }
+  }
+
+  .modal-content {
+    height: 100%;
+    border-radius: 0;
+    border: none;
+    overflow-y: auto;
+    background: #212121;
+    box-shadow: -10px 0 20px 0 rgba(0, 0, 0, 0.28);
+  }
+
+  .modal-header {
+    padding: 30px 30px 15px 30px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+
+    .close {
+      padding: 0;
+      margin: 0 0 0 auto;
+      opacity: 1;
+      color: #fff;
+      font-size: 24px;
+      outline: none;
+    }
+  }
+
+  .modal-body {
+    padding: 15px 15px 15px 15px;
+  }
+
+  .common-modal-body {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 500px;
+    width: 100%;
+    position: relative;
+
+    .common-header-div {
+      padding: 0;
+      margin: 0;
+      position: relative;
+      width: 100%;
+
+      .title-heading-div {
+        padding: 0;
+        margin: 0 0 50px 0;
+        position: relative;
+
+        h2 {
+          font-weight: 700;
+          font-size: 42px;
+          color: #fff;
+          letter-spacing: 0;
+          margin: 0;
+          display: block;
+          width: 100%;
+        }
+
+        .hide-h2 {
+          display: none;
+        }
+
+        .show-h2 {
+          display: block;
+        }
+
+        &.nt-heading-div {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}
+
+.change-cc-details-common-div {
+  .change-cc-details-common-inner {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-height: calc(100vh - 335px);
+  }
+
+  .change-cc-details-form-root {
+    .form-general-root {
+      .form-group {
+        .form-control {
+          min-height: 45px;
+          font-size: 14px;
+          padding: 8px 20px 7px 20px;
+          line-height: 24px;
+        }
+
+        &.credit-card-form-group {
+          .form-control {
+            padding-right: 65px;
+          }
+
+          .icon-div {
+            top: 11px;
+            right: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .change-cc-details-bottom {
+    padding: 0;
+    margin: 20px 0 10px 0;
+    position: relative;
+
+    .change-cc-details-bottom-row {
+      padding: 0;
+      margin: 0;
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      width: 100%;
+
+      .btn.btn-common-black {
+        width: calc(50% - 6px);
+        margin: 0 6px 0 0;
+      }
+
+      .btn.btn-common-primary {
+        width: calc(50% - 6px);
+        margin: 0 0 0 6px;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+.center-common-modal {
+  .modal-dialog {
+    max-width: 970px;
+
+    .modal-content {
+      background: #1e1e27;
+      border: 2px solid #282a33;
+      border-radius: 15px;
+    }
+  }
+
+  .modal-header {
+    padding: 40px 40px 0 40px;
+    border: none;
+    border-radius: 0;
+
+    .close {
+      color: #fff;
+      opacity: 1;
+      padding: 0;
+      margin: 0 0 0 auto;
+      outline: none;
+      border: none;
+      font-size: 30px;
+
+      span {
+        display: flex;
+      }
+    }
+  }
+
+  .modal-body {
+    padding: 24px;
+  }
+}
+
+.general-pop-root {
+  .general-details-pop-section {
+    padding: 0;
+
+    .general-details-div {
+      border: 0;
+      border-radius: 0;
+      padding: 9px 0 76px 0;
+
+      .general-payment-root {
+        .general-top {
+          margin: 0 0 26px 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .modal.right {
+    .modal-header {
+      padding: 20px 20px 10px 20px;
+    }
+
+    .common-modal-body {
+      .common-header-div {
+        .title-heading-div {
+          margin: 0 0 30px 0;
+
+          h2 {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+
+  .change-cc-details-common-div {
+    .change-cc-details-common-inner {
+      min-height: calc(100vh - 230px);
+    }
+
+    .change-cc-details-form-root {
+      .form-general-root {
+        .form-group {
+          &.credit-card-form-group {
+            .icon-div {
+              top: 14px;
+            }
+          }
+        }
+      }
+    }
+
+    .change-cc-details-bottom {
+      .change-cc-details-bottom-row {
+        .btn.btn-common-black,
+        .btn.btn-common-primary {
+          font-size: 14px;
+          min-height: 46px;
+        }
+      }
+    }
+  }
+
+  .center-common-modal {
+    .modal-header {
+      padding: 20px 20px 0 20px;
+    }
+
+    .modal-body {
+      padding: 16px 5px;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .modal.right {
+    .modal-header {
+      padding: 20px 20px 10px 20px;
+    }
+
+    .modal-dialog {
+      max-width: 615px;
+    }
+
+    .common-modal-body {
+      max-width: 470px;
+
+      .common-header-div {
+        .title-heading-div {
+          margin: 0 0 30px 0;
+
+          h2 {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+
+  .change-cc-details-common-div {
+    .change-cc-details-common-inner {
+      min-height: calc(100vh - 230px);
+    }
+
+    .change-cc-details-form-root {
+      .form-general-root {
+        .form-group {
+          &.credit-card-form-group {
+            .icon-div {
+              top: 14px;
+            }
+          }
+        }
+      }
+    }
+
+    .change-cc-details-bottom {
+      .change-cc-details-bottom-row {
+        .btn.btn-common-black,
+        .btn.btn-common-primary {
+          font-size: 14px;
+          min-height: 46px;
+        }
+      }
+    }
+  }
+}

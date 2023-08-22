@@ -1,0 +1,35 @@
+.my-uploads-section {
+  padding: 70px 0 40px 0;
+  margin: 0;
+  position: relative;
+}
+
+.my-uploads-section .my-uploads-div {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.my-uploads-section .my-uploads-div .general-oto-heading-div {
+  margin: 0 0 60px 0;
+}
+
+.my-uploads-section .my-uploads-div .general-list-common-div .general-list-panel-div .general-common-cre-box .general-video-img-cre-thumb .img-responsive {
+  height: 350px;
+}
+
+@media (max-width: 767px) {
+  .my-uploads-section .tabs-root-common .tabs-header-common .nav-tabs .nav-item {
+    width: 50%;
+  }
+  .my-uploads-section .my-uploads-div .general-list-common-div .general-list-panel-div .general-common-cre-box .general-video-img-cre-thumb .img-responsive {
+    height: 235px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .my-uploads-section .my-uploads-div .general-list-common-div .general-list-panel-div .general-common-cre-box .general-video-img-cre-thumb .img-responsive {
+    height: 235px;
+  }
+}
+/*# sourceMappingURL=creator-my-upload-style.css.map */

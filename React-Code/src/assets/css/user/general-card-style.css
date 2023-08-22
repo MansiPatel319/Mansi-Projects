@@ -1,0 +1,368 @@
+.general-payment-section {
+  padding: 66px 0;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.general-payment-section .general-payment-div {
+  background: #1e1e27;
+  border: 2px solid #282a33;
+  border-radius: 15px;
+  padding: 64px 50px;
+  position: relative;
+  z-index: 2;
+}
+
+.general-payment-section .general-payment-div .container-general-center {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.general-payment-section .general-payment-div .heading-div {
+  padding: 0;
+  margin: 0 0 50px 0;
+  position: relative;
+}
+
+.general-payment-section .general-payment-div .heading-div h5 {
+  color: #ef6b18;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+  margin: 0 0 12px 0;
+  text-align: center;
+}
+
+.general-payment-section .general-payment-div .heading-div h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #fff;
+  font-family: "Moderat Extended", sans-serif;
+  display: block;
+  margin: 0 0 14px 0;
+}
+
+.general-payment-section .general-payment-div .heading-div .user-content-row .prag-div {
+  display: block;
+  margin: 0 0 10px 0;
+}
+
+.general-payment-section .general-payment-div .heading-div .user-content-row .prag-div p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #808191;
+}
+
+.general-payment-section .general-payment-div .heading-div .user-content-row .user-content-img-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+  margin: 0 0 10px 0;
+}
+
+.general-payment-section .general-payment-div .heading-div .user-content-row .user-content-img-div .img-div {
+  border: 2px solid #ef6b18;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+}
+
+.general-payment-section .general-payment-div .heading-div .user-content-row .user-content-img-div .img-div .img-responsive {
+  width: 60px;
+  height: 60px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 100px;
+  border: 2px solid #1e1e28;
+}
+
+.general-payment-section .general-payment-div .heading-div .user-content-row .user-content-img-div .img-div .dot-span {
+  position: absolute;
+  top: 3px;
+  right: 0;
+  width: 14px;
+  height: 14px;
+  background: #7fba7a;
+  border: 2px solid #ffffff;
+  border-radius: 100px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.general-payment-section .general-payment-div .heading-div .user-content-row .user-content-txt-div h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.general-payment-section .general-payment-div .general-message-root .gen-mess-thumb-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.general-payment-section .general-payment-div .general-message-root .text-content-div p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #fff;
+}
+
+.general-payment-section .general-payment-div .general-message-root .text-content-div .prag-div {
+  padding: 0;
+  max-width: 371px;
+  margin: 0 auto 40px auto;
+}
+
+.general-payment-section .general-payment-div .general-message-root .text-content-div .btn-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.general-payment-section .general-payment-div .general-message-root .text-content-div .btn-div .btn-common-primary {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.general-payment-section .general-payment-div .general-payment-root .general-top {
+  padding: 0 0;
+  margin: 0 0 44px 0;
+  position: relative;
+  min-height: calc(100vh - 650px);
+}
+
+.general-payment-section .general-payment-div .general-bottom {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.general-payment-section .general-payment-div .general-bottom .btn.btn-primary-white-py {
+  min-width: 165px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 600;
+  min-height: 55px;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ef6b18;
+  background-color: #fff;
+  border-radius: 30px;
+  z-index: 1;
+  text-align: center;
+  position: relative;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.general-payment-section .general-payment-div .general-bottom .general-btn-div-row {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 100%;
+}
+
+.general-payment-section .general-payment-div .general-bottom .general-btn-div-row .general-btn-div-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.general-payment-section .general-payment-div .general-bottom .general-btn-div-row .mr-24 {
+  margin-right: 24px;
+}
+
+.general-payment-section .general-payment-div .general-bottom .general-btn-div-row .btn.btn-primary-outline {
+  min-width: 165px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 600;
+}
+
+.general-payment-section .general-payment-div .general-bottom .general-btn-div-row .btn-common-primary {
+  min-width: 165px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .general-payment-section .general-payment-div {
+    padding: 20px 20px 20px 20px;
+  }
+  .general-payment-section .general-payment-div .heading-div {
+    padding: 20px 0 20px 0;
+    margin: 0 0 10px 0;
+  }
+  .general-payment-section .general-payment-div .heading-div .heading-inner-div h1 {
+    font-size: 30px;
+  }
+  .general-payment-section .general-payment-div .heading-div .heading-inner-div h5 {
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+  .general-payment-section .general-payment-div .general-payment-root .general-bottom .general-btn-div .btn.btn-common-black {
+    min-width: 120px;
+    font-size: 16px;
+    height: 40px;
+    min-height: 40px;
+  }
+  .general-payment-section .general-payment-div .general-payment-root .general-bottom .general-btn-div .btn-common-primary {
+    min-width: 120px;
+    font-size: 16px;
+    height: 40px;
+    min-height: 40px;
+  }
+  .general-payment-section .general-payment-div .general-payment-root .general-bottom .general-btn-div .mr-20 {
+    margin-right: 10px;
+  }
+  .general-payment-section .general-payment-div .general-bottom {
+    margin: 0 0 20px 0;
+  }
+  .general-payment-section .general-payment-div .general-bottom .general-btn-div-left {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+  .general-payment-section .general-payment-div .general-bottom .general-btn-div-row .general-btn-div-right {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .general-payment-section .general-payment-div .general-bottom .general-btn-div-row .mr-24 {
+    margin-right: 10px;
+  }
+  .general-payment-section .general-payment-div .general-bottom .general-btn-div-row .btn.btn-primary-outline {
+    min-width: 110px;
+    min-height: 48px;
+  }
+  .general-payment-section .general-payment-div .general-bottom .general-btn-div-row .btn-common-primary {
+    min-width: 110px;
+    min-height: 48px;
+  }
+  .general-payment-section .general-payment-div .general-message-root .text-content-div .prag-div {
+    padding: 0;
+    max-width: 371px;
+    margin: 0 auto 20px auto;
+  }
+  .general-payment-section .general-payment-div .general-message-root .btn-div {
+    margin: 0 0 20px 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .general-payment-section .general-payment-div {
+    padding: 30px 30px 30px 30px;
+  }
+  .general-payment-section .general-payment-div .heading-div {
+    padding: 20px 0 20px 0;
+  }
+  .general-payment-section .general-payment-div .heading-div .heading-inner-div h1 {
+    font-size: 42px;
+  }
+  .general-payment-section .general-payment-div .general-payment-root .general-top {
+    min-height: auto;
+  }
+  .general-payment-section .general-payment-div .general-payment-root .general-bottom .general-btn-div .btn.btn-common-black {
+    min-width: 120px;
+    font-size: 16px;
+    height: 40px;
+    min-height: 40px;
+  }
+  .general-payment-section .general-payment-div .general-payment-root .general-bottom .general-btn-div .btn-common-primary {
+    min-width: 120px;
+    font-size: 16px;
+    height: 40px;
+    min-height: 40px;
+  }
+  .general-payment-section .general-payment-div .general-payment-root .general-bottom .general-btn-div .mr-20 {
+    margin-right: 10px;
+  }
+  .general-payment-section .general-payment-div .general-message-root .text-content-div .prag-div {
+    padding: 0;
+    max-width: 371px;
+    margin: 0 auto 20px auto;
+  }
+  .general-payment-section .general-payment-div .general-message-root .btn-div {
+    margin: 0 0 20px 0;
+  }
+}
+/*# sourceMappingURL=general-card-style.css.map */

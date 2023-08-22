@@ -1,0 +1,205 @@
+.notifications-common-div .notifications-common-inner {
+  max-height: calc(100vh - 185px);
+  overflow-y: auto;
+}
+
+.notifications-common-div .notifications-common-inner .notifications-listing-div .notifications-box {
+  padding: 20px 20px 20px 25px;
+  margin: 0 0 10px 0;
+  position: relative;
+  background-color: #212121;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.notifications-common-div .notifications-common-inner .notifications-listing-div .notifications-box:hover {
+  background-color: #000;
+}
+
+.notifications-common-div .notifications-common-inner .notifications-listing-div .notifications-box::before {
+  content: "";
+  height: 100%;
+  width: 5px;
+  background: #ff5f00;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+}
+
+.notifications-common-div .notifications-common-inner .notifications-listing-div .notifications-box .notifications-row {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.notifications-common-div .notifications-common-inner .notifications-listing-div .notifications-box .notifications-row .nt-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 36px;
+}
+
+.notifications-common-div .notifications-common-inner .notifications-listing-div .notifications-box .notifications-row .nt-left img.img-fluid {
+  height: 36px;
+  width: 36px;
+  border-radius: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.notifications-common-div .notifications-common-inner .notifications-listing-div .notifications-box .notifications-row .nt-right {
+  padding: 0 0 0 10px;
+  margin: 0;
+  position: relative;
+  width: calc(100% - 36px);
+}
+
+.notifications-common-div .notifications-common-inner .notifications-listing-div .notifications-box .notifications-row .nt-right h3 {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #fff;
+  display: inline-block;
+  max-width: 285px;
+}
+
+.notifications-common-div .notifications-common-inner .notifications-listing-div .notifications-box .notifications-row .nt-right h3 a {
+  color: inherit;
+}
+
+.notifications-common-div .notifications-common-inner .notifications-listing-div .notifications-box .notifications-row .nt-right .text-desc {
+  position: relative;
+  padding: 0 70px 0 0;
+}
+
+.notifications-common-div .notifications-common-inner .notifications-listing-div .notifications-box .notifications-row .nt-right .text-desc .time-span {
+  position: absolute;
+  top: 1px;
+  right: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.38);
+}
+
+.ntf-tabs-root-common .ntf-tabs-header-common .nav-tabs {
+  border-bottom: 0;
+  margin: 0 0 10px 0;
+}
+
+.ntf-tabs-root-common .ntf-tabs-header-common .nav-tabs .nav-item {
+  margin: 0 40px 10px 0;
+}
+
+.ntf-tabs-root-common .ntf-tabs-header-common .nav-tabs .nav-item .nav-link {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  padding: 3px 0;
+  background-color: transparent;
+  border-width: 2px;
+  border-color: transparent transparent transparent transparent;
+  display: inline-block;
+}
+
+.ntf-tabs-root-common .ntf-tabs-header-common .nav-tabs .nav-item .nav-link.active {
+  color: #ff5f00;
+  border-color: transparent transparent #ff5f00 transparent;
+}
+
+.creator-ntf-common-div .notifications-common-inner {
+  max-height: none;
+  overflow-y: visible;
+}
+
+.creator-ntf-common-div .notifications-common-inner .notifications-listing-div {
+  max-height: calc(100vh - 270px);
+  overflow-y: auto;
+}
+
+@media (min-width: 1025px) {
+  .notifications-common-div .notifications-common-inner::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: transparent;
+  }
+  .notifications-common-div .notifications-common-inner::-webkit-scrollbar {
+    width: 4px;
+    background-color: #000;
+  }
+  .notifications-common-div .notifications-common-inner::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    background-color: #ff5f00;
+  }
+  .creator-ntf-common-div .notifications-common-inner .notifications-listing-div::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: transparent;
+  }
+  .creator-ntf-common-div .notifications-common-inner .notifications-listing-div::-webkit-scrollbar {
+    width: 4px;
+    background-color: #000;
+  }
+  .creator-ntf-common-div .notifications-common-inner .notifications-listing-div::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    background-color: #ff5f00;
+  }
+}
+
+@media (max-width: 767px) {
+  .notifications-common-div .notifications-common-inner {
+    max-height: calc(100vh - 155px);
+  }
+  .notifications-common-div .notifications-common-inner .notifications-listing-div .notifications-box {
+    padding: 10px 15px 10px 15px;
+  }
+  .notifications-common-div .notifications-common-inner .notifications-listing-div .notifications-box::before {
+    width: 3px;
+  }
+  .notifications-common-div .notifications-common-inner .notifications-listing-div .notifications-box .notifications-row .nt-left {
+    width: 32px;
+  }
+  .notifications-common-div .notifications-common-inner .notifications-listing-div .notifications-box .notifications-row .nt-left img.img-fluid {
+    height: 32px;
+    width: 32px;
+  }
+  .notifications-common-div .notifications-common-inner .notifications-listing-div .notifications-box .notifications-row .nt-right {
+    padding: 0 0 0 8px;
+    width: calc(100% - 32px);
+  }
+  .notifications-common-div .notifications-common-inner .notifications-listing-div .notifications-box .notifications-row .nt-right h3 {
+    font-size: 12px;
+  }
+  .notifications-common-div .notifications-common-inner .notifications-listing-div .notifications-box .notifications-row .nt-right .text-desc {
+    padding: 0 50px 0 0;
+  }
+  .notifications-common-div .notifications-common-inner .notifications-listing-div .notifications-box .notifications-row .nt-right .text-desc .time-span {
+    font-size: 12px;
+  }
+  .ntf-tabs-root-common .ntf-tabs-header-common .nav-tabs .nav-item {
+    margin: 0 20px 10px 0;
+  }
+  .ntf-tabs-root-common .ntf-tabs-header-common .nav-tabs .nav-item .nav-link {
+    font-size: 14px;
+  }
+  .creator-ntf-common-div .notifications-common-inner .notifications-listing-div {
+    max-height: calc(100vh - 185px);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .creator-ntf-common-div .notifications-common-inner .notifications-listing-div {
+    max-height: calc(100vh - 225px);
+  }
+}
+/*# sourceMappingURL=notifications-style.css.map */

@@ -1,0 +1,101 @@
+{
+  "name": "creator-class",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@aws-amplify/ui-react": "^1.0.7",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/utils": "^4.11.2",
+    "@paypal/react-paypal-js": "^4.1.1",
+    "@stripe/react-stripe-js": "^1.1.2",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.5.0",
+    "agora-access-token": "^2.0.4",
+    "agora-rtc-sdk-ng": "^4.3.0",
+    "agora-rtm-sdk": "^1.4.2",
+    "aws-amplify": "^3.4.3",
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.3",
+    "chart.js": "^2.9.4",
+    "firebase": "^8.6.0",
+    "html5-file-selector": "^2.1.0",
+    "http-server": "^0.12.3",
+    "husky": "^4.3.0",
+    "jstz": "^2.1.1",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "node-sass": "^5.0.0",
+    "owl.carousel": "^2.3.4",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-bootstrap-datetimepicker": "0.0.22",
+    "react-chartjs-2": "^2.11.1",
+    "react-dom": "^17.0.1",
+    "react-dropzone": "^11.2.4",
+    "react-flatpickr": "^3.10.6",
+    "react-google-login": "^5.2.2",
+    "react-helmet": "^6.1.0",
+    "react-moment": "^1.0.0",
+    "react-owl-carousel": "^2.3.1",
+    "react-paypal-button-v2": "^2.6.3",
+    "react-rangeslider": "^2.2.0",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-script-tag": "^1.1.2",
+    "react-scripts": "4.0.1",
+    "react-scroll-to-bottom": "^4.1.0",
+    "react-select": "^3.1.1",
+    "react-stripe-elements": "^6.1.2",
+    "react-toastify": "^6.2.0",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "serve": "^12.0.0",
+    "throttle-debounce": "^3.0.1",
+    "typescript": "^4.2.3",
+    "uuid": "^8.3.2",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "pretest": "./node_modules/.bin/eslint --ignore-path .gitignore . --fix"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.13.0",
+    "eslint": "^7.15.0",
+    "eslint-plugin-react": "^7.21.5",
+    "lint-staged": "^10.5.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "./node_modules/.bin/eslint — fix"
+    ]
+  }
+}

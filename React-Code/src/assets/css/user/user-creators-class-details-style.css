@@ -1,0 +1,81 @@
+.heading-div-style .heading-inner-div-style .heading-title-row {
+  padding: 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.heading-div-style .heading-inner-div-style .heading-title-row .heading-title-left {
+  padding: 0;
+  margin: 0 0 10px 0;
+  width: calc(100% - 80px);
+}
+
+.heading-div-style .heading-inner-div-style .heading-title-row .heading-title-left h2 {
+  margin: 0 0 0 0;
+}
+
+.heading-div-style .heading-inner-div-style .heading-title-row .heading-title-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80px;
+  padding: 0 0 0 0;
+  margin: 0 0 10px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.heading-div-style .heading-inner-div-style .heading-title-row .heading-title-right .link.view-all-link {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.41);
+  letter-spacing: 0;
+}
+
+@media (max-width: 767px) {
+  .heading-div-style .heading-inner-div-style .heading-title-row .heading-title-left {
+    width: calc(100% - 60px);
+  }
+  .heading-div-style .heading-inner-div-style .heading-title-row .heading-title-left h2 {
+    font-size: 24px;
+  }
+  .heading-div-style .heading-inner-div-style .heading-title-row .heading-title-right {
+    width: 60px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 8px 0 0 0;
+  }
+  .heading-div-style .heading-inner-div-style .heading-title-row .heading-title-right .link.view-all-link {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .heading-div-style .heading-inner-div-style .heading-title-row .heading-title-left {
+    width: calc(100% - 60px);
+  }
+  .heading-div-style .heading-inner-div-style .heading-title-row .heading-title-left h2 {
+    font-size: 24px;
+  }
+  .heading-div-style .heading-inner-div-style .heading-title-row .heading-title-right {
+    width: 60px;
+  }
+  .heading-div-style .heading-inner-div-style .heading-title-row .heading-title-right .link.view-all-link {
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=user-creators-class-details-style.css.map */

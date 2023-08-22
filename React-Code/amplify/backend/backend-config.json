@@ -1,0 +1,16 @@
+{
+  "auth": {
+    "creatorclass59a4c1f0": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "storage": {
+    "userUploads": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}

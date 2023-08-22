@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="376px" height="426px" viewBox="0 0 376 426" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>plan-background</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="376" height="426"></rect>
+        <linearGradient x1="14.2976936%" y1="31.6901471%" x2="84.1232526%" y2="87.1298894%" id="linearGradient-3">
+            <stop stop-color="#EF4443" offset="0%"></stop>
+            <stop stop-color="#EF6B18" offset="99.9754152%"></stop>
+        </linearGradient>
+        <rect id="path-4" x="0.7105" y="0.944126126" width="383" height="433"></rect>
+        <linearGradient x1="65.6643302%" y1="48.8000511%" x2="45.2000476%" y2="77.6189733%" id="linearGradient-6">
+            <stop stop-color="#EF4443" offset="0%"></stop>
+            <stop stop-color="#EF6B18" offset="99.9754152%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="plan-background">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g mask="url(#mask-2)">
+                <g transform="translate(-3.000000, -4.000000)">
+                    <mask id="mask-5" fill="white">
+                        <use xlink:href="#path-4"></use>
+                    </mask>
+                    <use id="Mask" stroke="none" fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    <path d="M9.75108023,-197.861996 L10.3947478,461.023139 L259.778237,461.266488 C263.58816,451.692332 266.229987,440.168426 266.214464,424.209008 C266.157946,366.424754 231.566889,366.391 231.51044,308.606746 C231.453988,250.82026 266.045045,250.854014 265.988595,193.06976 C265.932141,135.281042 231.341084,135.247288 231.28463,77.4585697 C231.228178,19.6720836 265.819235,19.7058376 265.762783,-38.0806485 C265.706325,-95.8738309 231.115268,-95.9075849 231.058807,-153.702999 C231.039313,-173.657852 235.157574,-186.707063 240.545018,-197.634555 L9.75108023,-197.861996 L9.75108023,-197.861996 Z" id="Path-Copy-54" stroke="none" fill="url(#linearGradient-6)" fill-rule="nonzero" mask="url(#mask-5)" transform="translate(137.982772, 131.702246) rotate(-30.000000) translate(-137.982772, -131.702246) "></path>
+                    <path d="M-36.2489198,-151.9656 L-35.6052522,506.919535 L213.778237,507.162885 C217.58816,497.588728 220.229987,486.064823 220.214464,470.105405 C220.157946,412.321151 185.566889,412.287397 185.51044,354.503143 C185.453988,296.716657 220.045045,296.750411 219.988595,238.966157 C219.932141,181.177438 185.341084,181.143684 185.28463,123.354966 C185.228178,65.56848 219.819235,65.602234 219.762783,7.81574791 C219.706325,-49.9774345 185.115268,-50.0111885 185.058807,-107.806603 C185.039313,-127.761456 189.157574,-140.810666 194.545018,-151.738158 L-36.2489198,-151.9656 L-36.2489198,-151.9656 Z" id="Path" stroke="none" fill="url(#linearGradient-6)" fill-rule="nonzero" mask="url(#mask-5)" transform="translate(91.982772, 177.598642) rotate(-30.000000) translate(-91.982772, -177.598642) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
