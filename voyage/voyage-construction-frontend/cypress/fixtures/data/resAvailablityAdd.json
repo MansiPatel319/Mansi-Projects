@@ -1,0 +1,35 @@
+{
+  "resource_timings": [
+    {
+      "id": 0,
+      "resource": 0,
+      "starting_time": 0,
+      "ending_time": 0,
+      "is_active": true
+    }
+  ],
+  "resource_closures": [
+    {
+      "id": 0,
+      "resource": [
+        0
+      ],
+      "start_date": "string",
+      "end_date": "string"
+    }
+  ],
+  "resource_breaks": [
+    {
+      "id": 0,
+      "name": "string",
+      "start_time": 0,
+      "end_time": 0,
+      "resource": [
+        0
+      ],
+      "active_days": [
+        "string"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "data": {
+    "id": 1,
+    "name": "USA",
+    "isActive": true,
+    "status": "Approved",
+    "address1": "Shivalik",
+    "address2": "Satelite",
+    "postcode": "77744411",
+    "city": "India",
+    "country": "Albania",
+    "logoOrganization": "https://v3-staging-django-media-root-853814262089.s3.amazonaws.com/organization/Frame_6_gMeK1yh.png?AWSAccessKeyId=AKIA4NS2LXFEWHJG2XET&Signature=Fh%2BC%2Bdu0MPsPYjCbgDjqJEswqcs%3D&Expires=1657696432"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+    "content-length": "379",
+    "content-type": "application/json"
+  },
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 300000,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {
+      "FormData": null
+    },
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxLCJub25jZSI6MTY1NzY5MDI1MywiZXhwaXJlcyI6MTY1Nzg2MzA1MywiaGFzaGVkX2RhdGEiOiJwYmtkZjJfc2hhMjU2JDMyMDAwMCRVNUFhN1FNWDdaem12VTVuR2NhcEpLJEV5K0lmVUxUZGJGL2NqemJOL01WSlF3TWVWMDZjSGVac0NUMkVQemRvMHc9In0.tXpYfmNZd_N_MqtV1VCRb5R58_GTp2psHX8gJchTM9OZngaBlS1mr0FwR3PrCA6h8U7YZhcnlAJxgtkKHRrRyA"
+    },
+    "withCredentials": false,
+    "responseType": "json",
+    "method": "put",
+    "url": " http://local-app.voyagecontrol.com/api/v1/organizations/?project=PRJ0000001",
+    "data": {}
+  },
+  "request": {}
+}

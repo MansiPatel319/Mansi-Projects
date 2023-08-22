@@ -1,0 +1,45 @@
+{
+  "data": {
+      "name": "Demo STG",
+      "address": "Ahmedabad",
+      "logoImage": null,
+      "bannerImage": null,
+      "message": "<p><strong>test</strong></p>"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+      "content-length": "513",
+      "content-type": "application/json"
+  },
+  "config": {
+      "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+      },
+      "transformRequest": [
+          null
+      ],
+      "transformResponse": [
+          null
+      ],
+      "timeout": 300000,
+      "xsrfCookieName": "XSRF-TOKEN",
+      "xsrfHeaderName": "X-XSRF-TOKEN",
+      "maxContentLength": -1,
+      "maxBodyLength": -1,
+      "env": {
+          "FormData": null
+      },
+      "headers": {
+          "Accept": "*/*",
+          "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjU4NTk5NDQ1LCJpYXQiOjE2NTg1NTYyNDUsImp0aSI6Ijk5NjNiOTUxNGVkZTQ3NzBhODhhNjQzNjE5MmU4OTM1IiwidXNlcl9pZCI6MSwicmVmIjoiVVNSMDAwMDAwMSIsImVtYWlsIjoiamFpbWluYS5jaXRydXNidWdAZ21haWwuY29tIiwiaXNfYWNjb3VudF9tYW5hZ2VyIjp0cnVlfQ.wECJ5TRsnWgel6Sf6_kBldczYMlcSPDNUAF_FVlhFN4"
+      },
+      "withCredentials": false,
+      "responseType": "json",
+      "method": "get",
+      "url": "http://local-app.voyagecontrol.com/api/v1/projects/details/?project=PRJ0000001"
+  },
+  "request": {}
+}

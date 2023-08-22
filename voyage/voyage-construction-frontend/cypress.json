@@ -1,0 +1,36 @@
+{
+  "projectId": "128076ed-9868-4e98-9cef-98dd8b705d75",
+  "baseUrl": "http://localhost:3000",
+  "screenshotsFolder": false,
+  "env": {
+    "base_url": "http://local-app.voyagecontrol.com",
+    "org_url": "/organizations",
+    "userlist_url": "organizations/users/list/",
+    "access_point_url": "projects/access-point/",
+    "time_list_url":"legacy/time/",
+    "resource_url": "projects/resource/",
+    "site_url": "projects/details/",
+    "contact_url": "projects/contacts/",
+    "project_ref":"PRJ0000006",
+    "products_url": "/products",
+    "login_url": "/login",
+    "user_email": "jaimina@cit.com",
+    "user_password": "string",
+    "choose_project_url": "/project/choose",
+    "choose_company_url": "/company/choose",
+    "home_page_url": "/home",
+    "setup_Profile_url": "/setprofile",
+    "signup_url":"/user/invite/?new_user=true&signature=CMlmXwSmCUyGHp3gufZ/uoerbO04S512uAqjCb1Q+JXocSPZO1X1rRH5XIPxKdv6SI/g/CfRqhMuwAOzF/9n/hQVoCygxf54I/Nw8crWuDw5WFP+PamkgNamo0qIcigKG1JVYVnP+0ZfqhzdR5d7VYa4sbV5ezrTw2mDxJJ+s0E=",
+    "nojoin_comoany_url":"/nojoincompany",
+    "site_availablity_url":"/sites/",
+    "resource_availablity_url":"/resource/availability/",
+    "invite_url":"users/invite/",
+    "org_name":"Organisation Name",
+    "org_address1":"Address Line 1",
+    "org_address2":"Address Line 2",
+    "town":"Town/City",
+    "zip":"Zipcode",
+    "conutry":"Country"
+    
+  }
+}

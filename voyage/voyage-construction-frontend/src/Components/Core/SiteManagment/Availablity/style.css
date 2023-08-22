@@ -1,0 +1,97 @@
+nav.site-details-tab.availability .nav-tabs.nav-tabs a.nav-item {
+  width: 50%;
+}
+nav.site-details-tab.availability {
+  width: 360px;
+}
+.from-to-datebox {
+  display: flex;
+  width: 100%;
+}
+.from-to-datebox .form-group.from-input {
+  margin-right: 16px;
+}
+.from-to-datebox .form-group {
+  width: calc(50% - 8px);
+}
+.switch-box span.switch-label {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.15px;
+  color: #3F4B57;
+}
+.table-responsive.hoursof-op.resources-table {
+  margin-top: 0;
+}
+.from-to-datebox .form-group input.form-control {
+  height: 56px !important;
+  min-width: 150px;
+}
+.switch-box.holiday .switch input:checked + .slider {
+  background-color: #ca2867;
+}
+.hoursof-op.resources-table .table tbody td {
+  padding: 8px 12px;
+  border-bottom: none;
+}
+.hoursof-op.resources-table .table tbody td.day-switch {
+  width: 200px;
+}
+.hoursof-op.resources-table .table tbody td.selall-day {
+  width: 110px;
+}
+.hoursof-op.resources-table .table tbody td.selall-day .max-quantity-box .form-check {
+  margin-left: 0;
+}
+.left-title p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1px;
+  color: #576473;
+  margin-bottom: 0;
+}
+.left-title h5 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1px;
+  color: #3F4B57;
+  margin-bottom: 0;
+}
+.availability-margin {
+  margin-top: 40px;
+  margin-bottom: 24px;
+}
+.resources-table table.table {
+  white-space: nowrap;
+}
+@media(max-width: 1200px) {
+  .switch-box span.switch-label {
+      font-size: 16px;
+      line-height: 28px;
+  }
+}
+@media(max-width: 991px) {
+  .from-to-datebox .form-group input.form-control {
+      height: 42px !important;
+      min-width: 150px;
+  }
+  .switch-box span.switch-label {
+      font-size: 15px;
+      line-height: 26px;
+  }
+}

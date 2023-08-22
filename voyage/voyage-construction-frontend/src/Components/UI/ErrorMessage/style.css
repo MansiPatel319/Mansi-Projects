@@ -1,0 +1,18 @@
+.error-message-box p  {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.5;
+  letter-spacing: 0px;
+  color: #CA2867;
+}
+@media (max-width: 767px) {
+  .error-message-box p {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .error-message-box p {
+    font-size: 13px;
+  }
+}

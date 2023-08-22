@@ -1,0 +1,88 @@
+[
+  {
+    "id": 3,
+    "name": "Default",
+    "project": 6,
+    "isActive": true,
+    "operationHours": [
+      {
+        "id": 575,
+        "site": 3,
+        "day": "MONDAY",
+        "start": "09:00:00",
+        "end": "05:00:00",
+        "allDay": false
+      },
+      {
+        "id": 576,
+        "site": 3,
+        "day": "TUESDAY",
+        "start": "09:00:00",
+        "end": "05:00:00",
+        "allDay": false
+      },
+      {
+        "id": 577,
+        "site": 3,
+        "day": "WEDNESDAY",
+        "start": "09:00:00",
+        "end": "05:00:00",
+        "allDay": false
+      },
+      {
+        "id": 578,
+        "site": 3,
+        "day": "THURSDAY",
+        "start": "09:00:00",
+        "end": "05:00:00",
+        "allDay": false
+      },
+      {
+        "id": 579,
+        "site": 3,
+        "day": "FRIDAY",
+        "start": "09:00:00",
+        "end": "05:00:00",
+        "allDay": false
+      },
+      {
+        "id": 580,
+        "site": 3,
+        "day": "SATURDAY",
+        "start": "09:00:00",
+        "end": "05:00:00",
+        "allDay": false
+      },
+      {
+        "id": 581,
+        "site": 3,
+        "day": "SUNDAY",
+        "start": "09:00:00",
+        "end": "05:00:00",
+        "allDay": false
+      }
+    ],
+    "breaks": [],
+    "closures": [
+      {
+        "id": 3,
+        "site": 3,
+        "start": "2022-08-26",
+        "end": "2022-08-31",
+        "accessPoints": [
+          6
+        ]
+      }
+    ],
+    "advancedBooking": {
+      "id": 3,
+      "site": 3,
+      "daysAllowedInAdvance": 10,
+      "hoursAllowedBeforeDelivery": 48
+    },
+    "createdAt": "2022-08-23T12:51:14.625925Z",
+    "modifiedAt": "2022-08-24T13:52:23.698367Z",
+    "plan": null,
+    "bookingMessage": null
+  }
+]

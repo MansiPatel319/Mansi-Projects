@@ -1,0 +1,101 @@
+.c-date-picker {
+    border-color: pink;
+    border-style: solid;
+    border-width: 1px;
+    height: 2rem;
+  }
+.error{
+  background-color: #fceaf6;
+}
+.error-text{
+  color: #d8148a;
+}
+.error-text:hover{
+  cursor: pointer;
+}
+.time-format{
+  margin-left: 10px;
+}
+.time-left-element{
+  font-size: 93%;
+  color: black;
+}
+.time-left-element span{
+  font-weight: bold;
+}
+.time-out-bar{
+  justify-content: space-around;
+}
+.flatpickr-day.color-date {
+  background: rgba(11, 144, 123, 0.15);
+  border: 1px solid transparent;
+  border-radius: 0 !important;
+  box-sizing: border-box;
+  color: #484848;
+  cursor: pointer;
+  font-weight: 400;
+  width: 14.2857143%;
+  flex-basis: 14.2857143%;
+  max-width: 48.9px !important;
+  height: 39px;
+  line-height: 39px;
+  margin: 0;
+  display: inline-block;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+}
+
+.flatpickr-day.today.color-date {
+  border-radius: 150px !important;
+  border-color: #1DD4B7 !important;
+  background: #1DD4B7 !important;
+  color: #fff;
+  position: relative;
+}
+.flatpickr-day.today:hover, .flatpickr-day.today:focus{
+  border-color: #1DD4B7 !important;
+  background: #1DD4B7 !important;
+  color: #fff;
+}
+.flatpickr-day.today{
+  border-color: #1DD4B7 !important;
+  background: #1DD4B7 !important;
+  color: #fff;
+}
+.flatpickr-day.selected, .flatpickr-day.startRange, .flatpickr-day.endRange, .flatpickr-day.selected.inRange, .flatpickr-day.startRange.inRange, .flatpickr-day.endRange.inRange, .flatpickr-day.selected:focus, .flatpickr-day.startRange:focus, .flatpickr-day.endRange:focus, .flatpickr-day.selected:hover, .flatpickr-day.startRange:hover, .flatpickr-day.endRange:hover, .flatpickr-day.selected.prevMonthDay, .flatpickr-day.startRange.prevMonthDay, .flatpickr-day.endRange.prevMonthDay, .flatpickr-day.selected.nextMonthDay, .flatpickr-day.startRange.nextMonthDay, .flatpickr-day.endRange.nextMonthDay{
+  background: #0B907B !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #fff;
+  border-color: #0B907B !important;
+}
+span.flatpickr-day.today.color-date:before {
+  position: absolute;
+  content: "";
+  height: 39px !important;
+  width: 39px !important;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  background: rgba(11, 144, 123, 0.15);
+}
+
+.flatpickr-day.selected.color-date {
+  border-radius: 150px !important;
+  position: relative;
+}
+
+.flatpickr-day.selected.color-date:before {
+  position: absolute;
+  content: "";
+  height: 39px !important;
+  width: 39px !important;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  background: rgba(11, 144, 123, 0.15);
+}
+

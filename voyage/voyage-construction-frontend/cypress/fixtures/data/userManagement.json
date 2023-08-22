@@ -1,0 +1,41 @@
+{
+  "data": "SUCC_invited_user_successfully",
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+      "content-length": "32",
+      "content-type": "application/json"
+  },
+  "config": {
+      "transitional": {
+          "silentJSONParsing": true,
+          "forcedJSONParsing": true,
+          "clarifyTimeoutError": false
+      },
+      "transformRequest": [
+          null
+      ],
+      "transformResponse": [
+          null
+      ],
+      "timeout": 300000,
+      "xsrfCookieName": "XSRF-TOKEN",
+      "xsrfHeaderName": "X-XSRF-TOKEN",
+      "maxContentLength": -1,
+      "maxBodyLength": -1,
+      "env": {
+          "FormData": null
+      },
+      "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json",
+          "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxLCJub25jZSI6MTY1NzAxMTM4OSwiZXhwaXJlcyI6MTY1NzE4NDE4OSwiaGFzaGVkX2RhdGEiOiJwYmtkZjJfc2hhMjU2JDMyMDAwMCRGd3FlUW1wVUZLbVBiZEozNFJkNkhxJHJuUTJOSzVNOFVQdkswRGNzeGdRcFlSZ1l6WWxnVGJ1d0VmSVdBbWdzWk09In0.yHoDPIclZihXlGG3q_bHINjwGhbpo1PLh7OiQ6VTpetFrv9Wd6cfdpnWiWRKez6AGdHKZh4ZxZmTlprzPaYmJA"
+      },
+      "withCredentials": false,
+      "responseType": "json",
+      "method": "post",
+      "url": url,
+      "data": "[{\"email\":\"jaimina@gmail.com\",\"role\":1}]"
+  },
+  "request": {}
+}

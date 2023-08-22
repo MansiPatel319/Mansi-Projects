@@ -1,0 +1,41 @@
+{
+  "name": "string",
+  "is_active": true,
+  "operation_hours": [
+    {
+      "site": 0,
+      "day": "MONDAY",
+      "start": "09:00",
+      "end": "05:00",
+      "all_day": false
+    }
+  ],
+  "breaks": [
+    {
+      "site": 0,
+      "name": "string",
+      "days": [
+        "MONDAY"
+      ],
+      "start": "09:00",
+      "end": "05:00"
+    }
+  ],
+  "closures": [
+    {
+      "site": 0,
+      "start": "2022-08-25",
+      "end": "2022-08-25",
+      "access_points": [
+        0
+      ]
+    }
+  ],
+  "advanced_booking": {
+    "site": 0,
+    "days_allowed_in_advance": 10,
+    "hours_allowed_before_delivery": 48
+  },
+  "plan": "string",
+  "booking_message": "string"
+}

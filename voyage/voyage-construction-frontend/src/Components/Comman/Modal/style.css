@@ -1,0 +1,11 @@
+div#invite_user_Modal .modal-body .custom-form {
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+.col-md-7{
+  padding: 0;
+}
