@@ -1,0 +1,50 @@
+.react-std-label-span {
+  color: dimgray;
+  font-weight: 500;
+  font-size: 18px;
+}
+.react-std-error-label-span {
+  color: red;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.list-demo-fname-header {
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.list-demo-fname-data {
+  font-weight: 400;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.middle-section {
+  margin: 100px 0 0 0;
+  /* ----------- banner----------- */
+  /* ----------- Give visibility----------- */
+  /* ----------- More possible----------- */
+  /* ----------- inner pages----------- */
+}
+.page-not-found-div {
+  text-align: center;
+  padding: 50px 20px;
+}
+.page-not-found-div > .page-not-found-image {
+  margin-bottom: 50px;
+}
+.page-not-found-div > .page-not-found-image > img {
+  width: auto;
+  max-height: 340px;
+  object-fit: contain;
+}
+.page-not-found-text {
+  margin-bottom: 20px;
+}
+.page-not-found-text > h3 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #222222;
+  margin: 0;
+}
