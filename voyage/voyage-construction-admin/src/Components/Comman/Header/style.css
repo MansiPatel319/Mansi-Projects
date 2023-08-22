@@ -1,0 +1,73 @@
+nav.navbar {
+  padding: 14px 24px;
+  margin-bottom: 12px;
+}
+nav.navbar li.nav-item.dropdown.no-arrow .dropdown-toggle::after {
+  display: none;
+}
+nav.navbar ul.navbar-nav li.nav-item .nav-link {
+  padding: 0;
+}
+nav.navbar ul.navbar-nav {
+  align-items: center;
+}
+nav.navbar ul.navbar-nav li.nav-item {
+  margin-left: 24px;
+}
+.topbar .nav-item .nav-link .badge-counter {
+  position: absolute;
+  transform: scale(0.7);
+  transform-origin: top right;
+  right: 0.25rem;
+  margin-top: -0.25rem;
+}
+.topbar .nav-item .nav-link .badge-counter {
+  position: absolute;
+  transform-origin: top right;
+  right: 0;
+  margin-top: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 0 5px;
+  background: #ca2867;
+  font-family: "Inter";
+  border-radius: 999px;
+}
+span.profile-circle {
+  font-family: "Inter";
+  display: block;
+  width: 40px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  background: #dbe2e9;
+  padding: 9px;
+  border-radius: 999px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+  color: #3f4b57;
+  text-align: center;
+}
+select.form-control.location-select {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #3f4b57;
+  padding: 0;
+  background: transparent;
+  border: none;
+  height: auto !important;
+  padding-right: 10px;
+}

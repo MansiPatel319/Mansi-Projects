@@ -1,0 +1,79 @@
+.input-control {
+  position: relative;
+}
+
+.form-control {
+  font-size: 18px;
+  color: #000;
+  min-height: 48px;
+  padding: 8px 20px 8px 20px;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  line-height: 24px;
+  margin: 0 0 5px 0;
+  font-weight: 500;
+}
+.form-control::-webkit-input-placeholder {
+  color: #98a9bc;
+}
+
+.form-control::-moz-placeholder {
+  color: #98a9bc;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #98a9bc;
+}
+
+.form-control:-moz-placeholder {
+  color: #98a9bc;
+}
+
+.form-control:hover,
+.form-control:focus,
+.form-control:active {
+  border-color: rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+}
+input[type="password"].form-control {
+  padding-right: 48px;
+}
+/* Input icon */
+
+.input-control .icon-group {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+}
+
+.icon-button {
+  height: 48px;
+  width: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  color: #f98d29;
+  cursor: pointer;
+  outline: none;
+  padding: 0 0 2px 0;
+}
+.icon-button:focus {
+  outline: 0px none;
+}
+
+@media (max-width: 767px) {
+  .form-control {
+    font-size: 16px;
+    padding: 8px 15px 8px 15px;
+  }
+}

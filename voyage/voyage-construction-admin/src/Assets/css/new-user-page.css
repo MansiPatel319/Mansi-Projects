@@ -1,0 +1,217 @@
+span.as-tag {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+}
+.date-tag-cust span.dot {
+    width: 6px;
+    height: 6px;
+    background: #DBE2E9;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 4px;
+    padding-top: 0;
+}
+.personal-detail-form {
+    border: 0;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+.form-cust-btn.personal-detail {
+    padding: 16px;
+}
+ .global-admin .vehicle-form.glob-form.pd-form h3 {
+    border: 0;
+}
+.vehicle-form.user-side-form {
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.profile-pic-edit {
+    text-align: center;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.profile-pic-edit img {
+    text-align: center;
+    width: 56px;
+    height: 56px;
+    object-fit: contain;
+}
+.profile-pic-edit .file-input {
+    padding: 0;
+    background: transparent !important;
+    border: 0;
+    color: #ffff !important;
+    padding-top: 20px;
+}
+
+.profile-pic-edit .file-input-text {
+    color: #fff;
+}
+.today-activity-info h2 {
+   margin: 24px -24px;
+   width: calc(100% + 48px);
+   background: #E6EFFB;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 12px;
+   line-height: 16px;
+   height: 24px;
+   align-items: center;
+   display: flex;
+   color: #576473;
+   padding-left: 22px;
+   text-transform: uppercase;
+}
+.td-activity-info {
+   white-space: nowrap;
+   color: #ffff;
+   padding: 12px 0;
+}
+
+.td-activity-info span.td-active-date {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 12px;
+   line-height: 16px;
+   align-items: center;
+   color: #DBE2E9;
+}
+
+.td-activity-info span.td-active-ct {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 18px;
+   align-items: center;
+}
+.td-activity-info span {
+   padding-right: 12px;
+}
+.active-date-picker label {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 18px;
+   align-items: center;
+   color: #ffff;
+   padding-right: 6px;
+   display: flex;
+}
+
+.active-date-picker input {
+    flex-flow: row-reverse;
+    background: #141F2B;
+    border-radius: 6px;
+    align-items: center;
+    padding: 5px 18px;
+    color: #f8f9fa;
+    border: 0;
+    margin-right: 14px;
+    height: 48px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+form.active-date-picker {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.right-model-popup .modal.right .modal-dialog {
+		position: fixed;
+		margin: auto;
+		width: 320px;
+		height: 100%;
+		-webkit-transform: translate3d(0%, 0, 0);
+		    -ms-transform: translate3d(0%, 0, 0);
+		     -o-transform: translate3d(0%, 0, 0);
+		        transform: translate3d(0%, 0, 0);
+	}
+
+	.right-model-popup .modal.right .modal-content {
+		height: 100%;
+		overflow-y: auto;
+	}
+	
+    .right-model-popup 	.modal.right .modal-body {
+		padding: 15px 15px 80px;
+	}
+        
+/*Right*/
+.right-model-popup  .modal.right.fade .modal-dialog {
+		right: -320px;
+		-webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+		   -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+		     -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+		        transition: opacity 0.3s linear, right 0.3s ease-out;
+	}
+	
+	.right-model-popup  .modal.right.fade.in .modal-dialog {
+		right: 0;
+	}
+
+/* ----- MODAL STYLE ----- */
+.right-model-popup  .modal-content {
+		border-radius: 0;
+		border: none;
+	}
+
+	.right-model-popup .modal-header {
+		border-bottom-color: #EEEEEE;
+		background-color: #FAFAFA;
+	}
+
+/* ----- v CAN BE DELETED v ----- */
+
+
+.right-model-popup .demo {
+	padding-top: 60px;
+	padding-bottom: 110px;
+}
+
+.right-model-popup  .btn-demo {
+	margin: 15px;
+	padding: 10px 15px;
+	border-radius: 0;
+	font-size: 16px;
+	background-color: #FFFFFF;
+}
+
+.right-model-popup .btn-demo:focus {
+	outline: 0;
+}
+
+.right-model-popup .demo-footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	padding: 15px;
+	background-color: #212121;
+	text-align: center;
+}
+
+.right-model-popup .demo-footer > a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+	color: #fff;
+}

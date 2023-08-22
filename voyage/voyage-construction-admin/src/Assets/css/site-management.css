@@ -1,0 +1,313 @@
+nav.site-details-tab {
+  width: 489px;
+  max-width: 100%;
+}
+nav.site-details-tab .nav-tabs.nav-tabs {
+  border-bottom: none;
+}
+
+nav.site-details-tab .nav-tabs.nav-tabs a.nav-item.active {
+  border-bottom: 2px solid #0b907b;
+}
+nav.site-details-tab .nav-tabs.nav-tabs a.nav-item {
+  width: 33.33%;
+  padding: 8px 18px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #0b907b;
+  border: none;
+  border-bottom: 1px solid #dbe2e9;
+  margin-bottom: -1px;
+}
+.tab-content.site-detailtab-cont {
+  margin-top: 48px;
+}
+.map-box {
+  height: 168px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.form-group .form-control {
+  box-sizing: border-box;
+}
+.form-group {
+  margin-bottom: 16px;
+}
+.file-input input.form-control {
+  padding: 0;
+  background: transparent;
+  position: absolute;
+  width: 100%;
+  height: 100% !important;
+  z-index: 100;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+.file-input {
+  border: 2px dashed #dbe2e9;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  position: relative;
+  overflow: hidden;
+}
+.file-input .file-input-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #3f4b57;
+  opacity: 0.5;
+}
+.vh-form-header h3 {
+  margin-bottom: 0;
+}
+.vh-form-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 16px;
+}
+.vh-form-header a img {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+.vh-form-header a {
+  display: block;
+  line-height: 16px;
+}
+
+.contact-item-header p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1px;
+  color: #3f4b57;
+  margin-bottom: 0;
+}
+
+.contact-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+}
+.vehicle-form.contact-list {
+  padding-bottom: 0;
+}
+div#add-contact-form {
+  margin-top: 16px;
+  margin-bottom: 3px;
+}
+div.vehicle-form.edit-contact-form {
+  margin-top: 5px;
+  margin-bottom: 16px;
+}
+a.edit-icon {
+  display: block;
+  line-height: 16px;
+}
+a.edit-icon img {
+  width: auto;
+  height: 16px;
+}
+.contact-item:not(:last-child) {
+  border-bottom: 2px solid #eff3f7;
+}
+.contctform-btns {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.cb-right {
+  display: flex;
+  margin-left: auto;
+}
+button.btn.btn-link {
+  padding: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+}
+.cb-right button.btn.theme-btn {
+  margin-left: 28px;
+  height: 32px;
+  font-size: 13px;
+  line-height: 22px;
+  padding: 5px 12px;
+  border: none;
+  border-radius: 4px;
+}
+button.btn.btn-link.cancel-link {
+  color: #0b907b;
+}
+button.btn.btn-link.remove-link {
+  color: #ca2867;
+}
+.home-screen-message {
+  margin-top: 32px;
+  border: 1px solid #dbe2e9;
+  border-radius: 6px;
+  padding: 16px;
+}
+h3.hcm-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #232d38;
+  margin-bottom: 16px;
+}
+.html-editor textarea {
+  background: #eff3f7;
+  border-radius: 6px;
+  border: none;
+}
+.resources-table {
+  margin-top: 32px;
+}
+.resources-table .table thead th {
+  padding: 8px 16px;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #576473;
+}
+.resources-table .table tbody td {
+  padding: 16px;
+  border-top: none;
+  border-bottom: 2px solid #eff3f7;
+  vertical-align: middle;
+}
+.resources-table .table thead th:last-child,
+.resources-table .table tbody td:last-child {
+  padding-right: 0;
+}
+.resources-table .table thead th:first-child,
+.resources-table .table tbody td:first-child {
+  padding-left: 0;
+}
+.max-quantity-box {
+  display: flex;
+  align-items: center;
+}
+.max-quantity-box input.form-control {
+  width: 64px;
+}
+.max-quantity-box .form-check {
+  margin-left: 16px;
+  padding-left: 0;
+}
+.max-quantity-box label.form-check-label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1px;
+  color: #576473;
+}
+.max-quantity-box .form-check-input {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: #ffffff;
+  border: 2px solid #dbe2e9;
+  border-radius: 4px;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  margin: 0;
+  margin-right: 12px;
+}
+.max-quantity-box .form-check-input:checked::before {
+  background: #0b907b;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  content: "\2713";
+  color: #fff;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+.max-quantity-box .form-check-input:checked {
+  border-color: #0b907b;
+}
+.table-action {
+  display: flex;
+  align-items: center;
+  min-width: 120px;
+  justify-content: flex-end;
+}
+a.action-icon {
+  margin-left: 22px;
+  display: block;
+  line-height: 15px;
+}
+a.action-icon img {
+  height: 15px;
+  width: auto;
+}
+.form-group.resource-input {
+  min-width: 180px;
+}
+.resources-table table.table {
+  /*table-layout: fixed;*/
+}
+.form-group.resource-input input.form-control {
+  color: #3f4b57;
+}
+.form-group.select-accesspoint {
+  min-width: 200px;
+}
+.resources-table .table tbody tr:last-child td {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.table-action button.theme-btn {
+  font-size: 13px;
+  height: 32px;
+  line-height: 22px;
+  padding: 5px 12px;
+  border: none;
+}
+.form-save-btn {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}

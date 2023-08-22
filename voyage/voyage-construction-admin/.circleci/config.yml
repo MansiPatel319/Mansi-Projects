@@ -1,0 +1,179 @@
+version: 2.1
+
+references:
+  workspace: &workspace
+    ~/app
+
+  envs: &envs
+    ENV: ${CIRCLE_BRANCH}
+
+  deploy_container_config: &deploy_container_config
+    environment: *envs
+    machine:
+      image: ubuntu-2004:2022.04.1
+    resource_class: arm.medium
+    working_directory: *workspace
+
+  restore_repo: &restore_repo
+    restore_cache:
+      keys:
+        - repo-v1-{{ .Branch }}-{{ .Revision }}
+        - repo-v1-{{ .Branch }}
+        - repo-v1-
+
+  restore_npm_install: &restore_npm_install
+    restore_cache:
+      keys:
+        - node_modules-v1-cache-{{ checksum "package.json" }}
+        - node_modules-v1-cache
+
+jobs:
+  checkout_code:
+    <<: *deploy_container_config
+    steps:
+      - *restore_repo
+      - checkout
+      - save_cache:
+          key: repo-v1-{{ .Branch }}-{{ .Revision }}
+          paths:
+            - .
+
+  build_docker_image:
+    <<: *deploy_container_config
+    steps:
+      - *restore_repo
+      - *restore_npm_install
+      - run:
+          name: "build docker image"
+          command: ./docker/build_docker.sh
+      - persist_to_workspace:
+          root: workspace
+          paths:
+            - admin_latest.tar.gz
+
+  build_docker_tags_image:
+    <<: *deploy_container_config
+    steps:
+      - *restore_repo
+      - run: |
+          if [ -n "$CIRCLE_TAG" ]
+          then
+            git fetch --force origin "refs/tags/${CIRCLE_TAG}:refs/tags/${CIRCLE_TAG}"
+          fi
+      - checkout
+      - *restore_npm_install
+      - run:
+          name: "build docker image"
+          command: ./docker/build_docker.sh
+      - persist_to_workspace:
+          root: workspace
+          paths:
+            - admin_latest.tar.gz
+
+  run_tests:
+      <<: *deploy_container_config
+      steps:
+        - attach_workspace:
+            at: ~/app/workspace
+        - *restore_repo
+        - run:
+            name: "run tests"
+            command: ./docker/test_image.sh
+
+  run_tags_tests:
+      <<: *deploy_container_config
+      steps:
+        - attach_workspace:
+            at: ~/app/workspace
+        - *restore_repo
+        - run:
+            name: "run tests"
+            command: ./docker/test_image.sh
+
+  deploy:
+    <<: *deploy_container_config
+    steps:
+      - attach_workspace:
+          at: ~/app/workspace
+      - *restore_repo
+      - run:
+          name: "Deploy"
+          command: ./docker/deploy.sh
+
+  deploy_tags:
+    <<: *deploy_container_config
+    steps:
+      - attach_workspace:
+          at: ~/app/workspace
+      - *restore_repo
+      - run:
+          name: "Deploy"
+          command: ./docker/deploy.sh
+
+workflows:
+  version: 2.1
+  build-test-deploy:
+    jobs:
+      - checkout_code:
+          filters:
+            tags:
+              ignore:
+                - /master.*/
+
+      - build_docker_image:
+          requires:
+            - checkout_code
+          filters:
+            tags:
+              ignore:
+                - /master.*/
+
+      - build_docker_tags_image:
+          filters:
+            tags:
+              only:
+                - /master.*/
+            branches:
+              ignore:
+                - /[\s\S]+/
+
+      - run_tests:
+          requires:
+            - build_docker_image
+          filters:
+            tags:
+              ignore:
+                - /master.*/
+
+      - run_tags_tests:
+          requires:
+            - build_docker_tags_image
+          filters:
+            tags:
+              only:
+                - /master.*/
+            branches:
+              ignore:
+                - /[\s\S]+/
+
+      - deploy:
+          requires:
+            - run_tests
+          filters:
+            branches:
+              only:
+                - develop
+            tags:
+              ignore:
+                - /master.*/
+
+      - deploy_tags:
+          requires:
+            - run_tags_tests
+          filters:
+            tags:
+              only:
+                - /master.*/
+            branches:
+              ignore:
+                - /[\s\S]+/

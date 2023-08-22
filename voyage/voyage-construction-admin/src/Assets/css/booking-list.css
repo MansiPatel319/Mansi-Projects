@@ -1,0 +1,727 @@
+.filter-wrapper .form-group.form-inline {
+  margin-bottom: 10px;
+}
+.form-group.form-inline.filter-search input.form-control {
+  padding-left: 60px;
+  padding-right: 20px;
+}
+.form-group.form-inline.filter-search img {
+  position: absolute;
+  width: 20px;
+  height: auto;
+  left: 20px;
+}
+.filter-wrapper {
+  display: flex;
+  align-items: center;
+}
+.filter-wrapper .form-group.form-inline.filter-search {
+  position: relative;
+}
+.to {
+  margin: 0 16px 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #576473;
+}
+.filter-wrapper .form-group.form-inline.filter-search {
+  position: relative;
+  margin-left: 32px;
+  margin-right: 16px;
+}
+button.btn.white-btn.filter-btn {
+  height: 40px;
+  box-sizing: border-box;
+  border-width: 2px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+button.btn.white-btn.filter-btn img {
+  margin-left: 13px;
+}
+.page-content.booking-list-wrapper {
+  padding: 0;
+}
+.booking-list-form {
+  padding: 24px 24px 22px;
+  border-bottom: 1px solid #dbe2e9;
+}
+button.btn.white-btn.dl-btn {
+  padding: 10px 12px;
+  width: 44px;
+  height: 40px;
+  background: #ffffff;
+  border: 2px solid #dbe2e9;
+  border-radius: 5px;
+  margin-left: auto;
+  line-height: 15px;
+}
+.booking-list-data .nav.nav-pills {
+  padding: 8px 24px;
+}
+.booking-list-data .nav.nav-pills .nav-link {
+  padding: 6px 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1px;
+  color: #576473;
+}
+.booking-list-data .nav.nav-pills .nav-link span.badge {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1px;
+  color: #576473;
+  padding: 0px 6px;
+  justify-content: center;
+  width: 36px;
+  height: 20px;
+  background: #f7f9fc;
+  margin-left: 8px;
+  border-radius: 999px;
+}
+.booking-list-data .nav.nav-pills .nav-link.active {
+  background: transparent;
+  font-weight: 600;
+  color: #0b907b;
+  position: relative;
+}
+.booking-list-data .nav.nav-pills .nav-link.active span.badge {
+  color: #0b907b;
+}
+.booking-list-data .nav.nav-pills .nav-link.active::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: #0b907b;
+}
+.booking-list-data .nav.nav-pills li.divider {
+  margin: 4px 16px;
+  border: none;
+  width: 2px;
+  height: 26px;
+  background: #dbe2e9;
+}
+div#example_wrapper .dataTables_scrollFoot {
+  display: none;
+}
+table.dataTable thead th {
+  background: #f7f9fc;
+  box-shadow: inset 0px -1px 0px #dbe1e9, inset 0px 1px 0px #dbe1e9;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+  color: #576473;
+  border: none;
+  padding: 8px 12px;
+}
+table.dataTable.display > tbody > tr > td {
+  background: #ffffff;
+  padding: 12px 12px;
+  box-shadow: inset 0px -1px 0px #eff3f6 !important;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+  color: #3f4b57;
+}
+table.dataTable.display > tbody > tr > td.select-checkbox,
+table.dataTable.display > tbody > tr > th.select-checkbox {
+  padding-left: 24px;
+}
+table.dataTable tbody td.select-checkbox:before {
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  border: 2px solid #dbe2e9;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+/*div#bookinglistall_length {
+  display: none;
+}
+div#bookinglistall_filter {
+  display: none;
+}*/
+th.dt-body-center.sorting_disabled {
+  text-align: center;
+}
+table.dataTable input[type="checkbox"]:checked {
+  border-color: #0b907b;
+  background: #0b907b;
+}
+table.dataTable input[type="checkbox"].not-allsel:checked {
+  background: #fff;
+}
+table.dataTable input[type="checkbox"] {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  border: 2px solid #dbe2e9;
+  border-radius: 4px;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  top: 3px;
+}
+table.dataTable input[type="checkbox"]:checked::before {
+  background: #0b907b;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  content: "\2713";
+  color: #fff;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+table.dataTable input[type="checkbox"].not-allsel:checked::before {
+  width: 8px;
+  height: 8px;
+  content: "";
+  top: 4px;
+  left: 4px;
+}
+span.tag {
+  padding: 3px 16px;
+  border-radius: 999px;
+  background: #f2f2f2;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+span.tag.tag-primary {
+  background: #b8fbf0;
+  color: #085e50;
+}
+span.tag.tag-success {
+  background: #eaf9de;
+  color: #085e50;
+}
+span.tag.tag-danger {
+  background: #ffecfc;
+  color: #960035;
+}
+span.tag.tag-warning {
+  background: #fff8e9;
+  color: #9c6800;
+}
+span.tag.tag-secondary {
+  background: #e3f1ff;
+  color: #004996;
+}
+span.tag.tag-dangerfull {
+  background: #ca2867;
+  color: #fff;
+}
+span.tag.tag-default {
+  background: #eff3f7;
+  color: #3f4b57;
+}
+table.dataTable thead th:first-child,
+table.dataTable thead td:first-child {
+  padding-left: 24px;
+}
+table.dataTable tbody th:first-child,
+table.dataTable tbody td:first-child {
+  padding-left: 24px !important;
+}
+table.dataTable thead > tr > th.sorting:after,
+table.dataTable thead > tr > th.sorting_asc:after,
+table.dataTable thead > tr > th.sorting_desc:after,
+table.dataTable thead > tr > th.sorting_asc_disabled:after,
+table.dataTable thead > tr > th.sorting_desc_disabled:after,
+table.dataTable thead > tr > td.sorting:after,
+table.dataTable thead > tr > td.sorting_asc:after,
+table.dataTable thead > tr > td.sorting_desc:after,
+table.dataTable thead > tr > td.sorting_asc_disabled:after,
+table.dataTable thead > tr > td.sorting_desc_disabled:after {
+  top: 50%;
+  content: "▾";
+  content: "\203A";
+  transform: rotate(90deg);
+  font-size: 15px;
+}
+table.dataTable thead > tr > th.sorting:before,
+table.dataTable thead > tr > th.sorting_asc:before,
+table.dataTable thead > tr > th.sorting_desc:before,
+table.dataTable thead > tr > th.sorting_asc_disabled:before,
+table.dataTable thead > tr > th.sorting_desc_disabled:before,
+table.dataTable thead > tr > td.sorting:before,
+table.dataTable thead > tr > td.sorting_asc:before,
+table.dataTable thead > tr > td.sorting_desc:before,
+table.dataTable thead > tr > td.sorting_asc_disabled:before,
+table.dataTable thead > tr > td.sorting_desc_disabled:before {
+  bottom: 50%;
+  content: "▴";
+  content: "\2039";
+  transform: rotate(90deg);
+  font-size: 15px;
+}
+
+.booking-list-data .nav.nav-pills .nav-link#pills-scheduled-tab.active {
+  color: #3f4b57;
+}
+.booking-list-data .nav.nav-pills .nav-link#pills-scheduled-tab.active::before {
+  background: #3f4b57;
+}
+.booking-list-data
+  .nav.nav-pills
+  .nav-link#pills-scheduled-tab.active
+  span.badge {
+  color: #3f4b57;
+}
+
+.booking-list-data .nav.nav-pills .nav-link#pills-checkout-tab.active {
+  color: #3d8a3d;
+}
+.booking-list-data .nav.nav-pills .nav-link#pills-checkout-tab.active::before {
+  background: #3d8a3d;
+}
+.booking-list-data
+  .nav.nav-pills
+  .nav-link#pills-checkout-tab.active
+  span.badge {
+  color: #3d8a3d;
+}
+
+.booking-list-data .nav.nav-pills .nav-link#pills-forapproval-tab.active {
+  color: #1f6cbf;
+}
+.booking-list-data
+  .nav.nav-pills
+  .nav-link#pills-forapproval-tab.active::before {
+  background: #1f6cbf;
+}
+.booking-list-data
+  .nav.nav-pills
+  .nav-link#pills-forapproval-tab.active
+  span.badge {
+  color: #1f6cbf;
+}
+
+.booking-list-data .nav.nav-pills .nav-link#pills-refused-tab.active {
+  color: #eab242;
+}
+.booking-list-data .nav.nav-pills .nav-link#pills-refused-tab.active::before {
+  background: #eab242;
+}
+.booking-list-data
+  .nav.nav-pills
+  .nav-link#pills-refused-tab.active
+  span.badge {
+  color: #eab242;
+}
+
+.booking-list-data .nav.nav-pills .nav-link#pills-declined-tab.active {
+  color: #ca2867;
+}
+.booking-list-data .nav.nav-pills .nav-link#pills-declined-tab.active::before {
+  background: #ca2867;
+}
+.booking-list-data
+  .nav.nav-pills
+  .nav-link#pills-declined-tab.active
+  span.badge {
+  color: #ca2867;
+}
+
+.booking-list-data .nav.nav-pills .nav-link#pills-cancelled-tab.active {
+  color: #ca2867;
+}
+.booking-list-data .nav.nav-pills .nav-link#pills-cancelled-tab.active::before {
+  background: #ca2867;
+}
+.booking-list-data
+  .nav.nav-pills
+  .nav-link#pills-cancelled-tab.active
+  span.badge {
+  color: #ca2867;
+}
+.filter-data-box {
+  margin-top: 12px;
+}
+.f_header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 13px;
+}
+p.f-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 22px;
+  display: inline-block;
+  letter-spacing: 0.1px;
+  color: #3f4b57;
+  margin-right: 16px;
+  margin-bottom: 0;
+}
+.f_header .divide {
+  background: #dbe2e9;
+  height: 16px;
+  width: 2px;
+  margin-right: 20px;
+}
+.f_header a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+  cursor: pointer;
+  color: #0b907b !important;
+}
+.selected-filter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.selected-filter .sf {
+  padding: 2px 8px;
+  margin-bottom: 8px;
+  width: auto;
+  height: 22px;
+  background: #eff3f7;
+  border-radius: 4px;
+  margin-right: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+  display: flex;
+  align-items: center;
+}
+span.sf-title {
+  color: #0b907b;
+}
+.selected-filter .sf a {
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 6px;
+}
+.selected-filter .sf a img.cross-img {
+  width: 10px;
+  height: auto;
+}
+.selected-table-box {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+}
+.selected-table-box p.stb-title {
+  margin-bottom: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+  color: #3f4b57;
+  margin-right: 16px;
+}
+.selected-table-box .form-group {
+  margin-right: 14px;
+  margin-bottom: 0;
+  width: 136px;
+}
+.selected-table-box > a {
+  display: inline-block;
+  cursor: pointer;
+  height: auto;
+}
+.booking-list-data > .nav.nav-pills {
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  overflow: auto;
+}
+button.btn.theme-btn.not-disabled.add-booking {
+  opacity: 1;
+}
+.f-left {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+div#filterModal .modal-content {
+  box-shadow: 0px 8px 12px rgb(20 31 43 / 4%), 0px 2px 6px rgb(20 31 43 / 8%);
+  border-radius: 12px;
+  border: none;
+}
+.modal-backdrop.fade.show {
+  display: none;
+}
+div#filterModal {
+  background: rgba(247, 249, 252, 0.5);
+  backdrop-filter: blur(24px);
+}
+div#filterModal h4.modal-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  color: #232d38;
+}
+div#filterModal .modal-header {
+  padding: 24px;
+  border-bottom: 2px solid #dbe2e9;
+  box-sizing: border-box;
+}
+div#filterModal .modal-body {
+  padding: 0;
+  max-height: calc(100vh - 1.75rem - 1.75rem - 164px);
+  overflow: auto;
+}
+div#filterModal .modal-footer {
+  border-top: 2px solid #dbe2e9;
+  padding: 20px 24px;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+div#filterModal .modal-footer button.btn.btn-secondary {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1px;
+  color: #ca2867;
+  background: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  padding: 0;
+  margin-left: 16px;
+}
+ul.nav.nav-tabs.filter-tabs {
+  width: 50%;
+  display: block;
+  border: none;
+  padding: 16px;
+  border-right: 2px solid #dbe2e9;
+}
+.filtermodalbody-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tab-content.filtermodal-tabcontent {
+  width: 50%;
+  padding: 16px;
+}
+ul.nav.nav-tabs.filter-tabs a.nav-link {
+  border: none;
+  padding: 16px;
+}
+ul.nav.nav-tabs.filter-tabs a.nav-link {
+  border: none;
+  padding: 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1px;
+  color: #3f4b57;
+  justify-content: space-between;
+  border-radius: 12px;
+}
+ul.nav.nav-tabs.filter-tabs a.nav-link img {
+  width: 8px;
+}
+ul.nav.nav-tabs.filter-tabs a.nav-link.active {
+  background: #f7f9fc;
+  color: #0b907b;
+}
+ul.nav.nav-tabs.filter-tabs a.nav-link:hover {
+  /*background: #F7F9FC;*/
+  color: #0b907b;
+}
+.filtercheck-item input[type="checkbox"]:checked {
+  border-color: #0b907b;
+  background: #0b907b;
+}
+.filtercheck-item input[type="checkbox"] {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: #ffffff;
+  border: 2px solid #dbe2e9;
+  border-radius: 4px;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  top: 0;
+  margin-right: 16px;
+}
+.filtercheck-item input[type="checkbox"]:checked::before {
+  background: #0b907b;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  content: "\2713";
+  color: #fff;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+.filtercheck-item {
+  display: flex;
+  padding: 16px;
+  align-items: center;
+}
+.filtercheck-item span.fci-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1px;
+  color: #3f4b57;
+  margin-right: 12px;
+}
+.filtercheck-item span.badge {
+  align-items: center;
+  padding: 2px 16px;
+  height: 26px;
+  background: #b8fbf0;
+  border-radius: 999px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #085e50;
+  margin-left: auto;
+}
+@media (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait) {
+  .filter-wrapper {
+    position: relative;
+  }
+  button.btn.white-btn.filter-btn {
+    margin-top: 16px;
+  }
+  .filter-wrapper button.btn.white-btn.dl-btn {
+    position: absolute;
+    right: 0;
+    top: 4px;
+  }
+  .filter-wrapper .form-group.form-inline.filter-search {
+    margin-left: 16px;
+  }
+  .dataTables_scrollBody {
+    max-height: 780px !important;
+    height: 780px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .filter-wrapper .form-group.form-inline.filter-search {
+    position: relative;
+    margin-left: 0;
+    margin-right: 15px;
+  }
+  .filter-wrapper button.btn.white-btn.dl-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .filter-wrapper {
+    position: relative;
+  }
+  .dataTables_scrollBody {
+    max-height: 580px !important;
+    height: 580px !important;
+  }
+  .selected-filter .sf {
+    margin-bottom: 8px;
+  }
+  .selected-table-box {
+    margin-top: 18px;
+  }
+}
+@media (max-width: 810px) {
+  .dataTables_scrollBody {
+    max-height: 420px !important;
+    height: 420px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .filter-wrapper {
+    position: relative;
+  }
+  .filter-wrapper button.btn.white-btn.dl-btn {
+    position: absolute;
+    right: 0;
+    top: 4px;
+  }
+  .filter-wrapper .form-group.form-inline.filter-search {
+    margin-left: 16px;
+  }
+}
+@media (min-width: 768px) {
+  div#filterModal .modal-dialog {
+    max-width: 680px;
+  }
+}
+@media (min-width: 992px) {
+  div#filterModal .modal-dialog {
+    max-width: 800px;
+  }
+}

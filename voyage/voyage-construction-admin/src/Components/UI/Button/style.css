@@ -1,0 +1,75 @@
+.btn.btn-common {
+  color: #fff;
+  padding: 7px 20px 7px 20px;
+  min-height: 54px;
+  margin: 0 auto;
+  font-weight: 600;
+  border: none;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: 0;
+  border-radius: 60px;
+  width: 300px;
+}
+.primary {
+  background: transparent linear-gradient(285deg, #f7b733 0%, #fc711a 100%) 0%
+    0% no-repeat;
+}
+.btn.btn-common.primary:hover,
+.btn.btn-common.primary:focus,
+.btn.btn-common.primary:active {
+  background: transparent linear-gradient(285deg, #f7b733 0%, #fc711a 100%) 0%
+    0% no-repeat;
+  -webkit-box-shadow: 0 5px 15px 0 rgba(247, 182, 51, 0.3);
+  box-shadow: 0 5px 15px 0 rgba(247, 182, 51, 0.3);
+}
+.btn.btn-common.primary:not(:disabled):not(.disabled).active,
+.btn.btn-common.primary:not(:disabled):not(.disabled):active {
+  background: transparent linear-gradient(285deg, #f7b733 0%, #fc711a 100%) 0%
+    0% no-repeat;
+  -webkit-box-shadow: 0 5px 15px 0 rgba(247, 182, 51, 0.3);
+  box-shadow: 0 5px 15px 0 rgba(247, 182, 51, 0.3);
+}
+
+.secondary {
+  /* background-color: #e7e7e7; */
+  background: transparent linear-gradient(285deg, #ff77bb 0%, #f44336 100%) 0%
+    0% no-repeat;
+}
+
+.btn.btn-common.secondary:hover,
+.btn.btn-common.secondary:focus,
+.btn.btn-common.secondary:active {
+  background: transparent linear-gradient(285deg, #ff77bb 0%, #f44336 100%) 0%
+    0% no-repeat;
+  -webkit-box-shadow: 0 5px 15px 0 rgba(247, 182, 51, 0.3);
+  box-shadow: 0 5px 15px 0 rgba(247, 182, 51, 0.3);
+}
+.btn.btn-common.secondary:not(:disabled):not(.disabled).active,
+.btn.btn-common.secondary:not(:disabled):not(.disabled):active {
+  background: transparent linear-gradient(285deg, #ff77bb 0%, #f44336 100%) 0%
+    0% no-repeat;
+  -webkit-box-shadow: 0 5px 15px 0 rgba(247, 182, 51, 0.3);
+  box-shadow: 0 5px 15px 0 rgba(247, 182, 51, 0.3);
+}
+
+.small {
+  max-width: 200px;
+  width: 82px;
+}
+.medium {
+  max-width: 400px !important;
+  width: 400px !important;
+}
+.large {
+  max-width: 600px !important;
+  width: 600px !important;
+}
+
+.btn.btn-common:disabled {
+  opacity: 0.5;
+  background: gray;
+  color: black;
+}
